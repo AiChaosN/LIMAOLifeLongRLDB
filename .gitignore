@@ -7,3 +7,8 @@
 .ipynb*
 logfile
 current_progress.cfg
+
+# haoran添加
+gnto_ex/*
+wandb/*
+bao.db
