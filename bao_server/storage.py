@@ -1,11 +1,17 @@
 import sqlite3
 import json
 import itertools
+import os
+from dotenv import load_dotenv
+
+# 加载 .env 文件
+load_dotenv()
+ROOT_DIR = os.getenv("ROOT_DIR")
 
 from common import BaoException
 ROW_LIMIT = 500
-CFG_FILE_PATH = "/home/qihanzha/LIMAOLifeLongRLDB/bao_server/current_progress.cfg"
-
+CFG_FILE_PATH = ROOT_DIR + "LIMAOLifeLongRLDB/bao_server/current_progress.cfg"
+print("storage.CFG_FILE_PATH:", CFG_FILE_PATH)
 def read_progress(cfg_file=CFG_FILE_PATH):
     """
     读取当前进度配置文件，返回 iteration 和 episode（如果读取失败，则默认返回0, 0）

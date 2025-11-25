@@ -99,7 +99,9 @@ class BaoRegression:
         self.__in_channels = None
         self.__n = 0
         
-        self.module_assigner = Kproto_MultiArrayProcessor.load_from_disk("/home/qihanzha/LIMAOLifeLongRLDB/kproto_processor.pkl")
+        # Load KPROTO_PATH from environment variable, defaulting to a relative path if not set
+        kproto_path = os.getenv("KPROTO_PATH", os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "kproto_processor.pkl"))
+        self.module_assigner = Kproto_MultiArrayProcessor.load_from_disk(kproto_path)
         
     def __log(self, *args):
         if self.__verbose:
@@ -138,6 +140,8 @@ class BaoRegression:
             joblib.dump(self.__n, f)
     # we get data from the history and train the model, from sqlite
     def fit(self, X, y, epochs=100):
+        print("Passed to model fit - X:", X)
+        print("Passed to model fit - y:", y)
         if isinstance(y, list):
             y = np.array(y)
 

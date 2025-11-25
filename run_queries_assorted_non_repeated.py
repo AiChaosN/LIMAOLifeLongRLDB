@@ -25,23 +25,24 @@ TIME_OUT_IMDB = 10000
 TIME_OUT_TPCH = 30000
 EPISODE_LEN = 10
 
-PROGRESS_CFG = "/home/qihanzha/LIMAOLifeLongRLDB/bao_server/current_progress.cfg"
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROGRESS_CFG = os.path.join(ROOT_DIR, "bao_server/current_progress.cfg")
 
 
-query_directory_imdb_list = ["/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_3",
-                             "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_3_cp1", 
-                             "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_4", 
-                             "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_5", 
-                             "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_5_cp1",
-                             "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_5_cp2", 
-                             "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_5_cp3",
-                             "/home/qihanzha/LIMAOLifeLongRLDB/imdb_job_extended"]
-query_directory_tpch_list = ["/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted", 
-                             "/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted_2", 
-                             "/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted_3",
-                             "/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted_3_cp1"]
+query_directory_imdb_list = [os.path.join(ROOT_DIR, "imdb_assorted_3"),
+                             os.path.join(ROOT_DIR, "imdb_assorted_3_cp1"), 
+                             os.path.join(ROOT_DIR, "imdb_assorted_4"), 
+                             os.path.join(ROOT_DIR, "imdb_assorted_5"), 
+                             os.path.join(ROOT_DIR, "imdb_assorted_5_cp1"),
+                             os.path.join(ROOT_DIR, "imdb_assorted_5_cp2"), 
+                             os.path.join(ROOT_DIR, "imdb_assorted_5_cp3"),
+                             os.path.join(ROOT_DIR, "imdb_job_extended")]
+query_directory_tpch_list = [os.path.join(ROOT_DIR, "tpch_assorted"), 
+                             os.path.join(ROOT_DIR, "tpch_assorted_2"), 
+                             os.path.join(ROOT_DIR, "tpch_assorted_3"),
+                             os.path.join(ROOT_DIR, "tpch_assorted_3_cp1")]
 PG_CONNECTION_STR_LIST = [PG_CONNECTION_STR_1, PG_CONNECTION_STR_2]
-init_query_directory = "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_3"
+init_query_directory = os.path.join(ROOT_DIR, "imdb_assorted_3")
 
 query_directory_list = query_directory_imdb_list + query_directory_tpch_list
 # random shuffle the query_directory_list
@@ -149,10 +150,10 @@ for query_directory in query_directory_list:
     
     if USE_BAO:
         if global_iter == 0:
-            os.system("cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain")
+            os.system(f"cd {os.path.join(ROOT_DIR, 'bao_server')} && python3 baoctl.py --retrain")
             os.system("sync")
         else:
-            os.system("cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain")
+            os.system(f"cd {os.path.join(ROOT_DIR, 'bao_server')} && python3 baoctl.py --retrain")
             os.system("sync")
 
         num_episodes = (len(queries) + EPISODE_LEN - 1) // EPISODE_LEN
@@ -166,7 +167,7 @@ for query_directory in query_directory_list:
                 q_time = run_query(q, pg_connection_str, timeout, bao_reward=USE_BAO, bao_select=USE_BAO)
                 print("BAO", time(), fp, q_time, flush=True)
             # light train
-            os.system(f"cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain --iteration {global_iter} --episode {current_episode}")
+            os.system(f"cd {os.path.join(ROOT_DIR, 'bao_server')} && python3 baoctl.py --retrain --iteration {global_iter} --episode {current_episode}")
 
 # 在程序结束时调用
 send_email("Bao Experiment", "The experiment of non-repeated assorted queries finished!", "")

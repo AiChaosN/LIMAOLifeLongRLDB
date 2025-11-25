@@ -12,3 +12,9 @@ current_progress.cfg
 gnto_ex/*
 wandb/*
 bao.db
+data/*
+
+.env
+.vscode/*
+
+

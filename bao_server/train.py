@@ -96,7 +96,9 @@ def train_and_save_model(fn, verbose=True, emphasize_experiments=0):
     
     x = [i[0] for i in all_experience]
     y = [i[1] for i in all_experience]        
-    
+    print("train.all_experience:", all_experience)
+    print("train.x:", x)
+    print("train.y:", y)
     if not all_experience:
         raise BaoTrainingException("Cannot train a Bao model with no experience")
     

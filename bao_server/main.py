@@ -144,7 +144,6 @@ def start_server(listen_on, port):
         server.bao_model = model
         server.serve_forever()
 
-
 if __name__ == "__main__":
     from multiprocessing import Process, set_start_method
     from config import read_config

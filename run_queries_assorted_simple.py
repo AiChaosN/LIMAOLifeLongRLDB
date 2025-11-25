@@ -27,15 +27,17 @@ TIME_OUT_IMDB = 10000
 TIME_OUT_TPCH = 30000
 TIME_OUT_STACK = 30000
 EPISODE_LEN = 10
-PROGRESS_CFG = "/home/qihanzha/LIMAOLifeLongRLDB/bao_server/current_progress.cfg"
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROGRESS_CFG = os.path.join(ROOT_DIR, "bao_server/current_progress.cfg")
 
 TOTOAL_ITER = 200
 NUM_PHASE = 40
-query_directory_imdb_list = ["/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_3", "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_4"]
-query_directory_stack_list = ["/home/qihanzha/LIMAOLifeLongRLDB/so_assorted", "/home/qihanzha/LIMAOLifeLongRLDB/so_assorted_2"]
-query_directory_tpch_list = ["/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted", "/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted_2", "/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted_3"]
+query_directory_imdb_list = [os.path.join(ROOT_DIR, "imdb_assorted_3"), os.path.join(ROOT_DIR, "imdb_assorted_4")]
+query_directory_stack_list = [os.path.join(ROOT_DIR, "so_assorted"), os.path.join(ROOT_DIR, "so_assorted_2")]
+query_directory_tpch_list = [os.path.join(ROOT_DIR, "tpch_assorted"), os.path.join(ROOT_DIR, "tpch_assorted_2"), os.path.join(ROOT_DIR, "tpch_assorted_3")]
+# PG_CONNECTION_STR_LIST = [PG_CONNECTION_STR_1, PG_CONNECTION_STR_2, PG_CONNECTION_STR_3, PG_CONNECTION_STR_4, PG_CONNECTION_STR_5]
 PG_CONNECTION_STR_LIST = [PG_CONNECTION_STR_1, PG_CONNECTION_STR_3, PG_CONNECTION_STR_5]
-init_query_directory = "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_3"
+init_query_directory = os.path.join(ROOT_DIR, "imdb_assorted_3")
 def update_progress(iteration, episode):
     """write the current progress to a file"""
     # Check if the directory exists, if not, create it
@@ -176,13 +178,13 @@ for partition in partitions:
         if USE_BAO:
             if i == 0:
                 # drift!
-                os.system("cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain")
+                os.system(f"cd {os.path.join(ROOT_DIR, 'bao_server')} && python3 baoctl.py --retrain")
                 os.system("sync")
             else:
                 # normal, use the last iteration data to retrain
                 # os.system(f"cd /mydata/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain --iteration {global_iter-1}")
                 # FIXME or we still use all data to retrain
-                os.system(f"cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain")
+                os.system(f"cd {os.path.join(ROOT_DIR, 'bao_server')} && python3 baoctl.py --retrain")
                 os.system("sync")
 
             num_episodes = (len(queries) + EPISODE_LEN - 1) // EPISODE_LEN
@@ -198,7 +200,7 @@ for partition in partitions:
                     q_time = run_query(q, PG_CONNECTION_STR, timeout, bao_reward=USE_BAO, bao_select=USE_BAO)
                     print("BAO", fp, q_time, flush=True)
                 # light train
-                os.system(f"cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain --iteration {global_iter} --episode {current_episode}")
+                os.system(f"cd {os.path.join(ROOT_DIR, 'bao_server')} && python3 baoctl.py --retrain --iteration {global_iter} --episode {current_episode}")
                 os.system("sync")
         if global_iter % 10 == 0:
             time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

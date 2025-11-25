@@ -63,6 +63,7 @@ if __name__ == "__main__":
     if args.retrain:
         import train
         from constants import DEFAULT_MODEL_PATH, OLD_MODEL_PATH, TMP_MODEL_PATH
+        print("+"*100)
         if args.iteration is None and args.episode is None:
             train.train_and_swap(DEFAULT_MODEL_PATH, OLD_MODEL_PATH, TMP_MODEL_PATH,
                                 verbose=True)

@@ -123,7 +123,9 @@ def get_plan_stats(data):
                 recurse(child)
 
     for plan in data:
-        recurse(plan["Plan"], buffers=plan.get("Buffers", None))
+        # Handle plans that might not have the "Plan" wrapper
+        root_node = plan["Plan"] if "Plan" in plan else plan
+        recurse(root_node, buffers=plan.get("Buffers", None))
 
     costs = np.array(costs)
     rows = np.array(rows)
@@ -166,7 +168,9 @@ def get_all_relations(data):
                 yield from recurse(child)
 
     for plan in data:
-        all_rels.extend(list(recurse(plan["Plan"])))
+        # Handle plans that might not have the "Plan" wrapper
+        root_node = plan["Plan"] if "Plan" in plan else plan
+        all_rels.extend(list(recurse(root_node)))
         
     return set(all_rels)
 
@@ -198,7 +202,14 @@ def _attach_buf_data(tree):
         # it is a leaf
         n["Buffers"] = get_buffer_count_for_leaf(n, buffers)
 
-    recurse(tree["Plan"])
+    # Handle cases where the plan might be wrapped in a "Plan" key or is the plan itself
+    if "Plan" in tree:
+        recurse(tree["Plan"])
+    else:
+        # Assume tree itself is the plan if "Plan" key is missing but Node Type exists
+        # or just try to recurse on it. 
+        # Based on the error, tree is the plan object itself but previous code expected tree["Plan"]
+        recurse(tree)
 
 class TreeFeaturizer:
     def __init__(self):
@@ -214,7 +225,7 @@ class TreeFeaturizer:
     def transform(self, trees):
         for t in trees:
             _attach_buf_data(t)
-        return [self.__tree_builder.plan_to_feature_tree(x["Plan"]) for x in trees]
+        return [self.__tree_builder.plan_to_feature_tree(x["Plan"] if "Plan" in x else x) for x in trees]
     
 
     def num_operators(self):
@@ -235,7 +246,7 @@ class TreeFeaturizer:
         for t in trees:
             _attach_buf_data(t)
         # 调用 plan_to_feature_tree 得到每棵树的特征树（与 transform 输出一致）
-        feature_trees = [self.__tree_builder.plan_to_feature_tree(x["Plan"]) for x in trees]
+        feature_trees = [self.__tree_builder.plan_to_feature_tree(x["Plan"] if "Plan" in x else x) for x in trees]
 
         # 定义一个辅助函数 mask_all，用于对整个子树进行全零 mask（但保留文本信息）
         def mask_all(node):
