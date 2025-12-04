@@ -39,6 +39,9 @@ class BaoModel:
         res = self.__current_model.predict(arms,self.__module_assigner)
         idx = res.argmin()
         stop = time.time()
+        # Print the selected plan index, total time for prediction,
+        # the predicted cost (reward) for the selected plan,
+        # and the predicted cost for the PostgreSQL default plan (index 0).
         print("Selected index", idx,
               "after", f"{round((stop - start) * 1000)}ms",
               "Predicted reward / PG:", res[idx][0],
@@ -90,6 +93,8 @@ class JSONTCPHandler(socketserver.BaseRequestHandler):
                 json_msg = str_buf[:null_loc].strip()
                 str_buf = str_buf[null_loc + 1:]
                 if json_msg:
+                    # Print the received JSON message for debugging (chaos)
+                    # print("Received JSON from PG:", json_msg)
                     try:
                         if self.handle_json(json.loads(json_msg)):
                             break
@@ -108,6 +113,21 @@ class BaoJSONHandler(JSONTCPHandler):
             self.__messages = self.__messages[1:]
 
             if message_type == "query":
+                # Log summary of received plans
+                # self.__messages now contains [plan_0, plan_1, ..., plan_47, buffers]
+                # The last element is buffer info, so len should be 49
+                plans = self.__messages[:-1]
+                print(f"Received {len(plans)} candidate plans from PG.")
+                if len(plans) > 0:
+                    costs = set()
+                    for p in plans:
+                        # Extract total cost from the root node of the plan
+                        root = p["Plan"] if "Plan" in p else p
+                        costs.add(root.get("Total Cost", -1))
+                    print(f"Number of unique Total Costs in candidate plans: {len(costs)}")
+                    if len(costs) < 5:
+                         print("Warning: Plans seem very similar based on cost.")
+                
                 result = self.server.bao_model.select_plan(self.__messages)
                 self.request.sendall(struct.pack("I", result))
                 self.request.close()

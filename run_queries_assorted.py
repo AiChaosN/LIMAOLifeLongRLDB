@@ -38,6 +38,7 @@ query_directory_tpch_list = [ROOT_DIR + "LIMAOLifeLongRLDB/tpch_assorted", ROOT_
 # PG_CONNECTION_STR_LIST = [PG_CONNECTION_STR_1, PG_CONNECTION_STR_2, PG_CONNECTION_STR_3, PG_CONNECTION_STR_4, PG_CONNECTION_STR_5]
 PG_CONNECTION_STR_LIST = [PG_CONNECTION_STR_1]
 init_query_directory = ROOT_DIR + "LIMAOLifeLongRLDB/imdb_assorted_3"
+
 def update_progress(iteration, episode):
     """write the current progress to a file"""
     # Check if the directory exists, if not, create it

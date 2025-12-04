@@ -7,10 +7,16 @@ import os
 from sklearn import preprocessing
 from sklearn.pipeline import Pipeline
 import random
-from torch.utils.data import DataLoader
-import net
-from featurize import TreeFeaturizer
-from module_assigner import Kproto_MultiArrayProcessor
+
+# Try to import PyG loader
+try:
+    from torch_geometric.loader import DataLoader
+    from torch_geometric.data import Data, Batch
+except ImportError:
+    # Fallback or just let it fail later if used
+    from torch.utils.data import DataLoader
+    
+from gnto_adapter import GNTOModel, GNTOFeaturizer
 
 CUDA = torch.cuda.is_available()
 
@@ -29,58 +35,9 @@ def _channels_path(base):
 def _n_path(base):
     return os.path.join(base, "n")
 
-
 def _inv_log1p(x):
     return np.exp(x) - 1
 
-class BaoData:
-    def __init__(self, data):
-        assert data
-        self.__data = data
-
-    def __len__(self):
-        return len(self.__data)
-
-    def __getitem__(self, idx):
-        return (self.__data[idx]["tree"],
-                self.__data[idx]["target"])
-
-
-# def collate(x):
-
-#     other_batch = []
-#     nested_batch = []
-#     hash_batch = []
-#     targets = []
-#     for other, nested, hashj, target in x:
-#         other_batch.append(other)
-#         hash_batch.append(hashj)
-#         nested_batch.append(nested)
-#         targets.append(target)
-#     return other_batch, hash_batch, nested_batch, torch.tensor(targets)
-
-def collate(x):
-    other_batch = []
-    hash_batch = []
-    nested_batch = []
-    targets = []
-
-    for other, nested, hashj, target in x:
-        other_batch.append(other)
-        hash_batch.append(hashj)
-        nested_batch.append(nested)
-        targets.append(target)
-    return other_batch, hash_batch, nested_batch, torch.tensor(np.array(targets))
-# def collate(x):
-#     trees = []
-#     targets = []
-
-#     for tree, target in x:
-#         trees.append(tree)
-#         targets.append(target)
-
-#     targets = torch.tensor(targets)
-#     return trees, targets
 class BaoRegression:
     def __init__(self, verbose=False, have_cache_data=False):
         self.__net = None
@@ -94,14 +51,10 @@ class BaoRegression:
         self.__pipeline = Pipeline([("log", log_transformer),
                                     ("scale", scale_transformer)])
         
-        self.__tree_transform = TreeFeaturizer()
+        # Use GNTO Featurizer instead of TreeFeaturizer
+        self.__tree_transform = GNTOFeaturizer()
         self.__have_cache_data = have_cache_data
-        self.__in_channels = None
         self.__n = 0
-        
-        # Load KPROTO_PATH from environment variable, defaulting to a relative path if not set
-        kproto_path = os.getenv("KPROTO_PATH", os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "kproto_processor.pkl"))
-        self.module_assigner = Kproto_MultiArrayProcessor.load_from_disk(kproto_path)
         
     def __log(self, *args):
         if self.__verbose:
@@ -113,17 +66,22 @@ class BaoRegression:
     def load(self, path):
         with open(_n_path(path), "rb") as f:
             self.__n = joblib.load(f)
-        with open(_channels_path(path), "rb") as f:
-            self.__in_channels = joblib.load(f)
+        
+        # Load the featurizer (vocabularies)
+        with open(_x_transform_path(path), "rb") as f:
+            self.__tree_transform = joblib.load(f)
             
-        self.__net = net.BaoNet(self.__in_channels)
+        # Reconstruct model with correct dimensions
+        self.__net = GNTOModel(
+            num_node_types=self.__tree_transform.num_node_types(),
+            num_cols=self.__tree_transform.num_cols(),
+            num_ops=self.__tree_transform.num_ops()
+        )
         self.__net.load_state_dict(torch.load(_nn_path(path)))
         self.__net.eval()
         
         with open(_y_transform_path(path), "rb") as f:
             self.__pipeline = joblib.load(f)
-        with open(_x_transform_path(path), "rb") as f:
-            self.__tree_transform = joblib.load(f)
 
     def save(self, path):
         # try to create a directory here
@@ -134,85 +92,69 @@ class BaoRegression:
             joblib.dump(self.__pipeline, f)
         with open(_x_transform_path(path), "wb") as f:
             joblib.dump(self.__tree_transform, f)
-        with open(_channels_path(path), "wb") as f:
-            joblib.dump(self.__in_channels, f)
+        # We don't save channels anymore as they are dynamic/fixed in GNTO
+        # with open(_channels_path(path), "wb") as f:
+        #     joblib.dump(self.__in_channels, f)
         with open(_n_path(path), "wb") as f:
             joblib.dump(self.__n, f)
-    # we get data from the history and train the model, from sqlite
+
     def fit(self, X, y, epochs=100):
-        print("Passed to model fit - X:", X)
-        print("Passed to model fit - y:", y)
+        print("Passed to model fit - X count:", len(X))
         if isinstance(y, list):
             y = np.array(y)
 
         X = [json.loads(x) if isinstance(x, str) else x for x in X]
         self.__n = len(X)
             
-        # transform the set of trees into feature vectors using a log
-        # (assuming the tail behavior exists, TODO investigate
-        #  the quantile transformer from scikit)
         y = self.__pipeline.fit_transform(y.reshape(-1, 1)).astype(np.float32)
         
+        # Featurize (update vocab)
         self.__tree_transform.fit(X)
-        # X_input = self.__tree_transform.transform(X)
-        a,b,c = self.__tree_transform.transform_subtrees(X)
-        pairs = list(zip(a,b,c, y))
-        dataset = DataLoader(pairs,
-                             batch_size=16,
-                             shuffle=True,
-                             collate_fn=collate)
+        graphs = self.__tree_transform.transform(X)
+        
+        # Attach targets
+        data_list = []
+        for g, target in zip(graphs, y):
+            g.y = torch.tensor([target], dtype=torch.float)
+            data_list.append(g)
 
-        # determine the initial number of channels
-        for inp,_,_,_ in dataset:
-            in_channels = inp[0][0].shape[0]
-            break
-
-        self.__log("Initial input channels:", in_channels)
-
-        if self.__have_cache_data:
-            assert in_channels == self.__tree_transform.num_operators() + 3
-        else:
-            assert in_channels == self.__tree_transform.num_operators() + 2
-
-        self.__net = net.BaoNet(in_channels)
-        self.__in_channels = in_channels
+        # Init model if needed
+        if self.__net is None:
+            self.__net = GNTOModel(
+                num_node_types=self.__tree_transform.num_node_types(),
+                num_cols=self.__tree_transform.num_cols(),
+                num_ops=self.__tree_transform.num_ops()
+            )
+        
         if CUDA:
             self.__net = self.__net.cuda()
 
         optimizer = torch.optim.Adam(self.__net.parameters())
         loss_fn = torch.nn.MSELoss()
         
+        # Use PyG DataLoader which handles batching of graphs
+        dataset = DataLoader(data_list, batch_size=16, shuffle=True)
+        
         losses = []
         for epoch in range(epochs):
             loss_accum = 0
-            for a,b,c,y in dataset:
+            num_batches = 0
+            self.__net.train()
+            for batch in dataset:
                 if CUDA:
-                    y = y.cuda()
+                    batch = batch.cuda()
                     
-                # print("fit a:\n", a)
-                # print("fit b:\n", b)
-                # print("fit c:\n", c)
-                # print("length of a:", len(a)) 4
-                # print("length of b:", len(b)) 4
-                # print("length of c:", len(c)) 4
-                assert len(a) == len(b) == len(c)
-                # TODO use k-prototype algorithm to get the three index lists with a, b, c
-                otheridx_list = [self.module_assigner.predict("a",a[i]) for i in range(len(a))]
-                hashjoinidx_list = [self.module_assigner.predict("b",b[i]) for i in range(len(b))]
-                nestedloopidx_list = [self.module_assigner.predict("c",c[i]) for i in range(len(c))]
-                # print ("otheridx_list:", otheridx_list)
-                # print ("hashjoinidx_list:", hashjoinidx_list)
-                # print ("nestedloopidx_list:", nestedloopidx_list)
-
-                y_pred = self.__net(a,b,c,otheridx_list, hashjoinidx_list, nestedloopidx_list)
-                loss = loss_fn(y_pred, y)
+                pred = self.__net(batch)
+                # pred shape [B, 1], batch.y shape [B, 1]
+                loss = loss_fn(pred.view(-1), batch.y.view(-1))
                 loss_accum += loss.item()
+                num_batches += 1
         
                 optimizer.zero_grad()
                 loss.backward()
                 optimizer.step()
 
-            loss_accum /= len(dataset)
+            loss_accum /= max(1, num_batches)
             losses.append(loss_accum)
             if epoch % 15 == 0:
                 self.__log("Epoch", epoch, "training loss:", loss_accum)
@@ -225,33 +167,30 @@ class BaoRegression:
                     break
         else:
             self.__log("Stopped training after max epochs")
-    # # 每次会给49个计划，该计划未经过修改。返回49个计划的预测值
-    def predict(self, X, module_assigner):
+
+    # Argument module_assigner is kept for compatibility with main.py but ignored
+    def predict(self, X, module_assigner=None):
         if not isinstance(X, list):
             X = [X]
         X = [json.loads(x) if isinstance(x, str) else x for x in X]
 
-        a,b,c = self.__tree_transform.transform_subtrees(X)   
-        self.__net.eval()
+        graphs = self.__tree_transform.transform(X)
         
-        # print("predict a[0]:\n", a[0])
-        # print("predict b[0]:\n", b[0])
-        # print("predict c[0]:\n", c[0])
-        # save a[0], b[0], c[0] to a file
-        # with open("/mydata/LIMAOLifeLongRLDB/module_assigner_init.txt", "a") as f:
-        #     f.write("\n")
-        #     f.write("a[0]:\n")
-        #     f.write(str(a[0]))
-        #     f.write("\nb[0]:\n")
-        #     f.write(str(b[0]))
-        #     f.write("\nc[0]:\n")
-        #     f.write(str(c[0]))
-        otheridx = self.module_assigner.predict("a", a[0])
-        hashjoinidx = self.module_assigner.predict("b", b[0])
-        nestedloopidx = self.module_assigner.predict("c", c[0])
-        print ("predict otheridx:", otheridx)
-        print ("predict hashjoinidx:", hashjoinidx)
-        print ("predict nestedloopidx:", nestedloopidx)
-        pred = self.__net(a,b,c,otheridx, hashjoinidx, nestedloopidx).cpu().detach().numpy()
-        return self.__pipeline.inverse_transform(pred)
-
+        # Batch prediction
+        loader = DataLoader(graphs, batch_size=len(graphs), shuffle=False)
+        
+        self.__net.eval()
+        preds = []
+        with torch.no_grad():
+            for batch in loader:
+                if CUDA:
+                    batch = batch.cuda()
+                out = self.__net(batch)
+                preds.append(out.cpu().numpy())
+        
+        if len(preds) > 0:
+            pred_raw = np.concatenate(preds, axis=0)
+        else:
+            pred_raw = np.array([])
+            
+        return self.__pipeline.inverse_transform(pred_raw)

@@ -1,11 +1,12 @@
 ray==1.9.2
 pandas
 pytorch_lightning==0.9.0
-torch==1.4.0
+# torch==1.4.0
+torch>=1.10.0
 wandb
 psycopg2-binary==2.8.5
 absl-py==0.9.0
-numpy==1.18.1
+numpy>=1.21.0
 networkx
 ipdb
 # Required by Ray
@@ -18,3 +19,6 @@ protobuf==3.20.0
 joblib
 scikit-learn
 kmodes
+torch-geometric
+# torch-scatter
+# torch-sparse

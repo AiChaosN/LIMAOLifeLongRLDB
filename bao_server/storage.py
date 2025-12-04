@@ -90,7 +90,8 @@ def record_reward(plan, reward, pid):
                       (json.dumps(plan), reward, pid, iteration, episode, oldest_id))
 
         conn.commit()
-
+    # Print the logged reward, plan, and PID
+    # reward: ms
     print("Logged reward of", reward)
 
 
