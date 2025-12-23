@@ -7,3 +7,9 @@
 .ipynb*
 logfile
 current_progress.cfg
+
+.vscode
+data
+wandb
+
+gnto_ex/resultLog/bao_serve_msg

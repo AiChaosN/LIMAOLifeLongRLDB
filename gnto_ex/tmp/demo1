@@ -1,0 +1,50 @@
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 87ms Predicted reward / PG: 79.84481 / 497.3137
+Logged reward of 3383.934512
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 28ms Predicted reward / PG: 65.08721 / 252.26303
+Logged reward of 6324.152824
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 48 after 26ms Predicted reward / PG: 141.34592 / 383.55377
+Logged reward of 19480.548631
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 24ms Predicted reward / PG: 53.38805 / 148.19038
+Logged reward of 762.482064
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 29ms Predicted reward / PG: 140.5745 / 188.82765
+Logged reward of 5273.853496
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 27ms Predicted reward / PG: 49.30777 / 373.0476
+Logged reward of 8734.975068
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 10 after 29ms Predicted reward / PG: 71.27966 / 243.47792
+Logged reward of 3114.357587
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 39ms Predicted reward / PG: 73.869514 / 578.88574
+Logged reward of 2358.974986
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 38ms Predicted reward / PG: 77.38293 / 577.627
+Logged reward of 8746.449347
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 49ms Predicted reward / PG: 79.630875 / 497.07925
+Logged reward of 3249.323398

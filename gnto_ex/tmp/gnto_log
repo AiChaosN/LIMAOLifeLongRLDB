@@ -1,0 +1,674 @@
+~/P/P/p/LIMAOLifeLongRLDB LIMAO_GNTO +7 !14 ?10 > python3 run_queries_assorted.py --seed 11          py limao 13:10:10
+Failed to send email: can only concatenate str (not "bytes") to str
+Partition: [4, 3, 7, 3, 3, 4, 6, 6, 3, 10, 4, 3, 10, 3, 10, 5, 10, 3, 10, 9, 3, 3, 5, 3, 3, 3, 3, 6, 3, 10, 3, 3, 4, 3, 3, 3, 5, 3, 5, 10]
+Read 112 queries.
+Executing init queries using PG optimizer
+x x 22a_job.sql 18.802397966384888 PG
+x x 18b_job.sql 6.280016660690308 PG
+x x 17b_job.sql 32.0 PG
+x x 1b_job.sql 0.15329194068908691 PG
+x x 7b_job.sql 1.113851547241211 PG
+x x 16b_job.sql 26.44699740409851 PG
+x x 12c_job.sql 8.975033521652222 PG
+x x 23b_job.sql 0.24340415000915527 PG
+x x 19c_job.sql 2.745884656906128 PG
+x x 22b_job.sql 0.29071927070617676 PG
+x x 6c_job.sql 0.07751250267028809 PG
+x x 31b_job.sql 0.779226541519165 PG
+x x 32a_job.sql 0.07172942161560059 PG
+x x 31a_job.sql 2.492539167404175 PG
+x x 21a_job.sql 0.1858830451965332 PG
+x x 11c_job.sql 0.2680811882019043 PG
+x x 30b_job.sql 0.4080545902252197 PG
+x x 24a_job.sql 0.9753844738006592 PG
+x x 2a_job.sql 0.42855000495910645 PG
+x x 19d_job.sql 14.628545045852661 PG
+x x 3b_job.sql 0.21898174285888672 PG
+x x 10a_job.sql 1.3502328395843506 PG
+x x 23c_job.sql 0.9736716747283936 PG
+x x 28c_job.sql 0.9878532886505127 PG
+x x 22d_job.sql 1.0272672176361084 PG
+x x 14a_job.sql 0.30659055709838867 PG
+x x 13b_job.sql 1.0565760135650635 PG
+x x 9c_job.sql 1.262908935546875 PG
+x x 30c_job.sql 3.5342166423797607 PG
+x x 29c_job.sql 4.68360710144043 PG
+x x 27b_job.sql 0.12925004959106445 PG
+x x 11d_job.sql 0.20238184928894043 PG
+x x 7a_job.sql 1.758833646774292 PG
+x x 33b_job.sql 0.3081498146057129 PG
+x x 4c_job.sql 0.18815302848815918 PG
+x x 6f_job.sql 5.136261224746704 PG
+x x 27a_job.sql 0.15014052391052246 PG
+x x 16c_job.sql 1.0634489059448242 PG
+x x 23a_job.sql 0.25645923614501953 PG
+x x 10a_ceb.sql 3.1596314907073975 PG
+x x 29b_job.sql 2.1688952445983887 PG
+x x 2c_job.sql 0.41038084030151367 PG
+x x 28b_job.sql 0.4992556571960449 PG
+x x 17e_job.sql 6.404890060424805 PG
+x x 25c_job.sql 7.341372013092041 PG
+x x 6d_job.sql 3.167466402053833 PG
+x x 8b_ceb.sql 29.618212461471558 PG
+x x 16d_job.sql 0.9464237689971924 PG
+x x 9b_job.sql 1.2765979766845703 PG
+x x 1c_job.sql 0.1908278465270996 PG
+x x 13d_job.sql 3.1013808250427246 PG
+x x 27c_job.sql 0.17843079566955566 PG
+x x 17c_job.sql 3.852809429168701 PG
+x x 8d_job.sql 2.9417452812194824 PG
+x x 8a_job.sql 1.802661657333374 PG
+x x 9a_job.sql 1.2140967845916748 PG
+x x 16a_job.sql 0.263552188873291 PG
+x x 1d_job.sql 0.18091940879821777 PG
+x x 30a_job.sql 2.053166389465332 PG
+x x 12b_job.sql 0.20321273803710938 PG
+x x 5c_job.sql 0.3164541721343994 PG
+x x 25b_job.sql 0.335080623626709 PG
+x x 24b_job.sql 0.3785715103149414 PG
+x x 6a_job.sql 0.1045985221862793 PG
+x x 21b_job.sql 0.13874483108520508 PG
+x x 26a_job.sql 3.896394729614258 PG
+x x 10b_job.sql 0.4362964630126953 PG
+x x 25a_job.sql 1.854109525680542 PG
+x x 29a_job.sql 2.2188668251037598 PG
+x x 6b_job.sql 0.273303747177124 PG
+x x 18a_job.sql 1.676281213760376 PG
+x x 7c_job.sql 3.6159744262695312 PG
+x x 15a_job.sql 0.7385478019714355 PG
+x x 2d_job.sql 0.5546388626098633 PG
+x x 19b_job.sql 0.36692190170288086 PG
+x x 20c_job.sql 1.5861539840698242 PG
+x x 18c_job.sql 6.446514129638672 PG
+x x 9d_job.sql 2.563263177871704 PG
+x x 26c_job.sql 4.077168703079224 PG
+x x 15b_job.sql 0.16790080070495605 PG
+x x 12a_job.sql 0.3766965866088867 PG
+x x 3a_job.sql 0.2288966178894043 PG
+x x 21c_job.sql 0.15326857566833496 PG
+x x 22c_job.sql 1.4107916355133057 PG
+x x 5a_job.sql 0.22641301155090332 PG
+x x 33a_job.sql 0.31846189498901367 PG
+x x 20a_job.sql 1.672142744064331 PG
+x x 31c_job.sql 1.6286873817443848 PG
+x x 1a_job.sql 0.19608688354492188 PG
+x x 19a_job.sql 1.465912103652954 PG
+x x 32b_job.sql 0.20161032676696777 PG
+x x 8c_job.sql 4.508763790130615 PG
+x x 4a_job.sql 0.1910994052886963 PG
+x x 13a_job.sql 2.0414092540740967 PG
+x x 17f_job.sql 5.467613220214844 PG
+x x 14b_job.sql 0.20562052726745605 PG
+x x 3c_job.sql 0.327913761138916 PG
+x x 28a_job.sql 0.7385210990905762 PG
+x x 6e_job.sql 0.11604523658752441 PG
+x x 2b_job.sql 0.4365553855895996 PG
+x x 10c_job.sql 5.511041164398193 PG
+x x 8b_job.sql 0.3936583995819092 PG
+x x 17a_job.sql 6.571879148483276 PG
+x x 5b_job.sql 0.2381441593170166 PG
+x x 26b_job.sql 0.24784278869628906 PG
+x x 14c_job.sql 0.5196394920349121 PG
+x x 20b_job.sql 1.3660006523132324 PG
+x x 4b_job.sql 0.16122055053710938 PG
+x x 13c_job.sql 0.9451775550842285 PG
+x x 17d_job.sql 3.920393943786621 PG
+x x 11b_job.sql 0.1293330192565918 PG
+x x 11a_job.sql 0.14287686347961426 PG
+=== Executing queries using GNTO optimizer, global iteration 1/200, partition 4, phase iteration 1 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Passed to model fit - X count: 117
+GNTOFeaturizer.transform called with 117 plans.
+Epoch 0 training loss: 0.16247325367294252
+Epoch 15 training loss: 0.05140091525390744
+Epoch 30 training loss: 0.044277961598709226
+Epoch 45 training loss: 0.04705867811571807
+Epoch 60 training loss: 0.043484030524268746
+Epoch 75 training loss: 0.031894138315692544
+Epoch 90 training loss: 0.03426320501603186
+Stopped training after max epochs
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 1
+GNTO 22a_job.sql 32.0
+GNTO 18b_job.sql 32.0
+GNTO 17b_job.sql 18.419576406478882
+GNTO 1b_job.sql 1.0685958862304688
+GNTO 7b_job.sql 1.0134012699127197
+GNTO 16b_job.sql 17.9265193939209
+GNTO 12c_job.sql 32.0
+GNTO 23b_job.sql 10.803322076797485
+GNTO 19c_job.sql 32.0
+GNTO 22b_job.sql 32.0
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 5
+GNTOFeaturizer.transform called with 5 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.23501689732074738
+Epoch 15 training loss: 0.1263820379972458
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 2
+GNTO 6c_job.sql 0.18002009391784668
+GNTO 31b_job.sql 1.3365528583526611
+GNTO 32a_job.sql 0.19161319732666016
+GNTO 31a_job.sql 2.7376084327697754
+GNTO 21a_job.sql 0.40424513816833496
+GNTO 11c_job.sql 0.37453484535217285
+GNTO 30b_job.sql 2.2117724418640137
+GNTO 24a_job.sql 2.255819320678711
+GNTO 2a_job.sql 0.521963357925415
+GNTO 19d_job.sql 8.472669839859009
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.1823626011610031
+Epoch 15 training loss: 0.029410863295197487
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 3
+GNTO 3b_job.sql 3.723734140396118
+GNTO 10a_job.sql 16.13067388534546
+GNTO 23c_job.sql 4.774036407470703
+GNTO 28c_job.sql 8.300210237503052
+GNTO 22d_job.sql 1.5974829196929932
+GNTO 14a_job.sql 0.47927117347717285
+GNTO 13b_job.sql 22.606791734695435
+GNTO 9c_job.sql 10.265752792358398
+GNTO 30c_job.sql 15.146800518035889
+GNTO 29c_job.sql 32.0
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 9
+GNTOFeaturizer.transform called with 9 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.07594761997461319
+Epoch 15 training loss: 0.022755874320864677
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 4
+GNTO 27b_job.sql 3.2912206649780273
+GNTO 11d_job.sql 0.392686128616333
+GNTO 7a_job.sql 1.494804859161377
+GNTO 33b_job.sql 6.640031099319458
+GNTO 4c_job.sql 0.28328585624694824
+GNTO 6f_job.sql 3.6469900608062744
+GNTO 27a_job.sql 3.689835548400879
+GNTO 16c_job.sql 1.3608672618865967
+GNTO 23a_job.sql 10.216944456100464
+GNTO 10a_ceb.sql 1.9501779079437256
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.09139605611562729
+Epoch 15 training loss: 0.06255396455526352
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 5
+GNTO 29b_job.sql 32.0
+GNTO 2c_job.sql 0.5570204257965088
+GNTO 28b_job.sql 5.96357798576355
+GNTO 17e_job.sql 6.708240032196045
+GNTO 25c_job.sql 5.283261060714722
+GNTO 6d_job.sql 3.1873764991760254
+GNTO 8b_ceb.sql 24.40259051322937
+GNTO 16d_job.sql 1.053553819656372
+GNTO 9b_job.sql 1.417759895324707
+GNTO 1c_job.sql 0.16073966026306152
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 9
+GNTOFeaturizer.transform called with 9 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.09665411710739136
+Epoch 15 training loss: 0.07020389288663864
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 6
+GNTO 13d_job.sql 3.5070481300354004
+GNTO 27c_job.sql 1.854499101638794
+GNTO 17c_job.sql 3.7599692344665527
+GNTO 8d_job.sql 29.031022310256958
+GNTO 8a_job.sql 1.832714557647705
+GNTO 9a_job.sql 1.325214147567749
+GNTO 16a_job.sql 0.4312775135040283
+GNTO 1d_job.sql 0.14870333671569824
+GNTO 30a_job.sql 3.614037036895752
+GNTO 12b_job.sql 0.2295083999633789
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.11039956659078598
+Epoch 15 training loss: 0.10461600124835968
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 7
+GNTO 5c_job.sql 0.3387432098388672
+GNTO 25b_job.sql 0.6073019504547119
+GNTO 24b_job.sql 1.8030760288238525
+GNTO 6a_job.sql 0.195770263671875
+GNTO 21b_job.sql 0.40866971015930176
+GNTO 26a_job.sql 2.2074062824249268
+GNTO 10b_job.sql 0.43847012519836426
+GNTO 25a_job.sql 2.0901386737823486
+GNTO 29a_job.sql 32.0
+GNTO 6b_job.sql 0.3661808967590332
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 9
+GNTOFeaturizer.transform called with 9 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.10017397999763489
+Epoch 15 training loss: 0.10162154585123062
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 8
+GNTO 18a_job.sql 0.8366298675537109
+GNTO 7c_job.sql 2.239027738571167
+GNTO 15a_job.sql 1.3433799743652344
+GNTO 2d_job.sql 0.6556377410888672
+GNTO 19b_job.sql 1.4482946395874023
+GNTO 20c_job.sql 1.1438298225402832
+GNTO 18c_job.sql 6.5676445960998535
+GNTO 9d_job.sql 3.2454476356506348
+GNTO 26c_job.sql 4.082143306732178
+GNTO 15b_job.sql 0.457749605178833
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.09157323837280273
+Epoch 15 training loss: 0.06739654392004013
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 9
+GNTO 12a_job.sql 0.49793124198913574
+GNTO 3a_job.sql 0.31491947174072266
+GNTO 21c_job.sql 0.40712881088256836
+GNTO 22c_job.sql 2.0282511711120605
+GNTO 5a_job.sql 0.2886490821838379
+GNTO 33a_job.sql 6.772866725921631
+GNTO 20a_job.sql 1.9921975135803223
+GNTO 31c_job.sql 2.532650947570801
+GNTO 1a_job.sql 0.16084671020507812
+GNTO 19a_job.sql 1.58138108253479
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.1365279108285904
+Epoch 15 training loss: 0.1290653795003891
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 10
+GNTO 32b_job.sql 1.243657112121582
+GNTO 8c_job.sql 7.553819417953491
+GNTO 4a_job.sql 2.2013511657714844
+GNTO 13a_job.sql 4.659012079238892
+GNTO 17f_job.sql 15.000985145568848
+GNTO 14b_job.sql 4.370330810546875
+GNTO 3c_job.sql 4.801182746887207
+GNTO 28a_job.sql 19.547521591186523
+GNTO 6e_job.sql 3.026710271835327
+GNTO 2b_job.sql 3.114716053009033
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.09051281213760376
+Epoch 15 training loss: 0.08792538940906525
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 1, Episode 11
+GNTO 10c_job.sql 9.73136305809021
+GNTO 8b_job.sql 5.665904998779297
+GNTO 17a_job.sql 12.254331827163696
+GNTO 5b_job.sql 0.513617753982544
+GNTO 26b_job.sql 10.966399192810059
+GNTO 14c_job.sql 5.303606271743774
+GNTO 20b_job.sql 9.533363103866577
+GNTO 4b_job.sql 1.6761703491210938
+GNTO 13c_job.sql 3.5341155529022217
+GNTO 17d_job.sql 8.284806966781616
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.12998075783252716
+Epoch 15 training loss: 0.08460838347673416
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 2 queries using GNTO optimizer
+Global Iteration 1, Episode 12
+GNTO 11b_job.sql 0.47423887252807617
+GNTO 11a_job.sql 0.291212797164917
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 2
+GNTOFeaturizer.transform called with 2 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.2926179766654968
+Epoch 15 training loss: 0.24800029397010803
+Stopped training after max epochs
+Model updated without swap after each episode.
+=== Executing queries using GNTO optimizer, global iteration 2/200, partition 4, phase iteration 2 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Passed to model fit - X count: 221
+GNTOFeaturizer.transform called with 221 plans.
+Epoch 0 training loss: 0.1401546777092985
+Epoch 15 training loss: 0.03424639480986765
+Epoch 30 training loss: 0.0316249764125262
+Epoch 45 training loss: 0.03136781882494688
+Epoch 60 training loss: 0.031122885644435883
+Epoch 75 training loss: 0.029560895969292948
+Epoch 90 training loss: 0.030581130513123105
+Stopped training after max epochs
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 1
+GNTO 22a_job.sql 1.0423643589019775
+GNTO 18b_job.sql 8.881464719772339
+GNTO 17b_job.sql 3.925929069519043
+GNTO 1b_job.sql 1.628624439239502
+GNTO 7b_job.sql 0.6911883354187012
+GNTO 16b_job.sql 11.314862966537476
+GNTO 12c_job.sql 4.040101051330566
+GNTO 23b_job.sql 0.8304429054260254
+GNTO 19c_job.sql 1.693502426147461
+GNTO 22b_job.sql 0.9453902244567871
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.10411900281906128
+Epoch 15 training loss: 0.02384505234658718
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 2
+GNTO 6c_job.sql 0.16630005836486816
+GNTO 31b_job.sql 1.345870018005371
+GNTO 32a_job.sql 0.1762676239013672
+GNTO 31a_job.sql 2.565701484680176
+GNTO 21a_job.sql 0.41507840156555176
+GNTO 11c_job.sql 0.3922309875488281
+GNTO 30b_job.sql 2.0765838623046875
+GNTO 24a_job.sql 2.00712513923645
+GNTO 2a_job.sql 2.651865005493164
+GNTO 19d_job.sql 10.445030927658081
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.06020860746502876
+Epoch 15 training loss: 0.04303627833724022
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 3
+GNTO 3b_job.sql 7.552517414093018
+GNTO 10a_job.sql 0.5561506748199463
+GNTO 23c_job.sql 10.034655809402466
+GNTO 28c_job.sql 6.10482382774353
+GNTO 22d_job.sql 1.3254609107971191
+GNTO 14a_job.sql 0.4547610282897949
+GNTO 13b_job.sql 1.1691339015960693
+GNTO 9c_job.sql 9.74519395828247
+GNTO 30c_job.sql 3.62296986579895
+GNTO 29c_job.sql 32.0
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 9
+GNTOFeaturizer.transform called with 9 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.07200804352760315
+Epoch 15 training loss: 0.05104312673211098
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 4
+GNTO 27b_job.sql 3.4686951637268066
+GNTO 11d_job.sql 0.35884881019592285
+GNTO 7a_job.sql 0.74654221534729
+GNTO 33b_job.sql 6.989928722381592
+GNTO 4c_job.sql 0.27183961868286133
+GNTO 6f_job.sql 3.2115955352783203
+GNTO 27a_job.sql 3.2317423820495605
+GNTO 16c_job.sql 1.2277915477752686
+GNTO 23a_job.sql 0.9324970245361328
+GNTO 10a_ceb.sql 1.9165256023406982
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.07496881484985352
+Epoch 15 training loss: 0.06767729669809341
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 5
+GNTO 29b_job.sql 32.0
+GNTO 2c_job.sql 1.0016975402832031
+GNTO 28b_job.sql 8.661744356155396
+GNTO 17e_job.sql 5.987665891647339
+GNTO 25c_job.sql 4.866974115371704
+GNTO 6d_job.sql 3.272111177444458
+GNTO 8b_ceb.sql 21.35986638069153
+GNTO 16d_job.sql 1.0382578372955322
+GNTO 9b_job.sql 1.3936254978179932
+GNTO 1c_job.sql 0.2686774730682373
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 9
+GNTOFeaturizer.transform called with 9 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.07163450866937637
+Epoch 15 training loss: 0.031246155500411987
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 6
+GNTO 13d_job.sql 4.145542621612549
+GNTO 27c_job.sql 1.9188668727874756
+GNTO 17c_job.sql 3.7466230392456055
+GNTO 8d_job.sql 5.418818235397339
+GNTO 8a_job.sql 1.8527452945709229
+GNTO 9a_job.sql 1.3277807235717773
+GNTO 16a_job.sql 0.4405851364135742
+GNTO 1d_job.sql 0.2515840530395508
+GNTO 30a_job.sql 6.785139560699463
+GNTO 12b_job.sql 1.962454080581665
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.15530560910701752
+Epoch 15 training loss: 0.05008025839924812
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 7
+GNTO 5c_job.sql 0.3318650722503662
+GNTO 25b_job.sql 32.0
+GNTO 24b_job.sql 32.0
+GNTO 6a_job.sql 0.20861530303955078
+GNTO 21b_job.sql 32.0
+GNTO 26a_job.sql 2.234910249710083
+GNTO 10b_job.sql 0.38231992721557617
+GNTO 25a_job.sql 32.0
+GNTO 29a_job.sql 32.0
+GNTO 6b_job.sql 0.40157651901245117
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 5
+GNTOFeaturizer.transform called with 5 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.12032563984394073
+Epoch 15 training loss: 0.04248126968741417
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 8
+GNTO 18a_job.sql 0.8874788284301758
+GNTO 7c_job.sql 6.249297618865967
+GNTO 15a_job.sql 1.035571575164795
+GNTO 2d_job.sql 0.6467082500457764
+GNTO 19b_job.sql 32.0
+GNTO 20c_job.sql 32.0
+GNTO 18c_job.sql 6.158133268356323
+GNTO 9d_job.sql 3.253257989883423
+GNTO 26c_job.sql 4.215298175811768
+GNTO 15b_job.sql 3.993288040161133
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 8
+GNTOFeaturizer.transform called with 8 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.1865529716014862
+Epoch 15 training loss: 0.042416855692863464
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 9
+GNTO 12a_job.sql 0.5369317531585693
+GNTO 3a_job.sql 0.3058769702911377
+GNTO 21c_job.sql 0.4183216094970703
+GNTO 22c_job.sql 2.0646677017211914
+GNTO 5a_job.sql 2.942310094833374
+GNTO 33a_job.sql 6.8112945556640625
+GNTO 20a_job.sql 1.942692756652832
+GNTO 31c_job.sql 2.567777633666992
+GNTO 1a_job.sql 1.8399715423583984
+GNTO 19a_job.sql 1.6036286354064941
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.16353106498718262
+Epoch 15 training loss: 0.07272757589817047
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 10
+GNTO 32b_job.sql 0.2786588668823242
+GNTO 8c_job.sql 32.0
+GNTO 4a_job.sql 0.257077693939209
+GNTO 13a_job.sql 2.268885850906372
+GNTO 17f_job.sql 5.249542474746704
+GNTO 14b_job.sql 0.3451848030090332
+GNTO 3c_job.sql 0.3990635871887207
+GNTO 28a_job.sql 5.862425327301025
+GNTO 6e_job.sql 0.18859648704528809
+GNTO 2b_job.sql 0.5299649238586426
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 9
+GNTOFeaturizer.transform called with 9 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.1383345127105713
+Epoch 15 training loss: 0.0622001476585865
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 2, Episode 11
+GNTO 10c_job.sql 17.480509996414185
+GNTO 8b_job.sql 0.5023577213287354
+GNTO 17a_job.sql 6.323565244674683
+GNTO 5b_job.sql 0.3100724220275879
+GNTO 26b_job.sql 1.406689167022705
+GNTO 14c_job.sql 0.6712837219238281
+GNTO 20b_job.sql 1.5320398807525635
+GNTO 4b_job.sql 0.22381043434143066
+GNTO 13c_job.sql 1.1340305805206299
+GNTO 17d_job.sql 3.814445734024048
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.046927276998758316
+Epoch 15 training loss: 0.01806049607694149
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 2 queries using GNTO optimizer
+Global Iteration 2, Episode 12
+GNTO 11b_job.sql 0.2726328372955322
+GNTO 11a_job.sql 0.2908289432525635
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 2
+GNTOFeaturizer.transform called with 2 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.25445356965065
+Epoch 15 training loss: 0.2728627026081085
+Stopped training after max epochs
+Model updated without swap after each episode.
+=== Executing queries using GNTO optimizer, global iteration 3/200, partition 4, phase iteration 3 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Passed to model fit - X count: 323
+GNTOFeaturizer.transform called with 323 plans.
+Epoch 0 training loss: 0.15713188832714445
+Epoch 15 training loss: 0.03221014993531363
+Epoch 30 training loss: 0.03304192898351522
+Epoch 45 training loss: 0.028575262320893153
+Epoch 60 training loss: 0.029859275690146854
+Epoch 75 training loss: 0.026724828495865778
+Epoch 90 training loss: 0.028224320683096136
+Stopped training after max epochs
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Executing 10 queries using GNTO optimizer
+Global Iteration 3, Episode 1
+GNTO 22a_job.sql 1.0542631149291992
+GNTO 18b_job.sql 0.47787904739379883
+GNTO 17b_job.sql 3.9485769271850586
+GNTO 1b_job.sql 0.2626516819000244
+GNTO 7b_job.sql 0.4268362522125244
+GNTO 16b_job.sql 11.288646697998047
+GNTO 12c_job.sql 1.1002485752105713
+GNTO 23b_job.sql 0.8116936683654785
+GNTO 19c_job.sql 1.6927697658538818
+GNTO 22b_job.sql 0.931363582611084
+Copied existing model to bao_default_model_gnto.tmp for fine-tuning.
+Loaded model from bao_default_model_gnto.tmp for fine-tuning.
+Passed to model fit - X count: 10
+GNTOFeaturizer.transform called with 10 plans.
+Reusing existing GNTOModel for fine-tuning.
+Epoch 0 training loss: 0.13091731071472168
+Epoch 15 training loss: 0.0698879286646843
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using GNTO optimizer
+Global Iteration 3, Episode 2
+GNTO 6c_job.sql 14.247813701629639
+GNTO 31b_job.sql 32.0
+GNTO 32a_job.sql 0.4950392246246338
+GNTO 31a_job.sql 32.0

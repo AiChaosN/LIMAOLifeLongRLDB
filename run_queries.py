@@ -5,7 +5,9 @@ import random
 from time import time, sleep
 
 USE_BAO = True
-PG_CONNECTION_STR = "dbname=imdb user=imdb host=localhost"
+DB_USER = "AiChaosN"
+DB_NAME = "imdb"
+PG_CONNECTION_STR = f"dbname={DB_NAME} user={DB_USER} host=localhost"
 
 # https://stackoverflow.com/questions/312443/
 def chunks(lst, n):

@@ -5,12 +5,17 @@ from time import time, sleep
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+DB_USER = "AiChaosN"
+DB_PORT = "5432"
+DB_NAME_IMDB = "imdbload"
+
 USE_BAO = True
 ONLY_USE_LAST_ITERATION = True
-PG_CONNECTION_STR = "dbname=imdbload user=qihan host=localhost port=5432"
+PG_CONNECTION_STR = f"dbname={DB_NAME_IMDB} user={DB_USER} host=localhost port={DB_PORT}"
 EPISODE_LEN = 10
 NUM_ITERATIONS = 3
-PROGRESS_CFG = "/mydata/LIMAOLifeLongRLDB/bao_server/current_progress.cfg"
+PROGRESS_CFG = os.path.join(PROJECT_ROOT, "bao_server", "current_progress.cfg")
 
 def update_progress(iteration, episode):
     """write the current progress to a file"""
@@ -91,7 +96,7 @@ def get_all_queries_from_directory(directory):
     return queries
 
 # Assuming the directory containing SQL files is provided as the first argument
-query_directory = "/mydata/LIMAOLifeLongRLDB/imdb_small"
+query_directory = os.path.join(PROJECT_ROOT, "imdb_small")
 queries = get_all_queries_from_directory(query_directory)
 
 print("Read", len(queries), "queries.")

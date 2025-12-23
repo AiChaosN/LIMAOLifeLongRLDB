@@ -1,0 +1,453 @@
+Listening on localhost port 9381
+Spawning server process...
+CUDA available: True
+Using BAO Model
+Logged reward of 5441.9468
+Logged reward of 5833.1705
+Logged reward of 103.450943
+Logged reward of 1071.194077
+Logged reward of 25223.866986
+Logged reward of 8535.532369
+Logged reward of 162.292788
+Logged reward of 2908.26249
+Logged reward of 211.037193
+Logged reward of 12.101208
+Logged reward of 646.189072
+Logged reward of 9.905716
+Logged reward of 2361.854599
+Logged reward of 97.845336
+Logged reward of 193.320344
+Logged reward of 294.493754
+Logged reward of 846.172208
+Logged reward of 352.788921
+Logged reward of 13935.441923
+Logged reward of 146.709367
+Logged reward of 1386.484985
+Logged reward of 841.017955
+Logged reward of 737.442495
+Logged reward of 949.377394
+Logged reward of 225.179718
+Logged reward of 996.1303
+Logged reward of 1178.024614
+Logged reward of 3298.199861
+Logged reward of 2737.240226
+Logged reward of 10.502655
+Logged reward of 139.077004
+Logged reward of 1839.8549
+Logged reward of 31.085148
+Logged reward of 104.520095
+Logged reward of 5401.309427
+Logged reward of 20.401033
+Logged reward of 1216.354901
+Logged reward of 207.604003
+Logged reward of 3196.38583
+Logged reward of 193.235032
+Logged reward of 360.055888
+Logged reward of 323.615602
+Logged reward of 6435.865881
+Logged reward of 7377.004347
+Logged reward of 3125.232502
+Logged reward of 29177.671858
+Logged reward of 754.321015
+Logged reward of 1119.118391
+Logged reward of 99.688961
+Logged reward of 2846.312645
+Logged reward of 36.503815
+Logged reward of 3620.331351
+Logged reward of 2752.386112
+Logged reward of 1712.063832
+Logged reward of 1097.194569
+Logged reward of 167.364535
+Logged reward of 99.290517
+Logged reward of 2043.45308
+Logged reward of 100.438008
+Logged reward of 227.856657
+Logged reward of 235.403563
+Logged reward of 221.786886
+Logged reward of 24.364624
+Logged reward of 60.69801
+Logged reward of 2623.092014
+Logged reward of 350.042627
+Logged reward of 1842.404395
+Logged reward of 217.011068
+Logged reward of 184.245834
+Logged reward of 1610.667458
+Logged reward of 3476.509046
+Logged reward of 635.823284
+Logged reward of 438.739241
+Logged reward of 268.194761
+Logged reward of 1434.526922
+Logged reward of 6150.194558
+Logged reward of 2569.781413
+Logged reward of 3791.397097
+Logged reward of 61.661882
+Logged reward of 275.182352
+Logged reward of 142.128465
+Logged reward of 54.083772
+Logged reward of 1192.392178
+Logged reward of 139.042695
+Logged reward of 19.461927
+Logged reward of 1555.93622
+Logged reward of 1484.694664
+Logged reward of 104.391032
+Logged reward of 1293.978411
+Logged reward of 104.567311
+Logged reward of 4107.759189
+Logged reward of 94.091263
+Logged reward of 1794.650899
+Logged reward of 5100.685623
+Logged reward of 111.486345
+Logged reward of 229.138692
+Logged reward of 501.450608
+Logged reward of 24.171286
+Logged reward of 337.709031
+Logged reward of 5298.33812
+Logged reward of 279.372935
+Logged reward of 6188.743497
+Logged reward of 143.441693
+Logged reward of 136.927912
+Logged reward of 433.151077
+Logged reward of 1327.857861
+Logged reward of 72.65766
+Logged reward of 808.586878
+Logged reward of 3614.585564
+Logged reward of 33.840052
+Logged reward of 52.437263
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+Logged reward of 313.605734
+Logged reward of 278.184749
+Logged reward of 4752.062981
+Logged reward of 103.704665
+Logged reward of 234.419118
+Logged reward of 11733.518446
+Logged reward of 1114.208958
+Logged reward of 51.997443
+Logged reward of 1453.434361
+Logged reward of 187.403632
+Logged reward of 10.522721
+Logged reward of 325.501051
+Logged reward of 9.618327
+Logged reward of 1546.991041
+Logged reward of 63.572826
+Logged reward of 136.158814
+Logged reward of 302.321867
+Logged reward of 347.824464
+Logged reward of 390.844501
+Logged reward of 8974.329119
+Logged reward of 103.819769
+Logged reward of 667.335908
+Logged reward of 350.060913
+Logged reward of 687.537077
+Logged reward of 610.384841
+Logged reward of 239.007923
+Logged reward of 876.471433
+Logged reward of 1300.202949
+Logged reward of 2173.302598
+Logged reward of 2590.684757
+Logged reward of 9.59873
+Logged reward of 129.388763
+Logged reward of 712.988947
+Logged reward of 22.470832
+Logged reward of 112.872428
+Logged reward of 4551.044456
+Logged reward of 18.055397
+Logged reward of 1297.953488
+Logged reward of 215.952052
+Logged reward of 1742.343636
+Logged reward of 179.751072
+Logged reward of 370.831263
+Logged reward of 296.153896
+Logged reward of 7702.834603
+Logged reward of 6014.344213
+Logged reward of 3648.498546
+Logged reward of 19523.911941
+Logged reward of 975.379803
+Logged reward of 1569.471392
+Logged reward of 116.710881
+Logged reward of 3708.568243
+Logged reward of 28.311922
+Logged reward of 5249.764304
+Logged reward of 3594.578072
+Logged reward of 2749.992888
+Logged reward of 1391.376387
+Logged reward of 233.692417
+Logged reward of 106.878878
+Logged reward of 3114.604958
+Logged reward of 117.615891
+Logged reward of 213.259333
+Logged reward of 294.982059
+Logged reward of 225.283418
+Logged reward of 30.788821
+Logged reward of 62.251339
+Logged reward of 1323.827454
+Logged reward of 487.080192
+Logged reward of 2955.661421
+Logged reward of 232.041094
+Logged reward of 235.677633
+Logged reward of 951.644528
+Logged reward of 2477.718462
+Logged reward of 768.816631
+Logged reward of 663.262061
+Logged reward of 366.705057
+Logged reward of 1214.203912
+Logged reward of 8603.307025
+Logged reward of 2983.908728
+Logged reward of 3717.956971
+Logged reward of 42.165867
+Logged reward of 316.423098
+Logged reward of 163.003869
+Logged reward of 60.354682
+Logged reward of 1337.408464
+Logged reward of 167.35756
+Logged reward of 23.535418
+Logged reward of 2301.147918
+Logged reward of 1856.04252
+Logged reward of 113.081257
+Logged reward of 1753.742553
+Logged reward of 118.825669
+Logged reward of 4931.239914
+Logged reward of 104.683241
+Logged reward of 2274.652408
+Logged reward of 6917.259406
+Logged reward of 119.624349
+Logged reward of 294.765305
+Logged reward of 562.910318
+Logged reward of 26.382004
+Logged reward of 424.329165
+Logged reward of 6289.487782
+Logged reward of 354.26944
+Logged reward of 7972.942858
+Logged reward of 174.179916
+Logged reward of 163.605423
+Logged reward of 511.642952
+Logged reward of 1812.031914
+Logged reward of 78.31128
+Logged reward of 934.295611
+Logged reward of 5114.26367
+Logged reward of 36.252625
+Logged reward of 55.911426
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 87ms Predicted reward / PG: 79.84481 / 497.3137
+Logged reward of 3383.934512
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 28ms Predicted reward / PG: 65.08721 / 252.26303
+Logged reward of 6324.152824
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 48 after 26ms Predicted reward / PG: 141.34592 / 383.55377
+Logged reward of 19480.548631
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 24ms Predicted reward / PG: 53.38805 / 148.19038
+Logged reward of 762.482064
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 29ms Predicted reward / PG: 140.5745 / 188.82765
+Logged reward of 5273.853496
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 27ms Predicted reward / PG: 49.30777 / 373.0476
+Logged reward of 8734.975068
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 10 after 29ms Predicted reward / PG: 71.27966 / 243.47792
+Logged reward of 3114.357587
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 39ms Predicted reward / PG: 73.869514 / 578.88574
+Logged reward of 2358.974986
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 38ms Predicted reward / PG: 77.38293 / 577.627
+Logged reward of 8746.449347
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 49ms Predicted reward / PG: 79.630875 / 497.07925
+Logged reward of 3249.323398
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 35 after 21ms Predicted reward / PG: 2419.0005 / 2635.904
+Logged reward of 17110.933603
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 35 after 41ms Predicted reward / PG: 5812.384 / 6063.37
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 2 after 25ms Predicted reward / PG: 2089.0093 / 2403.1982
+Logged reward of 175.420087
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 42ms Predicted reward / PG: 6200.0464 / 7702.701
+Logged reward of 2861.588107
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 3 after 864ms Predicted reward / PG: 6150.294 / 7751.469
+Logged reward of 71.373743
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 16 after 27ms Predicted reward / PG: 2108.9045 / 2405.749
+Logged reward of 378.724893
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 35 after 43ms Predicted reward / PG: 5829.0845 / 6162.625
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 17 after 40ms Predicted reward / PG: 6096.123 / 7733.6865
+Logged reward of 434.622247
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 20ms Predicted reward / PG: 2068.6023 / 2566.9272
+Logged reward of 3387.361392
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 38 after 35ms Predicted reward / PG: 7500.8926 / 8825.123
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 48 after 20ms Predicted reward / PG: 647.97815 / 1427.9514
+Logged reward of 5723.450748
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 17 after 28ms Predicted reward / PG: 728.21497 / 1085.6572
+Logged reward of 688.160015
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 36 after 39ms Predicted reward / PG: 1904.9163 / 2791.6648
+Logged reward of 4057.273384
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 51ms Predicted reward / PG: 1875.3713 / 2366.324
+Logged reward of 5510.672808
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 41ms Predicted reward / PG: 1740.7614 / 2386.9082
+Logged reward of 5806.11627
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 27 after 31ms Predicted reward / PG: 570.50336 / 863.8921
+Logged reward of 5240.556973
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 33ms Predicted reward / PG: 1896.8838 / 2859.579
+Logged reward of 5587.553288
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 29ms Predicted reward / PG: 694.2606 / 1043.2618
+Logged reward of 7771.686716
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 45ms Predicted reward / PG: 1828.7153 / 2545.4753
+Logged reward of 9560.163159
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 2 after 48ms Predicted reward / PG: 7252.133 / 9566.127
+Logged reward of 488.792482
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 20 after 35ms Predicted reward / PG: 7172.3843 / 7172.767
+Logged reward of 197.870343
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 36ms Predicted reward / PG: 4789.6875 / 7247.1475
+Logged reward of 7941.744705
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 33 after 56ms Predicted reward / PG: 6925.481 / 10018.104
+Logged reward of 2121.297684
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 22ms Predicted reward / PG: 6049.9214 / 7935.9116
+Logged reward of 3531.853582
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 0 after 22ms Predicted reward / PG: 7183.2075 / 7183.2075
+Logged reward of 5098.932893
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 8 after 44ms Predicted reward / PG: 7094.615 / 9569.438
+Logged reward of 378.862146
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 18 after 29ms Predicted reward / PG: 7143.6816 / 7148.0303
+Logged reward of 1456.035445
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 33 after 51ms Predicted reward / PG: 6444.978 / 10038.715
+Logged reward of 4872.271304
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 0 after 36ms Predicted reward / PG: 8233.19 / 8233.19
+Logged reward of 1778.699424
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.

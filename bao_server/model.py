@@ -99,8 +99,11 @@ class BaoRegression:
         self.__in_channels = None
         self.__n = 0
         
-        self.module_assigner = Kproto_MultiArrayProcessor.load_from_disk("/home/qihanzha/LIMAOLifeLongRLDB/kproto_processor.pkl")
-        
+        # self.module_assigner = Kproto_MultiArrayProcessor.load_from_disk("/home/qihanzha/LIMAOLifeLongRLDB/kproto_processor.pkl")
+        # Load kproto_processor.pkl from the project root (one level up from bao_server)
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        self.module_assigner = Kproto_MultiArrayProcessor.load_from_disk(os.path.join(base_dir, "kproto_processor.pkl"))
+
     def __log(self, *args):
         if self.__verbose:
             print(*args)

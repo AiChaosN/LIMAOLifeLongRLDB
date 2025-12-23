@@ -1,0 +1,670 @@
+Failed to send email: can only concatenate str (not "bytes") to str
+Partition: [4, 3, 7, 3, 3, 4, 6, 6, 3, 10, 4, 3, 10, 3, 10, 5, 10, 3, 10, 9, 3, 3, 5, 3, 3, 3, 3, 6, 3, 10, 3, 3, 4, 3, 3, 3, 5, 3, 5, 10]
+Read 112 queries.
+Executing init queries using PG optimizer
+x x 22a_job.sql 5.884709358215332 PG
+x x 18b_job.sql 2.7661337852478027 PG
+x x 17b_job.sql 32.0 PG
+x x 1b_job.sql 0.10200214385986328 PG
+x x 7b_job.sql 0.750885009765625 PG
+x x 16b_job.sql 20.223573684692383 PG
+x x 12c_job.sql 2.808304786682129 PG
+x x 23b_job.sql 0.2311558723449707 PG
+x x 19c_job.sql 3.021530866622925 PG
+x x 22b_job.sql 0.3246891498565674 PG
+x x 6c_job.sql 0.08431816101074219 PG
+x x 31b_job.sql 0.32392001152038574 PG
+x x 32a_job.sql 0.11897587776184082 PG
+x x 31a_job.sql 1.2638726234436035 PG
+x x 21a_job.sql 0.17934250831604004 PG
+x x 11c_job.sql 0.24472880363464355 PG
+x x 30b_job.sql 0.3116002082824707 PG
+x x 24a_job.sql 0.9632554054260254 PG
+x x 2a_job.sql 0.42693090438842773 PG
+x x 19d_job.sql 3.149674892425537 PG
+x x 3b_job.sql 0.21422529220581055 PG
+x x 10a_job.sql 0.43480658531188965 PG
+x x 23c_job.sql 0.6494045257568359 PG
+x x 28c_job.sql 1.059694528579712 PG
+x x 22d_job.sql 1.228989839553833 PG
+x x 14a_job.sql 0.23935580253601074 PG
+x x 13b_job.sql 0.48531389236450195 PG
+x x 9c_job.sql 1.5309348106384277 PG
+x x 30c_job.sql 3.303008794784546 PG
+x x 29c_job.sql 3.9540276527404785 PG
+x x 27b_job.sql 0.14482450485229492 PG
+x x 11d_job.sql 0.18677902221679688 PG
+x x 7a_job.sql 1.9058270454406738 PG
+x x 33b_job.sql 0.3517622947692871 PG
+x x 4c_job.sql 0.15987634658813477 PG
+x x 6f_job.sql 4.999439001083374 PG
+x x 27a_job.sql 0.16132235527038574 PG
+x x 16c_job.sql 1.0653560161590576 PG
+x x 23a_job.sql 0.22847533226013184 PG
+x x 10a_ceb.sql 6.418193817138672 PG
+x x 29b_job.sql 2.6522536277770996 PG
+x x 2c_job.sql 0.39900851249694824 PG
+x x 28b_job.sql 0.5095639228820801 PG
+x x 17e_job.sql 6.658904790878296 PG
+x x 25c_job.sql 4.918540954589844 PG
+x x 6d_job.sql 1.5217530727386475 PG
+x x 8b_ceb.sql 14.390551328659058 PG
+x x 16d_job.sql 0.9555613994598389 PG
+x x 9b_job.sql 0.8206710815429688 PG
+x x 1c_job.sql 0.13708066940307617 PG
+x x 13d_job.sql 1.3145363330841064 PG
+x x 27c_job.sql 0.20492219924926758 PG
+x x 17c_job.sql 3.937805414199829 PG
+x x 8d_job.sql 1.2304651737213135 PG
+x x 8a_job.sql 0.7012233734130859 PG
+x x 9a_job.sql 0.275360107421875 PG
+x x 16a_job.sql 0.22977399826049805 PG
+x x 1d_job.sql 0.12544488906860352 PG
+x x 30a_job.sql 1.9221582412719727 PG
+x x 12b_job.sql 0.12951922416687012 PG
+x x 5c_job.sql 0.1991264820098877 PG
+x x 25b_job.sql 0.18395137786865234 PG
+x x 24b_job.sql 0.33246302604675293 PG
+x x 6a_job.sql 0.10474991798400879 PG
+x x 21b_job.sql 0.1421353816986084 PG
+x x 26a_job.sql 1.688767671585083 PG
+x x 10b_job.sql 0.2351512908935547 PG
+x x 25a_job.sql 1.2813785076141357 PG
+x x 29a_job.sql 2.73270583152771 PG
+x x 6b_job.sql 0.22730660438537598 PG
+x x 18a_job.sql 0.553276538848877 PG
+x x 7c_job.sql 0.9054217338562012 PG
+x x 15a_job.sql 0.5619332790374756 PG
+x x 2d_job.sql 0.5217576026916504 PG
+x x 19b_job.sql 0.18939471244812012 PG
+x x 20c_job.sql 1.778975486755371 PG
+x x 18c_job.sql 2.89213228225708 PG
+x x 9d_job.sql 1.9330203533172607 PG
+x x 26c_job.sql 4.268993854522705 PG
+x x 15b_job.sql 0.1278553009033203 PG
+x x 12a_job.sql 0.22908949851989746 PG
+x x 3a_job.sql 0.2134096622467041 PG
+x x 21c_job.sql 0.16322636604309082 PG
+x x 22c_job.sql 1.357630968093872 PG
+x x 5a_job.sql 0.18122100830078125 PG
+x x 33a_job.sql 0.3571345806121826 PG
+x x 20a_job.sql 1.765538215637207 PG
+x x 31c_job.sql 0.8645429611206055 PG
+x x 1a_job.sql 0.13785386085510254 PG
+x x 19a_job.sql 1.627263069152832 PG
+x x 32b_job.sql 0.1931910514831543 PG
+x x 8c_job.sql 2.713489055633545 PG
+x x 4a_job.sql 0.18880152702331543 PG
+x x 13a_job.sql 0.932410478591919 PG
+x x 17f_job.sql 4.061644554138184 PG
+x x 14b_job.sql 0.16899347305297852 PG
+x x 3c_job.sql 0.3072197437286377 PG
+x x 28a_job.sql 0.7688195705413818 PG
+x x 6e_job.sql 0.1143345832824707 PG
+x x 2b_job.sql 0.4246687889099121 PG
+x x 10c_job.sql 3.593755006790161 PG
+x x 8b_job.sql 0.19755077362060547 PG
+x x 17a_job.sql 6.609643459320068 PG
+x x 5b_job.sql 0.18004107475280762 PG
+x x 26b_job.sql 0.24833226203918457 PG
+x x 14c_job.sql 0.42540717124938965 PG
+x x 20b_job.sql 1.3389389514923096 PG
+x x 4b_job.sql 0.1494598388671875 PG
+x x 13c_job.sql 0.4653482437133789 PG
+x x 17d_job.sql 3.898918867111206 PG
+x x 11b_job.sql 0.1412203311920166 PG
+x x 11a_job.sql 0.1463782787322998 PG
+=== Executing queries using Bao optimizer, global iteration 1/200, partition 4, phase iteration 1 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+storage.CFG_FILE_PATH: /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/current_progress.cfg
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:80: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Passed to model fit - X count: 111
+GNTOFeaturizer.transform called with 111 plans.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:118: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  g.y = torch.tensor([target], dtype=torch.float)
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+Epoch 0 training loss: 0.31533052612628254
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 15
+Stopped training from convergence condition at epoch 14
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 1
+BAO 22a_job.sql 1.1595664024353027
+BAO 18b_job.sql 0.26934051513671875
+BAO 17b_job.sql 4.207256317138672
+BAO 1b_job.sql -1.4074339866638184
+BAO 7b_job.sql 0.42565226554870605
+BAO 16b_job.sql 12.02365756034851
+BAO 12c_job.sql 0.6311678886413574
+BAO 23b_job.sql 1.0344960689544678
+BAO 19c_job.sql 2.0800137519836426
+BAO 22b_job.sql 1.0385339260101318
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 2
+BAO 6c_job.sql 0.13869094848632812
+BAO 31b_job.sql 1.4680461883544922
+BAO 32a_job.sql 0.1476304531097412
+BAO 31a_job.sql 1.9661650657653809
+BAO 21a_job.sql 0.47548389434814453
+BAO 11c_job.sql 0.34360408782958984
+BAO 30b_job.sql 2.660355567932129
+BAO 24a_job.sql 2.745020627975464
+BAO 2a_job.sql 0.4936184883117676
+BAO 19d_job.sql 2.9936156272888184
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 3
+BAO 3b_job.sql 0.19423365592956543
+BAO 10a_job.sql 0.3836836814880371
+BAO 23c_job.sql -0.4539628028869629
+BAO 28c_job.sql 9.62583589553833
+BAO 22d_job.sql 1.5228338241577148
+BAO 14a_job.sql 0.3920910358428955
+BAO 13b_job.sql 0.7004690170288086
+BAO 9c_job.sql 1.7770190238952637
+BAO 30c_job.sql 4.351962327957153
+BAO 29c_job.sql 32.0
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 4
+BAO 27b_job.sql 2.722999095916748
+BAO 11d_job.sql 0.3425455093383789
+BAO 7a_job.sql 0.9577562808990479
+BAO 33b_job.sql 7.956495046615601
+BAO 4c_job.sql 0.2167222499847412
+BAO 6f_job.sql 3.3214240074157715
+BAO 27a_job.sql 2.6143062114715576
+BAO 16c_job.sql 1.2363617420196533
+BAO 23a_job.sql 1.0704810619354248
+BAO 10a_ceb.sql 6.045494318008423
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 0.5712559223175049
+BAO 28b_job.sql 7.806487083435059
+BAO 17e_job.sql 7.123905181884766
+BAO 25c_job.sql 2.4497246742248535
+BAO 6d_job.sql 3.3333702087402344
+BAO 8b_ceb.sql 15.519194841384888
+BAO 16d_job.sql 1.1064300537109375
+BAO 9b_job.sql 0.8867464065551758
+BAO 1c_job.sql 0.18021821975708008
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 6
+BAO 13d_job.sql 1.4573545455932617
+BAO 27c_job.sql 2.5663392543792725
+BAO 17c_job.sql 2.352494239807129
+BAO 8d_job.sql 1.2379662990570068
+BAO 8a_job.sql 0.7496638298034668
+BAO 9a_job.sql 0.3927268981933594
+BAO 16a_job.sql 0.36963343620300293
+BAO 1d_job.sql 0.166900634765625
+BAO 30a_job.sql 3.9733002185821533
+BAO 12b_job.sql 0.2827792167663574
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 7
+BAO 5c_job.sql 0.2535514831542969
+BAO 25b_job.sql 0.4731910228729248
+BAO 24b_job.sql 2.4556901454925537
+BAO 6a_job.sql 0.1547844409942627
+BAO 21b_job.sql 0.47154760360717773
+BAO 26a_job.sql 2.6385374069213867
+BAO 10b_job.sql 0.3223140239715576
+BAO 25a_job.sql 1.608231782913208
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 0.33200597763061523
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 8
+BAO 18a_job.sql 0.4207940101623535
+BAO 7c_job.sql 0.9347014427185059
+BAO 15a_job.sql 0.6250667572021484
+BAO 2d_job.sql 0.6356704235076904
+BAO 19b_job.sql 0.7396180629730225
+BAO 20c_job.sql 1.3692336082458496
+BAO 18c_job.sql 2.7303221225738525
+BAO 9d_job.sql 1.962712049484253
+BAO 26c_job.sql 4.885858535766602
+BAO 15b_job.sql 0.4364156723022461
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 9
+BAO 12a_job.sql -1.197417974472046
+BAO 3a_job.sql 0.2422468662261963
+BAO 21c_job.sql 0.4606032371520996
+BAO 22c_job.sql 2.155075788497925
+BAO 5a_job.sql 0.21954655647277832
+BAO 33a_job.sql 9.652183055877686
+BAO 20a_job.sql 2.1936256885528564
+BAO 31c_job.sql 2.0427956581115723
+BAO 1a_job.sql 0.17809510231018066
+BAO 19a_job.sql 1.9076926708221436
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 10
+BAO 32b_job.sql 0.23639249801635742
+BAO 8c_job.sql 2.497702121734619
+BAO 4a_job.sql 0.21736526489257812
+BAO 13a_job.sql 1.2221248149871826
+BAO 17f_job.sql 6.078547954559326
+BAO 14b_job.sql 0.3069031238555908
+BAO 3c_job.sql 0.3570594787597656
+BAO 28a_job.sql 6.188093662261963
+BAO 6e_job.sql 0.1665046215057373
+BAO 2b_job.sql 0.48423004150390625
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 11
+BAO 10c_job.sql 3.7765867710113525
+BAO 8b_job.sql 0.2971765995025635
+BAO 17a_job.sql 6.893412351608276
+BAO 5b_job.sql 0.22797417640686035
+BAO 26b_job.sql 1.7337749004364014
+BAO 14c_job.sql 0.577418327331543
+BAO 20b_job.sql 1.6993165016174316
+BAO 4b_job.sql 0.19264626502990723
+BAO 13c_job.sql 0.6902916431427002
+BAO 17d_job.sql 4.128303050994873
+Executing 2 queries using BAO optimizer
+Global Iteration 1, Episode 12
+BAO 11b_job.sql 0.26101160049438477
+BAO 11a_job.sql 0.358565092086792
+=== Executing queries using Bao optimizer, global iteration 2/200, partition 4, phase iteration 2 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+storage.CFG_FILE_PATH: /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/current_progress.cfg
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:80: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Passed to model fit - X count: 220
+GNTOFeaturizer.transform called with 220 plans.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:118: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:278.)
+  g.y = torch.tensor([target], dtype=torch.float)
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+Epoch 0 training loss: 0.24185771122574806
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 16
+GNTOModel forward called! Processing batch size: 12
+Stopped training from convergence condition at epoch 12
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 1
+BAO 22a_job.sql 1.1706492900848389
+BAO 18b_job.sql 0.2648732662200928
+BAO 17b_job.sql 4.506377458572388
+BAO 1b_job.sql 0.1783440113067627
+BAO 7b_job.sql 0.4279470443725586
+BAO 16b_job.sql 12.211078405380249
+BAO 12c_job.sql 0.6853055953979492
+BAO 23b_job.sql 1.0213596820831299
+BAO 19c_job.sql 2.0631306171417236
+BAO 22b_job.sql 1.054628610610962
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 2
+BAO 6c_job.sql 0.14048123359680176
+BAO 31b_job.sql 1.4144225120544434
+BAO 32a_job.sql 0.15315604209899902
+BAO 31a_job.sql 2.020310878753662
+BAO 21a_job.sql 0.460282564163208
+BAO 11c_job.sql 0.369143009185791
+BAO 30b_job.sql 2.721405267715454
+BAO 24a_job.sql 1.3182575702667236
+BAO 2a_job.sql 0.5671956539154053
+BAO 19d_job.sql 3.037374973297119
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 3
+BAO 3b_job.sql 0.21271491050720215
+BAO 10a_job.sql 0.44203901290893555
+BAO 23c_job.sql 1.2333829402923584
+BAO 28c_job.sql 8.757984161376953
+BAO 22d_job.sql 1.6006133556365967
+BAO 14a_job.sql 0.43326687812805176
+BAO 13b_job.sql 0.7317702770233154
+BAO 9c_job.sql 1.7931599617004395
+BAO 30c_job.sql 4.564718723297119
+BAO 29c_job.sql 32.0
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 4
+BAO 27b_job.sql 2.8533270359039307
+BAO 11d_job.sql 0.3607025146484375
+BAO 7a_job.sql 1.1058177947998047
+BAO 33b_job.sql 8.655240535736084
+BAO 4c_job.sql 0.25851988792419434
+BAO 6f_job.sql 4.0846874713897705
+BAO 27a_job.sql 2.8423924446105957
+BAO 16c_job.sql 1.428454875946045
+BAO 23a_job.sql 1.1836826801300049
+BAO 10a_ceb.sql 5.91502833366394
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 0.6565699577331543
+BAO 28b_job.sql 6.760834455490112
+BAO 17e_job.sql 7.682052850723267
+BAO 25c_job.sql 4.184022665023804
+BAO 6d_job.sql 3.4091131687164307
+BAO 8b_ceb.sql 13.95556926727295
+BAO 16d_job.sql 1.1029078960418701
+BAO 9b_job.sql 0.9477293491363525
+BAO 1c_job.sql 0.17441415786743164
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 6
+BAO 13d_job.sql 1.4315297603607178
+BAO 27c_job.sql 2.6347897052764893
+BAO 17c_job.sql 4.267954111099243
+BAO 8d_job.sql 1.2554008960723877
+BAO 8a_job.sql 0.7450151443481445
+BAO 9a_job.sql 0.4388315677642822
+BAO 16a_job.sql 0.38846802711486816
+BAO 1d_job.sql 0.1698141098022461
+BAO 30a_job.sql 4.194368362426758
+BAO 12b_job.sql 0.28525853157043457
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 7
+BAO 5c_job.sql 0.2489452362060547
+BAO 25b_job.sql 0.5044121742248535
+BAO 24b_job.sql 2.668010950088501
+BAO 6a_job.sql 0.15378975868225098
+BAO 21b_job.sql 0.4759690761566162
+BAO 26a_job.sql 2.7438693046569824
+BAO 10b_job.sql 0.327822208404541
+BAO 25a_job.sql 1.615239143371582
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 0.3675503730773926
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 8
+BAO 18a_job.sql 0.41567111015319824
+BAO 7c_job.sql 0.9918458461761475
+BAO 15a_job.sql 0.6150097846984863
+BAO 2d_job.sql 0.5967426300048828
+BAO 19b_job.sql -0.8934907913208008
+BAO 20c_job.sql 1.31941819190979
+BAO 18c_job.sql 2.7065372467041016
+BAO 9d_job.sql 1.9958903789520264
+BAO 26c_job.sql 4.693613290786743
+BAO 15b_job.sql 0.4802534580230713
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 9
+BAO 12a_job.sql 0.3566427230834961
+BAO 3a_job.sql 0.24441862106323242
+BAO 21c_job.sql 0.4659085273742676
+BAO 22c_job.sql 2.1821367740631104
+BAO 5a_job.sql 0.24898743629455566

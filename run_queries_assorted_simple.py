@@ -17,25 +17,42 @@ args = parser.parse_args()
 # Set the seed for random using command-line argument
 random.seed(args.seed)
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+DB_USER = "AiChaosN"
+DB_PORT = "5438"
+DB_NAME_IMDB = "imdbload"
+DB_NAME_TPCH = "tpch10load"
+DB_NAME_STACK = "soload"
+
 USE_BAO = True
-PG_CONNECTION_STR_1 = "dbname=imdbload user=qihanzha host=localhost port=5438"
+PG_CONNECTION_STR_1 = f"dbname={DB_NAME_IMDB} user={DB_USER} host=localhost port={DB_PORT}"
 
-PG_CONNECTION_STR_3 = "dbname=tpch10load user=qihanzha host=localhost port=5438"
+PG_CONNECTION_STR_3 = f"dbname={DB_NAME_TPCH} user={DB_USER} host=localhost port={DB_PORT}"
 
-PG_CONNECTION_STR_5 = "dbname=soload user=qihanzha host=localhost port=5438"
+PG_CONNECTION_STR_5 = f"dbname={DB_NAME_STACK} user={DB_USER} host=localhost port={DB_PORT}"
 TIME_OUT_IMDB = 10000
 TIME_OUT_TPCH = 30000
 TIME_OUT_STACK = 30000
 EPISODE_LEN = 10
-PROGRESS_CFG = "/home/qihanzha/LIMAOLifeLongRLDB/bao_server/current_progress.cfg"
+PROGRESS_CFG = os.path.join(PROJECT_ROOT, "bao_server", "current_progress.cfg")
 
 TOTOAL_ITER = 200
 NUM_PHASE = 40
-query_directory_imdb_list = ["/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_3", "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_4"]
-query_directory_stack_list = ["/home/qihanzha/LIMAOLifeLongRLDB/so_assorted", "/home/qihanzha/LIMAOLifeLongRLDB/so_assorted_2"]
-query_directory_tpch_list = ["/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted", "/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted_2", "/home/qihanzha/LIMAOLifeLongRLDB/tpch_assorted_3"]
+query_directory_imdb_list = [
+    os.path.join(PROJECT_ROOT, "imdb_assorted_3"),
+    os.path.join(PROJECT_ROOT, "imdb_assorted_4")
+]
+query_directory_stack_list = [
+    os.path.join(PROJECT_ROOT, "so_assorted"),
+    os.path.join(PROJECT_ROOT, "so_assorted_2")
+]
+query_directory_tpch_list = [
+    os.path.join(PROJECT_ROOT, "tpch_assorted"),
+    os.path.join(PROJECT_ROOT, "tpch_assorted_2"),
+    os.path.join(PROJECT_ROOT, "tpch_assorted_3")
+]
 PG_CONNECTION_STR_LIST = [PG_CONNECTION_STR_1, PG_CONNECTION_STR_3, PG_CONNECTION_STR_5]
-init_query_directory = "/home/qihanzha/LIMAOLifeLongRLDB/imdb_assorted_3"
+init_query_directory = os.path.join(PROJECT_ROOT, "imdb_assorted_3")
 def update_progress(iteration, episode):
     """write the current progress to a file"""
     # Check if the directory exists, if not, create it
@@ -174,15 +191,16 @@ for partition in partitions:
         update_progress(global_iter,0)
         print(f"=== Executing queries using Bao optimizer, global iteration {global_iter}/{TOTOAL_ITER}, partition {partition}, phase iteration {i+1} for database {dbname}, query directory {chosen_directory} ===")
         if USE_BAO:
+            bao_server_dir = os.path.join(PROJECT_ROOT, "bao_server")
             if i == 0:
                 # drift!
-                os.system("cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain")
+                os.system(f"cd {bao_server_dir} && python3 baoctl.py --retrain")
                 os.system("sync")
             else:
                 # normal, use the last iteration data to retrain
-                # os.system(f"cd /mydata/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain --iteration {global_iter-1}")
+                # os.system(f"cd {bao_server_dir} && python3 baoctl.py --retrain --iteration {global_iter-1}")
                 # FIXME or we still use all data to retrain
-                os.system(f"cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain")
+                os.system(f"cd {bao_server_dir} && python3 baoctl.py --retrain")
                 os.system("sync")
 
             num_episodes = (len(queries) + EPISODE_LEN - 1) // EPISODE_LEN
@@ -198,7 +216,7 @@ for partition in partitions:
                     q_time = run_query(q, PG_CONNECTION_STR, timeout, bao_reward=USE_BAO, bao_select=USE_BAO)
                     print("BAO", fp, q_time, flush=True)
                 # light train
-                os.system(f"cd /home/qihanzha/LIMAOLifeLongRLDB/bao_server && python3 baoctl.py --retrain --iteration {global_iter} --episode {current_episode}")
+                os.system(f"cd {bao_server_dir} && python3 baoctl.py --retrain --iteration {global_iter} --episode {current_episode}")
                 os.system("sync")
         if global_iter % 10 == 0:
             time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")

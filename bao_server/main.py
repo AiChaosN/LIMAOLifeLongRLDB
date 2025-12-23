@@ -7,6 +7,7 @@ import time
 import os
 import storage
 import model
+import model_gnto
 import train
 import baoctl
 import math
@@ -21,9 +22,10 @@ def add_buffer_info_to_plans(buffer_info, plans):
     return plans
 
 class BaoModel:
-    def __init__(self):
+    def __init__(self, regressor_class=model.BaoRegression):
         self.__current_model = None
         self.__module_assigner = None
+        self.__regressor_class = regressor_class
 
     def select_plan(self, messages):
         start = time.time()
@@ -34,6 +36,14 @@ class BaoModel:
         if self.__current_model is None:
             return PG_OPTIMIZER_INDEX
 
+        # 打印每个arm的plan
+        # for arm in arms[:2]:
+        #     print("arm:", arm)
+        #     print("--------------------------------")
+        # # 打印buffer
+        # print("buffer:", buffers)
+        # print("--------------------------------")
+        
         # if we do have a model, make predictions for each plan.
         arms = add_buffer_info_to_plans(buffers, arms)
         res = self.__current_model.predict(arms,self.__module_assigner)
@@ -60,7 +70,7 @@ class BaoModel:
     
     def load_model(self, fp):
         try:
-            new_model = model.BaoRegression(have_cache_data=True)
+            new_model = self.__regressor_class(have_cache_data=True)
             new_model.load(fp)
 
             if reg_blocker.should_replace_model(
@@ -132,16 +142,21 @@ class BaoJSONHandler(JSONTCPHandler):
         return False
                 
 
-def start_server(listen_on, port):
-    model = BaoModel()
+def start_server(listen_on, port, model_type="BAO"):
+    if model_type == "GNTO":
+        print("Using GNTO Model")
+        bao_model = BaoModel(model_gnto.GntoRegression)
+    else:
+        print("Using BAO Model")
+        bao_model = BaoModel(model.BaoRegression)
 
     if os.path.exists(DEFAULT_MODEL_PATH):
         print("Loading existing model")
-        model.load_model(DEFAULT_MODEL_PATH)
+        bao_model.load_model(DEFAULT_MODEL_PATH)
     
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer((listen_on, port), BaoJSONHandler) as server:
-        server.bao_model = model
+        server.bao_model = bao_model
         server.serve_forever()
 
 
@@ -154,10 +169,11 @@ if __name__ == "__main__":
     config = read_config()
     port = int(config["Port"])
     listen_on = config["ListenOn"]
+    model_type = config.get("ModelType", "BAO")
 
     print(f"Listening on {listen_on} port {port}")
     
-    server = Process(target=start_server, args=(listen_on, port))
+    server = Process(target=start_server, args=(listen_on, port, model_type))
     
     print("Spawning server process...")
     print("CUDA available:", torch.cuda.is_available())

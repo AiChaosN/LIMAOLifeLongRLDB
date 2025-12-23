@@ -51,8 +51,18 @@ if __name__ == "__main__":
 
     if args.load:
         import model
-        print("Attempting to load the Bao model...")
-        reg = model.BaoRegression(have_cache_data=True)
+        import model_gnto
+        from config import read_config
+        
+        config = read_config()
+        model_type = config.get("ModelType", "BAO")
+        print(f"Attempting to load the {model_type} model...")
+        
+        if model_type == "GNTO":
+            reg = model_gnto.GntoRegression(have_cache_data=True)
+        else:
+            reg = model.BaoRegression(have_cache_data=True)
+            
         reg.load(args.load)
         
         print("Model loaded. Sending message to Bao server...")

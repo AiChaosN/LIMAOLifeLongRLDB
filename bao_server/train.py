@@ -1,17 +1,27 @@
 import storage
 from storage import CFG_FILE_PATH, read_progress
 import model
+import model_gnto
+from config import read_config
 import os
 import shutil
 import reg_blocker
+
+def get_regressor_class():
+    config = read_config()
+    model_type = config.get("ModelType", "BAO")
+    if model_type == "GNTO":
+        return model_gnto.GntoRegression
+    return model.BaoRegression
 
 class BaoTrainingException(Exception):
     pass
 
 def train_and_swap(fn, old, tmp, verbose=False,iteration=None):
+    Regressor = get_regressor_class()
     if not iteration:
         if os.path.exists(fn):
-            old_model = model.BaoRegression(have_cache_data=True)
+            old_model = Regressor(have_cache_data=True)
             old_model.load(fn)
         else:
             old_model = None
@@ -38,7 +48,7 @@ def train_and_swap(fn, old, tmp, verbose=False,iteration=None):
     else:
         assert type(iteration) == int and iteration >= 0
         if os.path.exists(fn):
-            old_model = model.BaoRegression(have_cache_data=True)
+            old_model = Regressor(have_cache_data=True)
             old_model.load(fn)
         else:
             old_model = None
@@ -78,6 +88,25 @@ def train_no_swap(fn, verbose=False):
       3. 将临时模型重命名为目标路径 fn，从而完成模型更新。
     """
     tmp = fn + ".tmp"
+    
+    # Pre-copy the model to tmp so train_and_save_model_episode can load and fine-tune it
+    if os.path.exists(tmp):
+        if os.path.isdir(tmp):
+            shutil.rmtree(tmp)
+        else:
+            os.remove(tmp)
+
+    if os.path.exists(fn):
+        try:
+            if os.path.isdir(fn):
+                shutil.copytree(fn, tmp)
+            else:
+                shutil.copy(fn, tmp)
+            if verbose:
+                print(f"Copied existing model to {tmp} for fine-tuning.")
+        except Exception as e:
+            print(f"Failed to copy existing model: {e}. Will train from scratch.")
+
     new_model = train_and_save_model_episode(tmp, verbose=verbose)
     if os.path.exists(fn):
         if os.path.isdir(fn):
@@ -103,7 +132,8 @@ def train_and_save_model(fn, verbose=True, emphasize_experiments=0):
     if len(all_experience) < 20:
         print("Warning: trying to train a Bao model with fewer than 20 datapoints.")
 
-    reg = model.BaoRegression(have_cache_data=True, verbose=verbose)
+    Regressor = get_regressor_class()
+    reg = Regressor(have_cache_data=True, verbose=verbose)
     reg.fit(x, y)
     reg.save(fn)
     return reg
@@ -123,7 +153,8 @@ def train_and_save_model_iteration(fn, iteration, verbose=True, emphasize_experi
     if len(all_experience) < 20:
         print("Warning: trying to train a Bao model with fewer than 20 datapoints.")
 
-    reg = model.BaoRegression(have_cache_data=True, verbose=verbose)
+    Regressor = get_regressor_class()
+    reg = Regressor(have_cache_data=True, verbose=verbose)
     reg.fit(x, y)
     reg.save(fn)
     return reg
@@ -136,9 +167,20 @@ def train_and_save_model_episode(fn, verbose=True):
     y = [i[1] for i in all_experience]        
     if not all_experience:
         raise BaoTrainingException("Cannot episode train a Bao model with no experience")
-    reg = model.BaoRegression(have_cache_data=True, verbose=verbose)
+    
+    Regressor = get_regressor_class()
+    reg = Regressor(have_cache_data=True, verbose=verbose)
+
+    if os.path.exists(fn):
+        try:
+            reg.load(fn)
+            if verbose:
+                print(f"Loaded model from {fn} for fine-tuning.")
+        except Exception as e:
+            print(f"Warning: Could not load model from {fn}: {e}. Starting from scratch.")
+
     # Qihan: just light train
-    reg.fit(x, y,epochs=100)
+    reg.fit(x, y, epochs=20)
     reg.save(fn)
     return reg
 
@@ -150,6 +192,7 @@ if __name__ == "__main__":
     train_and_save_model(sys.argv[1])
 
     print("Model saved, attempting load...")
-    reg = model.BaoRegression(have_cache_data=True)
+    Regressor = get_regressor_class()
+    reg = Regressor(have_cache_data=True)
     reg.load(sys.argv[1])
 

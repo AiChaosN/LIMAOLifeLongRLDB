@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../GNTO"
+        },
+        {
+            "path": "../../QueryFormer_VLDB2022"
+        }
+    ]
+}

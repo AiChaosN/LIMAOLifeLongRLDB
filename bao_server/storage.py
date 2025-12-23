@@ -3,8 +3,13 @@ import json
 import itertools
 
 from common import BaoException
+from config import read_config
 ROW_LIMIT = 500
-CFG_FILE_PATH = "/home/qihanzha/LIMAOLifeLongRLDB/bao_server/current_progress.cfg"
+import os
+
+# determine the directory where this script is located
+curr_dir = os.path.dirname(os.path.abspath(__file__))
+CFG_FILE_PATH = os.path.join(curr_dir, "current_progress.cfg")
 
 def read_progress(cfg_file=CFG_FILE_PATH):
     """
@@ -27,7 +32,15 @@ def read_progress(cfg_file=CFG_FILE_PATH):
     return iteration, episode
 
 def _bao_db():
-    conn = sqlite3.connect("bao.db")
+    config = read_config()
+    model_type = config.get("ModelType", "BAO")
+    
+    if model_type == "GNTO":
+        db_path = "bao_gnto.db"
+    else:
+        db_path = "bao.db"
+        
+    conn = sqlite3.connect(db_path)
     c = conn.cursor()
     c.execute("""
 CREATE TABLE IF NOT EXISTS experience (

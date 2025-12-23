@@ -1,0 +1,990 @@
+Selected index 44 after 23ms Predicted reward / PG: 6779.0723 / 6831.6816
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 18ms Predicted reward / PG: 6809.978 / 6814.293
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 32ms Predicted reward / PG: 6802.1562 / 6807.4585
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 26ms Predicted reward / PG: 6814.312 / 7519.7397
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 25ms Predicted reward / PG: 6808.1797 / 6811.141
+Logged reward of 10305.596008
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 17ms Predicted reward / PG: 6811.947 / 6816.074
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 44ms Predicted reward / PG: 6805.991 / 6809.5435
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 19ms Predicted reward / PG: 6815.905 / 6815.9565
+Logged reward of 18316.187566
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 17ms Predicted reward / PG: 6815.657 / 6815.8013
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 32 after 22ms Predicted reward / PG: 18461.516 / 18521.617
+Logged reward of 17914.89663
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 20ms Predicted reward / PG: 18495.035 / 18497.611
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 21ms Predicted reward / PG: 18499.5 / 19124.668
+Logged reward of 5948.521797
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 19ms Predicted reward / PG: 18497.805 / 18505.162
+Logged reward of 144.377419
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 33ms Predicted reward / PG: 18494.965 / 18844.016
+Logged reward of 150.950116
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 25ms Predicted reward / PG: 18498.844 / 18505.852
+Logged reward of 356.857267
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 32ms Predicted reward / PG: 18497.365 / 18502.164
+Logged reward of 1081.751248
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 18ms Predicted reward / PG: 18501.967 / 18506.594
+Logged reward of 80.871373
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 31ms Predicted reward / PG: 18496.021 / 18501.049
+Logged reward of 732.388733
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 19ms Predicted reward / PG: 18497.805 / 20003.266
+Logged reward of 3727.705851
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 24ms Predicted reward / PG: 3663.7708 / 3666.9592
+Logged reward of 47.132428
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 25ms Predicted reward / PG: 3663.7708 / 3666.9592
+Logged reward of 48.40152
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 40ms Predicted reward / PG: 57.84477 / 250.83203
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 24ms Predicted reward / PG: 59.74528 / 672.5606
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 21ms Predicted reward / PG: 965.36847 / 6855.716
+Logged reward of 3806.160857
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 17ms Predicted reward / PG: 295.18076 / 295.18076
+Logged reward of 87.427553
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 22ms Predicted reward / PG: 160.76111 / 954.0498
+Logged reward of 1645.590898
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 31ms Predicted reward / PG: 1542.4558 / 7476.3086
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 31ms Predicted reward / PG: 508.1348 / 1362.924
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 32ms Predicted reward / PG: 377.15192 / 377.15192
+Logged reward of 39.886147
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 29ms Predicted reward / PG: 1271.1798 / 4845.0073
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 36ms Predicted reward / PG: 57.84477 / 223.36159
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 15ms Predicted reward / PG: 41.520473 / 48.116875
+Logged reward of 15816.925435
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 37ms Predicted reward / PG: 25.930105 / 25.930105
+Logged reward of 260.80945
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 21ms Predicted reward / PG: 47.039143 / 51.681225
+Logged reward of 542.579884
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 28ms Predicted reward / PG: 34.74382 / 34.74382
+Logged reward of 1558.394038
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 28ms Predicted reward / PG: 30.118168 / 30.118168
+Logged reward of 63.421834
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 28ms Predicted reward / PG: 34.959126 / 41.663616
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 36ms Predicted reward / PG: 25.914642 / 25.914642
+Logged reward of 271.097514
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 36ms Predicted reward / PG: 29.717947 / 45.113686
+Logged reward of 385.615969
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 19ms Predicted reward / PG: 46.65758 / 52.009296
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 44 after 28ms Predicted reward / PG: 59.050583 / 77.2639
+Logged reward of 7633.967063
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 14ms Predicted reward / PG: 5150.3555 / 5150.3555
+Logged reward of 79.752567
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 20ms Predicted reward / PG: 5565.864 / 7464.971
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 33ms Predicted reward / PG: 5843.469 / 6019.5806
+Logged reward of 265.192632
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 122ms Predicted reward / PG: 5403.493 / 6703.3423
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 28ms Predicted reward / PG: 5800.355 / 6634.251
+Logged reward of 536.431173
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 28ms Predicted reward / PG: 5707.9033 / 6545.9937
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 27ms Predicted reward / PG: 6185.645 / 6597.8145
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 26ms Predicted reward / PG: 5382.736 / 7876.4375
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 35ms Predicted reward / PG: 5890.73 / 6492.511
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 36ms Predicted reward / PG: 454.85583 / 476.97525
+Logged reward of 67.233985
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 25ms Predicted reward / PG: 473.3617 / 553.55725
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 20ms Predicted reward / PG: 507.99738 / 564.37036
+Logged reward of 738.195263
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 37ms Predicted reward / PG: 487.82993 / 487.82993
+Logged reward of 23.902206
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 17ms Predicted reward / PG: 448.03955 / 564.582
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 17ms Predicted reward / PG: 457.03452 / 600.41907
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 39ms Predicted reward / PG: 454.85583 / 491.36865
+Logged reward of 61.041981
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 48 after 29ms Predicted reward / PG: 529.74084 / 675.24817
+Logged reward of 10108.268759
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 31ms Predicted reward / PG: 538.5864 / 564.5575
+Logged reward of 149.008835
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 32ms Predicted reward / PG: 451.03583 / 539.92883
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 26ms Predicted reward / PG: 124.35099 / 152.14766
+Logged reward of 1499.411453
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 44ms Predicted reward / PG: 139.23416 / 151.71588
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 24ms Predicted reward / PG: 150.34886 / 183.38057
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 30ms Predicted reward / PG: 133.73036 / 155.8674
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 25ms Predicted reward / PG: 127.0685 / 161.36156
+Logged reward of 7977.143234
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 45ms Predicted reward / PG: 142.31705 / 162.71654
+Logged reward of 24165.781609
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 27ms Predicted reward / PG: 151.93297 / 179.83044
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 27ms Predicted reward / PG: 157.19417 / 157.19417
+Logged reward of 1323.55635
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 17ms Predicted reward / PG: 130.50194 / 140.42949
+Logged reward of 2062.410398
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 28ms Predicted reward / PG: 2146.638 / 2155.603
+Logged reward of 3791.111532
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 34ms Predicted reward / PG: 1973.386 / 2069.181
+Logged reward of 72.779067
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 22ms Predicted reward / PG: 2050.4062 / 2325.0103
+Logged reward of 3740.266938
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 44 after 24ms Predicted reward / PG: 2244.5842 / 2274.5774
+Logged reward of 29192.030825
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 18ms Predicted reward / PG: 2079.8616 / 2084.048
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 32ms Predicted reward / PG: 2070.6106 / 2070.6106
+Logged reward of 1093.9914
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 26ms Predicted reward / PG: 1927.9906 / 2176.643
+Logged reward of 160.785491
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 24ms Predicted reward / PG: 2131.6418 / 2131.6418
+Logged reward of 92.080892
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 34ms Predicted reward / PG: 2035.5283 / 2035.5283
+Logged reward of 1917.350278
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 25ms Predicted reward / PG: 2045.3834 / 2045.3834
+Logged reward of 90.487
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 16ms Predicted reward / PG: 94.134224 / 94.73304
+Logged reward of 2803.823229
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 23ms Predicted reward / PG: 89.84487 / 93.20983
+Logged reward of 9258.205255
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 32ms Predicted reward / PG: 89.53347 / 96.75317
+Logged reward of 5779.070595
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 18ms Predicted reward / PG: 89.5497 / 93.679184
+Logged reward of 21765.019883
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 31ms Predicted reward / PG: 90.88079 / 92.827736
+Logged reward of 57.514243
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 40ms Predicted reward / PG: 90.25527 / 92.70522
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 24ms Predicted reward / PG: 93.6072 / 93.6072
+Logged reward of 429.353188
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 48 after 32ms Predicted reward / PG: 92.1767 / 93.55453
+Logged reward of 10084.50862
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 21ms Predicted reward / PG: 90.19455 / 93.01835
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 21ms Predicted reward / PG: 10141.775 / 10422.714
+Logged reward of 9309.385095
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 25ms Predicted reward / PG: 10166.112 / 10291.641
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 42 after 27ms Predicted reward / PG: 10144.996 / 11169.2
+Logged reward of 3097.166007
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 19ms Predicted reward / PG: 9999.717 / 10316.583
+Logged reward of 1667.156603
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 16 after 31ms Predicted reward / PG: 10005.756 / 10875.141
+Logged reward of 12618.609408
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 32ms Predicted reward / PG: 10071.571 / 10431.207
+Logged reward of 17433.71706
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 23ms Predicted reward / PG: 10149.003 / 10335.305
+Logged reward of 6215.058608
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 27ms Predicted reward / PG: 10724.725 / 10768.233
+Logged reward of 5653.946811
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 32ms Predicted reward / PG: 10059.791 / 10336.143
+Logged reward of 12959.644707
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 31ms Predicted reward / PG: 10014.501 / 10856.403
+Logged reward of 3835.172275
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 34 after 26ms Predicted reward / PG: 3816.8774 / 3829.0283
+Logged reward of 6696.522188
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 15ms Predicted reward / PG: 3910.2083 / 3910.2083
+Logged reward of 152.993058
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 7 after 26ms Predicted reward / PG: 3817.8716 / 3918.9016
+Logged reward of 2856.293273
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 35ms Predicted reward / PG: 3809.3298 / 3916.3303
+Logged reward of 4627.063033
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 20ms Predicted reward / PG: 3849.8281 / 3890.5671
+Logged reward of 253.315595
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 45ms Predicted reward / PG: 3814.5332 / 3900.6638
+Logged reward of 586.805013
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 42 after 579ms Predicted reward / PG: 3814.6243 / 3866.6548
+Logged reward of 8070.062233
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 33ms Predicted reward / PG: 3820.1777 / 3903.7424
+Logged reward of 5621.201703
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 18ms Predicted reward / PG: 3824.626 / 3831.0635
+Logged reward of 708.513956
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 48 after 31ms Predicted reward / PG: 3816.0325 / 3884.3518
+Logged reward of 10828.660422
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 17ms Predicted reward / PG: 10727.609 / 10727.609
+Logged reward of 91.404019
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 21ms Predicted reward / PG: 11215.787 / 11241.8
+Logged reward of 6499.289615
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 17ms Predicted reward / PG: 10932.526 / 10932.526
+Logged reward of 78.984488
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 29ms Predicted reward / PG: 11036.969 / 11063.285
+Logged reward of 1857.475688
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 24ms Predicted reward / PG: 11124.496 / 11241.993
+Logged reward of 5255.333984
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 24ms Predicted reward / PG: 10601.869 / 10601.869
+Logged reward of 67.708875
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 15ms Predicted reward / PG: 11117.093 / 11127.201
+Logged reward of 3120.707492
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 43ms Predicted reward / PG: 10667.036 / 10667.036
+Logged reward of 512.659041
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 17ms Predicted reward / PG: 10970.107 / 10970.107
+Logged reward of 29.59326
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 18ms Predicted reward / PG: 10900.199 / 10900.199
+Logged reward of 343.157234
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 32 after 22ms Predicted reward / PG: 352.6557 / 353.54706
+Logged reward of 19260.581319
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 22ms Predicted reward / PG: 343.36826 / 345.0436
+Logged reward of 1936.342124
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 22ms Predicted reward / PG: 352.54996 / 358.87628
+Logged reward of 4624.343346
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 18ms Predicted reward / PG: 345.6656 / 345.6656
+Logged reward of 145.772832
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 33ms Predicted reward / PG: 344.09412 / 347.6943
+Logged reward of 120.532059
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 30ms Predicted reward / PG: 345.56955 / 346.9094
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 30ms Predicted reward / PG: 347.41574 / 347.9724
+Logged reward of 7711.285035
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 18ms Predicted reward / PG: 345.977 / 346.96384
+Logged reward of 609.46131
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 27ms Predicted reward / PG: 344.48666 / 344.48666
+Logged reward of 746.479877
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 21ms Predicted reward / PG: 347.04495 / 362.3133
+Logged reward of 3804.522497
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 24ms Predicted reward / PG: 3734.1917 / 3738.7937
+Logged reward of 49.540703
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 25ms Predicted reward / PG: 3734.1917 / 3738.7937
+Logged reward of 49.038609
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 38ms Predicted reward / PG: 51.535168 / 206.45566
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 30ms Predicted reward / PG: 18.286413 / 1229.5726
+Logged reward of 2319.507928
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 28ms Predicted reward / PG: 1251.3848 / 6222.2393
+Logged reward of 4399.986117
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 22ms Predicted reward / PG: 397.00403 / 397.00403
+Logged reward of 93.181211
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 27ms Predicted reward / PG: 99.98627 / 1260.0945
+Logged reward of 851.504443
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 31ms Predicted reward / PG: 2543.891 / 7825.241
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 25ms Predicted reward / PG: 1301.7032 / 1978.5188
+Logged reward of 1383.291059
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 31ms Predicted reward / PG: 289.92975 / 289.92975
+Logged reward of 46.154601
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 31ms Predicted reward / PG: 1680.9194 / 4166.8535
+Logged reward of 1320.08447
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 32ms Predicted reward / PG: 51.535168 / 186.40152
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 17ms Predicted reward / PG: 1025.1415 / 1067.287
+Logged reward of 35.301223
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 29ms Predicted reward / PG: 1057.6885 / 1112.1514
+Logged reward of 20364.521224
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 21ms Predicted reward / PG: 1047.1571 / 1080.506
+Logged reward of 29.699276
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 29ms Predicted reward / PG: 1097.9626 / 1097.9626
+Logged reward of 1587.739414
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 29ms Predicted reward / PG: 1110.1547 / 1110.1547
+Logged reward of 62.045842
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 20 after 25ms Predicted reward / PG: 1030.6619 / 1050.3872
+Logged reward of 156.143482
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 33ms Predicted reward / PG: 1075.7544 / 1116.9355
+Logged reward of 1363.324652
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 36ms Predicted reward / PG: 1123.3303 / 1218.1404
+Logged reward of 381.196174
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 19ms Predicted reward / PG: 1137.5479 / 1137.5479
+Logged reward of 377.199408
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 44 after 32ms Predicted reward / PG: 1890.5703 / 2578.0376
+Logged reward of 8710.075584
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 15ms Predicted reward / PG: 6500.0522 / 6963.2754
+Logged reward of 104.776923
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 20ms Predicted reward / PG: 6747.643 / 8157.035
+Logged reward of 445.79018
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 28ms Predicted reward / PG: 6529.3945 / 7038.8057
+Logged reward of 294.996411
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 40ms Predicted reward / PG: 7184.914 / 7184.914
+Logged reward of 684.337493
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 29ms Predicted reward / PG: 7107.193 / 7107.193
+Logged reward of 549.189324
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 23ms Predicted reward / PG: 6941.459 / 6941.459
+Logged reward of 180.001781
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 25ms Predicted reward / PG: 6579.8784 / 6864.5566
+Logged reward of 707.580058
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 26ms Predicted reward / PG: 8150.69 / 8615.619
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 35ms Predicted reward / PG: 7056.627 / 7056.627
+Logged reward of 1896.379192
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 32ms Predicted reward / PG: 1629.557 / 1754.7069
+Logged reward of 66.270168
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 36ms Predicted reward / PG: 1783.2585 / 1783.2585
+Logged reward of 116.840991
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 22ms Predicted reward / PG: 1804.8342 / 1804.8342
+Logged reward of 681.884116
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 38ms Predicted reward / PG: 1627.2137 / 1690.2445
+Logged reward of 1851.12138
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 18ms Predicted reward / PG: 1796.5334 / 1796.5334
+Logged reward of 93.543432
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 18ms Predicted reward / PG: 1856.3492 / 1985.1135
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 34ms Predicted reward / PG: 1629.557 / 1755.855
+Logged reward of 62.186567
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 30ms Predicted reward / PG: 1907.9342 / 2342.9963
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 144ms Predicted reward / PG: 1782.4054 / 1782.4054
+Logged reward of 158.299027
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 34ms Predicted reward / PG: 1746.9907 / 1806.4786
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 23ms Predicted reward / PG: 150.45427 / 158.11774
+Logged reward of 721.604088
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 44ms Predicted reward / PG: 144.64368 / 162.2783
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 24ms Predicted reward / PG: 154.40651 / 191.6222
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 26ms Predicted reward / PG: 144.65034 / 161.91441
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 18ms Predicted reward / PG: 152.15489 / 163.9248
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 13 after 40ms Predicted reward / PG: 142.97565 / 162.11316
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 28ms Predicted reward / PG: 153.84988 / 177.39658
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 28ms Predicted reward / PG: 160.36475 / 160.36475
+Logged reward of 1238.537853
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 18ms Predicted reward / PG: 149.4902 / 155.1978
+Logged reward of 589.977177
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 27ms Predicted reward / PG: 562.11304 / 636.6831
+Logged reward of 5848.314947
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 35ms Predicted reward / PG: 557.77905 / 587.6734
+Logged reward of 377.61173
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 20ms Predicted reward / PG: 552.7479 / 669.63306
+Logged reward of 10640.04484
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 34 after 24ms Predicted reward / PG: 614.16223 / 686.3618
+Logged reward of 9926.430849
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 25ms Predicted reward / PG: 570.2157 / 609.0372
+Logged reward of 6700.377565
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 48 after 26ms Predicted reward / PG: 579.08435 / 620.1081
+Logged reward of 9317.743901
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 29ms Predicted reward / PG: 561.87573 / 620.5351
+Logged reward of 7791.338658
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 17ms Predicted reward / PG: 567.0889 / 605.36414
+Logged reward of 1409.168583
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 32ms Predicted reward / PG: 552.06287 / 610.6546
+Logged reward of 7203.561999
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 8 after 27ms Predicted reward / PG: 546.9632 / 601.97394
+Logged reward of 2983.391478
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 1 after 16ms Predicted reward / PG: 2922.3206 / 2948.7527
+Logged reward of 4506.583543
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 28ms Predicted reward / PG: 2944.4617 / 2976.412
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 29ms Predicted reward / PG: 2936.9824 / 2970.784
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 18ms Predicted reward / PG: 2963.365 / 2970.1772
+Logged reward of 2121.744133
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 24ms Predicted reward / PG: 2929.613 / 2977.4688
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 32ms Predicted reward / PG: 2958.8972 / 2985.2673
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 34 after 25ms Predicted reward / PG: 2916.0127 / 2960.1665
+Logged reward of 12813.068359
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 29ms Predicted reward / PG: 2939.4138 / 2977.457
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 20ms Predicted reward / PG: 2955.5134 / 2984.6152
+Logged reward of 1641.037711
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 23ms Predicted reward / PG: 1619.031 / 1700.7089
+Logged reward of 8658.353486
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 26ms Predicted reward / PG: 1619.1671 / 1680.8882
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 33ms Predicted reward / PG: 1621.0385 / 1938.0464
+Logged reward of 3172.164421
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 34 after 18ms Predicted reward / PG: 1622.1875 / 1779.5494
+Logged reward of 3092.858432
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 33ms Predicted reward / PG: 1622.9214 / 1625.633
+Logged reward of 5656.017113
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 34 after 31ms Predicted reward / PG: 1618.3336 / 1643.0778
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 24ms Predicted reward / PG: 1621.3934 / 1718.0068
+Logged reward of 7235.351555
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 2 after 29ms Predicted reward / PG: 1843.315 / 1887.736
+Logged reward of 9778.561223
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 51ms Predicted reward / PG: 1616.6334 / 1689.2285
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 27 after 32ms Predicted reward / PG: 1608.2554 / 1628.9944
+Logged reward of 3837.270192
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 29 after 26ms Predicted reward / PG: 3847.812 / 3858.939
+Logged reward of 296.821023
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 2 after 15ms Predicted reward / PG: 3819.1938 / 3859.6199
+Logged reward of 8794.297225
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 33ms Predicted reward / PG: 3832.7964 / 3841.2515
+Logged reward of 4206.042035
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 37ms Predicted reward / PG: 3841.5078 / 3847.3425
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 39 after 19ms Predicted reward / PG: 3845.1082 / 3861.6785
+Logged reward of 426.946929
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 52ms Predicted reward / PG: 3834.1562 / 3848.4912
+Logged reward of 1856.439677
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 35ms Predicted reward / PG: 3842.666 / 3842.666
+Logged reward of 2150.707097
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 34ms Predicted reward / PG: 3843.4575 / 3844.0957
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 33 after 17ms Predicted reward / PG: 3823.076 / 3856.495
+Logged reward of 1836.952455
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 35 after 33ms Predicted reward / PG: 3818.3013 / 3860.268
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 19ms Predicted reward / PG: 1777.3297 / 1779.4817
+Logged reward of 129.785437
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 32 after 24ms Predicted reward / PG: 1778.9374 / 1894.808
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 21ms Predicted reward / PG: 1780.2551 / 1780.9069
+Logged reward of 116.317448
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 36ms Predicted reward / PG: 1782.3033 / 1783.5956
+Logged reward of 2229.709477
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 31ms Predicted reward / PG: 1772.2195 / 1772.2195
+Logged reward of 6727.529159
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 28ms Predicted reward / PG: 1774.9663 / 1777.8818
+Logged reward of 106.080977
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 27 after 23ms Predicted reward / PG: 1780.8677 / 1782.5193
+Logged reward of 12010.011932
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 41ms Predicted reward / PG: 1770.0758 / 1777.5385
+Logged reward of 583.098365
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 24ms Predicted reward / PG: 1780.0896 / 1780.3062
+Logged reward of 50.432036
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 18ms Predicted reward / PG: 1778.8875 / 1779.0223
+Logged reward of 11625.458914
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 20 after 25ms Predicted reward / PG: 11570.399 / 11579.298
+Logged reward of 19565.395135
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 2 after 36ms Predicted reward / PG: 11616.906 / 11625.02
+Logged reward of 6284.13353
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 27 after 24ms Predicted reward / PG: 11614.681 / 11659.319
+Logged reward of 27423.803848
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 20ms Predicted reward / PG: 11614.381 / 11625.418
+Logged reward of 1652.167348
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 33ms Predicted reward / PG: 11622.924 / 11628.702
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 27 after 28ms Predicted reward / PG: 11615.91 / 11635.469
+Logged reward of 4523.361809
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 27 after 575ms Predicted reward / PG: 11616.84 / 11637.722
+Logged reward of 9517.643091
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 33 after 19ms Predicted reward / PG: 11615.922 / 11644.361
+Logged reward of 1455.626102
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 34 after 32ms Predicted reward / PG: 11622.77 / 11632.806
+Logged reward of 8416.042193
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 20ms Predicted reward / PG: 11611.435 / 11629.689
+Logged reward of 5719.378989
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 24ms Predicted reward / PG: 5687.626 / 5691.5117
+Logged reward of 52.835852
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 1 after 24ms Predicted reward / PG: 5672.072 / 5691.5117
+Logged reward of 2138.013856
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 41ms Predicted reward / PG: 74.38052 / 311.6303
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 22ms Predicted reward / PG: 54.08483 / 499.3831
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 27ms Predicted reward / PG: 1585.7639 / 5517.2715
+Logged reward of 5645.52655
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 17ms Predicted reward / PG: 194.37961 / 230.97884
+Logged reward of 896.018402
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 30ms Predicted reward / PG: 79.1902 / 870.58453
+Logged reward of 632.563884
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 31ms Predicted reward / PG: 2128.6287 / 6051.168
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 29ms Predicted reward / PG: 240.97559 / 1141.1024
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 29ms Predicted reward / PG: 361.84375 / 463.3873
+Logged reward of 64.464454
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 18 after 32ms Predicted reward / PG: 1061.5264 / 3153.3135
+Logged reward of 1222.86558
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 30ms Predicted reward / PG: 74.38052 / 263.96783
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 15ms Predicted reward / PG: 1027.3566 / 1027.3566
+Logged reward of 9.735008
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 29ms Predicted reward / PG: 1057.6763 / 1189.5231
+Logged reward of 257.326364
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 19ms Predicted reward / PG: 1014.7076 / 1014.7076
+Logged reward of 10.652391
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 28ms Predicted reward / PG: 1131.7202 / 1131.7202
+Logged reward of 1440.991411
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 26ms Predicted reward / PG: 1124.9269 / 1163.9576
+Logged reward of 61.869016
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 29ms Predicted reward / PG: 1131.1089 / 1131.1089
+Logged reward of 120.912529
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 33ms Predicted reward / PG: 1086.2372 / 1245.1604
+Logged reward of 253.278236
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 31ms Predicted reward / PG: 1101.863 / 1101.863
+Logged reward of 323.926288
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 19ms Predicted reward / PG: 1424.6519 / 1424.6519
+Logged reward of 325.661142
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 44 after 31ms Predicted reward / PG: 1675.6315 / 2049.094
+Logged reward of 7534.785284
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 13 after 14ms Predicted reward / PG: 5833.345 / 5861.836
+Logged reward of 5335.379521
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 20ms Predicted reward / PG: 6090.683 / 6094.71
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 34ms Predicted reward / PG: 5875.993 / 5945.6045
+Logged reward of 260.574165
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 38ms Predicted reward / PG: 5913.773 / 7079.6694
+Logged reward of 712.693242
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 33ms Predicted reward / PG: 5997.367 / 6964.5044
+Logged reward of 545.22119
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 28ms Predicted reward / PG: 5931.8843 / 7107.45
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 31ms Predicted reward / PG: 5642.409 / 6213.2007
+Logged reward of 842.303845
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 38 after 34ms Predicted reward / PG: 6557.5425 / 7963.4585
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 10 after 40ms Predicted reward / PG: 6143.5215 / 6944.9487
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 30ms Predicted reward / PG: 757.06213 / 833.47626
+Logged reward of 3051.526222
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 24ms Predicted reward / PG: 751.15967 / 819.4643
+Logged reward of 2176.53196
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 24ms Predicted reward / PG: 770.5623 / 855.0615
+Logged reward of 9268.470043
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 48ms Predicted reward / PG: 769.0036 / 857.8753
+Logged reward of 620.941536
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 21ms Predicted reward / PG: 754.1226 / 856.79816
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 19ms Predicted reward / PG: 759.9903 / 837.2038
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 39ms Predicted reward / PG: 759.4361 / 824.15356
+Logged reward of 3543.180772
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 32ms Predicted reward / PG: 764.5989 / 887.96063
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 36 after 35ms Predicted reward / PG: 771.45984 / 864.73254
+Logged reward of 3233.366015
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 33ms Predicted reward / PG: 748.50354 / 868.2299
+Logged reward of 8681.756265
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 19ms Predicted reward / PG: 8435.343 / 9097.829
+Logged reward of 1344.726572
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 46ms Predicted reward / PG: 8646.498 / 9264.412
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 25ms Predicted reward / PG: 8886.471 / 8973.918
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 29ms Predicted reward / PG: 8823.339 / 9439.682
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 12 after 19ms Predicted reward / PG: 8594.83 / 8871.549
+Logged reward of 10427.91297
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 41ms Predicted reward / PG: 8509.086 / 9428.199
+Logged reward of 26124.549676
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 26ms Predicted reward / PG: 8781.587 / 8903.734
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 27ms Predicted reward / PG: 8659.5625 / 9444.175
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 21ms Predicted reward / PG: 8375.36 / 8788.978
+Logged reward of 2098.4594
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 4 after 27ms Predicted reward / PG: 2145.5598 / 2156.8938
+Logged reward of 3818.233169
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 5 after 35ms Predicted reward / PG: 2108.8672 / 2114.8074
+Logged reward of 22.793876
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 22ms Predicted reward / PG: 2118.399 / 2134.3445
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 41 after 25ms Predicted reward / PG: 2285.2 / 2380.3416
+Logged reward of 3823.349588
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 25ms Predicted reward / PG: 2120.2756 / 2141.207
+Logged reward of 1777.901911
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 3 after 28ms Predicted reward / PG: 2159.877 / 2235.9822
+Logged reward of 1215.885669
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 17 after 28ms Predicted reward / PG: 2162.7373 / 2253.781
+Logged reward of 168.378396
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 19ms Predicted reward / PG: 2144.46 / 2144.46
+Logged reward of 90.301842
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 33ms Predicted reward / PG: 2129.1833 / 2290.041
+Logged reward of 7211.903598
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 28ms Predicted reward / PG: 2102.3933 / 2284.1448
+Logged reward of 2272.844161
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 17ms Predicted reward / PG: 2314.8684 / 2394.3457
+Logged reward of 3659.949059
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 26ms Predicted reward / PG: 2280.117 / 2446.6184
+Logged reward of 3469.251241
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 560ms Predicted reward / PG: 2272.2998 / 2423.321
+Logged reward of 6132.483426
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 19ms Predicted reward / PG: 2304.4697 / 2335.6912
+Logged reward of 2054.722181
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 30 after 30ms Predicted reward / PG: 2308.8325 / 2427.6091
+Logged reward of 254.052631
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 37ms Predicted reward / PG: 2292.4534 / 2292.4534
+Logged reward of 1242.96891
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 25ms Predicted reward / PG: 2316.1597 / 2316.1597
+Logged reward of 359.3157
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 9 after 28ms Predicted reward / PG: 2281.1875 / 2378.4377
+Logged reward of 2864.153864
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 37 after 19ms Predicted reward / PG: 2296.8538 / 2351.2605
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 21ms Predicted reward / PG: 2902.8716 / 2902.8716
+Logged reward of 772.371841
+GNTOFeaturizer.transform called with 49 plans.
+Selected index 0 after 26ms Predicted reward / PG: 2902.625 / 2902.625
