@@ -1,4 +1,12 @@
+# Qucik Comparison: LIMAO vs. GNTO
+```shell
+# run the experiment
+cd gnto_ex
+./run_experiment_safe.sh
 
+# ploy the results
+python plot_end2end_comparison.py
+```
 # LIMAO: A Framework for Lifelong Modular Learned Query Optimization
 <p align="center">
     <img src="assets/LIMAO_icon.png" width="200"/>

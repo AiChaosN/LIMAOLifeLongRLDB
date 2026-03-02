@@ -35,11 +35,14 @@ def _bao_db():
     config = read_config()
     model_type = config.get("ModelType", "BAO")
     
-    if model_type == "GNTO":
-        db_path = "bao_gnto.db"
-    else:
-        db_path = "bao.db"
-        
+    # 动态生成数据库名称，避免歧义
+    # 如果是 BAO 模型，生成 history_BAO.db
+    # 如果是 GNTO 模型，生成 history_GNTO.db
+    db_path = f"history_{model_type}.db"
+    
+    # 打印一下当前使用的数据库，方便调试
+    # print(f"[System] Connecting to history database: {db_path}")
+
     conn = sqlite3.connect(db_path)
     c = conn.cursor()
     c.execute("""

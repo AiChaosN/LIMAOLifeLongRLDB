@@ -1,0 +1,1463 @@
+Failed to send email: can only concatenate str (not "bytes") to str
+Partition: [4, 3, 7, 3, 3, 4, 6, 6, 3, 10, 4, 3, 10, 3, 10, 5, 10, 3, 10, 9, 3, 3, 5, 3, 3, 3, 3, 6, 3, 10, 3, 3, 4, 3, 3, 3, 5, 3, 5, 10]
+Read 112 queries.
+Executing init queries using PG optimizer
+x x 22a_job.sql 1.053600549697876 PG
+x x 18b_job.sql 0.6669459342956543 PG
+x x 17b_job.sql 7.091814756393433 PG
+x x 1b_job.sql 0.1572251319885254 PG
+x x 7b_job.sql 0.28472900390625 PG
+x x 16b_job.sql 12.06861138343811 PG
+x x 12c_job.sql 1.57547926902771 PG
+x x 23b_job.sql 0.1643228530883789 PG
+x x 19c_job.sql 2.1172080039978027 PG
+x x 22b_job.sql 0.37102293968200684 PG
+x x 6c_job.sql 0.1066904067993164 PG
+x x 31b_job.sql 0.5119073390960693 PG
+x x 32a_job.sql 0.10660266876220703 PG
+x x 31a_job.sql 2.266871213912964 PG
+x x 21a_job.sql 0.19202184677124023 PG
+x x 11c_job.sql 0.21137166023254395 PG
+x x 30b_job.sql 0.35717177391052246 PG
+x x 24a_job.sql 0.5697207450866699 PG
+x x 2a_job.sql 0.4819457530975342 PG
+x x 19d_job.sql 10.19363284111023 PG
+x x 3b_job.sql 0.16424918174743652 PG
+x x 10a_job.sql 0.6856999397277832 PG
+x x 23c_job.sql 0.4374196529388428 PG
+x x 28c_job.sql 0.9059915542602539 PG
+x x 22d_job.sql 0.6366167068481445 PG
+x x 14a_job.sql 0.25330495834350586 PG
+x x 13b_job.sql 0.8695297241210938 PG
+x x 9c_job.sql 1.2661588191986084 PG
+x x 30c_job.sql 2.131401538848877 PG
+x x 29c_job.sql 4.723297595977783 PG
+x x 27b_job.sql 0.13319849967956543 PG
+x x 11d_job.sql 0.19690322875976562 PG
+x x 7a_job.sql 0.7855527400970459 PG
+x x 33b_job.sql 0.271146297454834 PG
+x x 4c_job.sql 0.16561579704284668 PG
+x x 6f_job.sql 3.3820505142211914 PG
+x x 27a_job.sql 0.140580415725708 PG
+x x 16c_job.sql 1.0245773792266846 PG
+x x 23a_job.sql 0.2447834014892578 PG
+x x 10a_ceb.sql 1.5120677947998047 PG
+x x 29b_job.sql 2.15641188621521 PG
+x x 2c_job.sql 0.40230488777160645 PG
+x x 28b_job.sql 0.4659109115600586 PG
+x x 17e_job.sql 6.519533395767212 PG
+x x 25c_job.sql 5.01249098777771 PG
+x x 6d_job.sql 3.1071715354919434 PG
+x x 8b_ceb.sql 20.1116144657135 PG
+x x 16d_job.sql 0.8816115856170654 PG
+x x 9b_job.sql 1.2523090839385986 PG
+x x 1c_job.sql 0.1808459758758545 PG
+x x 13d_job.sql 3.121936082839966 PG
+x x 27c_job.sql 0.16804766654968262 PG
+x x 17c_job.sql 4.138731479644775 PG
+x x 8d_job.sql 3.049340009689331 PG
+x x 8a_job.sql 1.7361645698547363 PG
+x x 9a_job.sql 1.2255501747131348 PG
+x x 16a_job.sql 0.22561073303222656 PG
+x x 1d_job.sql 0.20540881156921387 PG
+x x 30a_job.sql 2.209193468093872 PG
+x x 12b_job.sql 0.1879129409790039 PG
+x x 5c_job.sql 0.3054616451263428 PG
+x x 25b_job.sql 0.2726614475250244 PG
+x x 24b_job.sql 0.34915637969970703 PG
+x x 6a_job.sql 0.10878181457519531 PG
+x x 21b_job.sql 0.14559578895568848 PG
+x x 26a_job.sql 1.3119659423828125 PG
+x x 10b_job.sql 0.4352607727050781 PG
+x x 25a_job.sql 1.8207893371582031 PG
+x x 29a_job.sql 2.1775572299957275 PG
+x x 6b_job.sql 0.23900389671325684 PG
+x x 18a_job.sql 0.775728702545166 PG
+x x 7c_job.sql 2.728532314300537 PG
+x x 15a_job.sql 0.7734262943267822 PG
+x x 2d_job.sql 0.5160493850708008 PG
+x x 19b_job.sql 0.34424352645874023 PG
+x x 20c_job.sql 0.9952850341796875 PG
+x x 18c_job.sql 7.031940460205078 PG
+x x 9d_job.sql 2.582275629043579 PG
+x x 26c_job.sql 3.3820087909698486 PG
+x x 15b_job.sql 0.14029741287231445 PG
+x x 12a_job.sql 0.3569965362548828 PG
+x x 3a_job.sql 0.2275528907775879 PG
+x x 21c_job.sql 0.16076874732971191 PG
+x x 22c_job.sql 1.3460066318511963 PG
+x x 5a_job.sql 0.23832917213439941 PG
+x x 33a_job.sql 0.330291748046875 PG
+x x 20a_job.sql 1.8025078773498535 PG
+x x 31c_job.sql 1.6590144634246826 PG
+x x 1a_job.sql 0.19608044624328613 PG
+x x 19a_job.sql 1.5337238311767578 PG
+x x 32b_job.sql 0.18522858619689941 PG
+x x 8c_job.sql 4.562031984329224 PG
+x x 4a_job.sql 0.18305015563964844 PG
+x x 13a_job.sql 2.1098427772521973 PG
+x x 17f_job.sql 5.890804052352905 PG
+x x 14b_job.sql 0.16956353187561035 PG
+x x 3c_job.sql 0.31755542755126953 PG
+x x 28a_job.sql 0.7476162910461426 PG
+x x 6e_job.sql 0.1483144760131836 PG
+x x 2b_job.sql 0.5432286262512207 PG
+x x 10c_job.sql 6.018949270248413 PG
+x x 8b_job.sql 0.3979010581970215 PG
+x x 17a_job.sql 6.843351125717163 PG
+x x 5b_job.sql 0.23662376403808594 PG
+x x 26b_job.sql 0.2460784912109375 PG
+x x 14c_job.sql 0.43625712394714355 PG
+x x 20b_job.sql 1.3264374732971191 PG
+x x 4b_job.sql 0.1636350154876709 PG
+x x 13c_job.sql 0.844937801361084 PG
+x x 17d_job.sql 3.929157018661499 PG
+x x 11b_job.sql 0.13097929954528809 PG
+x x 11a_job.sql 0.1452956199645996 PG
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/sklearn/base.py:348: InconsistentVersionWarning: Trying to unpickle estimator FunctionTransformer from version 1.3.2 when using version 1.3.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/sklearn/base.py:348: InconsistentVersionWarning: Trying to unpickle estimator MinMaxScaler from version 1.3.2 when using version 1.3.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/sklearn/base.py:348: InconsistentVersionWarning: Trying to unpickle estimator Pipeline from version 1.3.2 when using version 1.3.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+Initial input channels: 10
+Epoch 0 training loss: 0.13216477100338256
+Epoch 15 training loss: 0.034183697775006294
+Epoch 30 training loss: 0.01147322915494442
+Stopped training from convergence condition at epoch 42
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+=== Executing queries using BAO optimizer, global iteration 1/200, partition 4, phase iteration 1 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 1
+BAO 22a_job.sql 1.0266902446746826
+BAO 18b_job.sql 0.5756609439849854
+BAO 17b_job.sql 32.0
+BAO 1b_job.sql 0.2623872756958008
+BAO 7b_job.sql 0.46181201934814453
+BAO 16b_job.sql 32.0
+BAO 12c_job.sql 32.0
+BAO 23b_job.sql 0.8681232929229736
+BAO 19c_job.sql 32.0
+BAO 22b_job.sql 0.9490258693695068
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.4042413830757141
+Epoch 15 training loss: 0.08394020050764084
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 2
+BAO 6c_job.sql 12.31869626045227
+BAO 31b_job.sql 13.673649787902832
+BAO 32a_job.sql 0.7112102508544922
+BAO 31a_job.sql 2.6766278743743896
+BAO 21a_job.sql 0.6437137126922607
+BAO 11c_job.sql 0.489696741104126
+BAO 30b_job.sql 11.522550106048584
+BAO 24a_job.sql 2.1359870433807373
+BAO 2a_job.sql 32.0
+BAO 19d_job.sql 17.732301235198975
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.30430448055267334
+Epoch 15 training loss: 0.04802317917346954
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 3
+BAO 3b_job.sql 7.89174747467041
+BAO 10a_job.sql 4.839633464813232
+BAO 23c_job.sql 2.9008238315582275
+BAO 28c_job.sql 14.734814167022705
+BAO 22d_job.sql 6.059192419052124
+BAO 14a_job.sql 32.0
+BAO 13b_job.sql 1.0466053485870361
+BAO 9c_job.sql 18.144640922546387
+BAO 30c_job.sql 3.723893165588379
+BAO 29c_job.sql 32.0
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.10046321898698807
+Epoch 15 training loss: 0.003572308225557208
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 4
+BAO 27b_job.sql 2.222194194793701
+BAO 11d_job.sql 0.3638458251953125
+BAO 7a_job.sql 32.0
+BAO 33b_job.sql 7.21187686920166
+BAO 4c_job.sql 32.0
+BAO 6f_job.sql 32.0
+BAO 27a_job.sql 1.9454164505004883
+BAO 16c_job.sql 32.0
+BAO 23a_job.sql 10.36645793914795
+BAO 10a_ceb.sql 19.75413489341736
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.215196892619133
+Epoch 15 training loss: 0.0005843175458721817
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 0.6046063899993896
+BAO 28b_job.sql 32.0
+BAO 17e_job.sql 7.0963053703308105
+BAO 25c_job.sql 10.033400297164917
+BAO 6d_job.sql 3.506521224975586
+BAO 8b_ceb.sql 32.0
+BAO 16d_job.sql 1.1083450317382812
+BAO 9b_job.sql 15.041249513626099
+BAO 1c_job.sql 1.4638068675994873
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.48397403955459595
+Epoch 15 training loss: 0.025294067338109016
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 6
+BAO 13d_job.sql 5.9647057056427
+BAO 27c_job.sql 2.2731869220733643
+BAO 17c_job.sql 7.574146032333374
+BAO 8d_job.sql 6.591023921966553
+BAO 8a_job.sql 4.086407423019409
+BAO 9a_job.sql 10.996159553527832
+BAO 16a_job.sql 9.823522806167603
+BAO 1d_job.sql 1.4633617401123047
+BAO 30a_job.sql 11.154154300689697
+BAO 12b_job.sql 3.24483060836792
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.393938809633255
+Epoch 15 training loss: 0.015124066732823849
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 7
+BAO 5c_job.sql 0.3482375144958496
+BAO 25b_job.sql 0.5494463443756104
+BAO 24b_job.sql 1.9532854557037354
+BAO 6a_job.sql 0.20903897285461426
+BAO 21b_job.sql 0.4137601852416992
+BAO 26a_job.sql 12.089027404785156
+BAO 10b_job.sql 3.475877523422241
+BAO 25a_job.sql 32.0
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 0.43467283248901367
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.5756273865699768
+Epoch 15 training loss: 0.007538365665823221
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 8
+BAO 18a_job.sql 10.545753002166748
+BAO 7c_job.sql 2.538599729537964
+BAO 15a_job.sql 32.0
+BAO 2d_job.sql 32.0
+BAO 19b_job.sql 6.398245573043823
+BAO 20c_job.sql 19.82388186454773
+BAO 18c_job.sql 7.260345458984375
+BAO 9d_job.sql 2.8481783866882324
+BAO 26c_job.sql 20.232699394226074
+BAO 15b_job.sql 4.338136911392212
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.20738288760185242
+Epoch 15 training loss: 0.0415230318903923
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 9
+BAO 12a_job.sql 3.6642110347747803
+BAO 3a_job.sql 7.0676398277282715
+BAO 21c_job.sql 0.7235639095306396
+BAO 22c_job.sql 9.401119947433472
+BAO 5a_job.sql 0.5029222965240479
+BAO 33a_job.sql 8.12949252128601
+BAO 20a_job.sql 9.900949954986572
+BAO 31c_job.sql 12.162169933319092
+BAO 1a_job.sql 1.702779769897461
+BAO 19a_job.sql 11.79102349281311
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.6856566667556763
+Epoch 15 training loss: 0.13206736743450165
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 10
+BAO 32b_job.sql 0.3488922119140625
+BAO 8c_job.sql 32.0
+BAO 4a_job.sql 3.289738893508911
+BAO 13a_job.sql 7.4410693645477295
+BAO 17f_job.sql 6.497787952423096
+BAO 14b_job.sql 0.3423736095428467
+BAO 3c_job.sql 0.40210914611816406
+BAO 28a_job.sql 10.73830270767212
+BAO 6e_job.sql 2.1701443195343018
+BAO 2b_job.sql 0.5428602695465088
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.4175250828266144
+Epoch 15 training loss: 0.07131772488355637
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 11
+BAO 10c_job.sql 25.821227550506592
+BAO 8b_job.sql 6.149484634399414
+BAO 17a_job.sql 11.966857671737671
+BAO 5b_job.sql 0.6825807094573975
+BAO 26b_job.sql 13.007515668869019
+BAO 14c_job.sql 5.014718532562256
+BAO 20b_job.sql 10.103938817977905
+BAO 4b_job.sql 1.7039787769317627
+BAO 13c_job.sql 2.04288387298584
+BAO 17d_job.sql 8.390614748001099
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.583090603351593
+Epoch 15 training loss: 0.030456742271780968
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 2 queries using BAO optimizer
+Global Iteration 1, Episode 12
+BAO 11b_job.sql 0.49478769302368164
+BAO 11a_job.sql 0.434220552444458
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.9588281512260437
+Epoch 15 training loss: 0.14490097761154175
+Stopped training after max epochs
+Model updated without swap after each episode.
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Initial input channels: 10
+Epoch 0 training loss: 0.09948965162038803
+Epoch 15 training loss: 0.016470467313550986
+Epoch 30 training loss: 0.0032002865247285138
+Epoch 45 training loss: 0.0012198635063563974
+Stopped training from convergence condition at epoch 49
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+=== Executing queries using BAO optimizer, global iteration 2/200, partition 4, phase iteration 2 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 1
+BAO 22a_job.sql 5.058328866958618
+BAO 18b_job.sql 9.859587669372559
+BAO 17b_job.sql 10.662956714630127
+BAO 1b_job.sql 1.776460886001587
+BAO 7b_job.sql 5.347601652145386
+BAO 16b_job.sql 13.640042543411255
+BAO 12c_job.sql 3.9885997772216797
+BAO 23b_job.sql 4.22269606590271
+BAO 19c_job.sql 10.614981412887573
+BAO 22b_job.sql 4.9616546630859375
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.5385438203811646
+Epoch 15 training loss: 0.07096989452838898
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 2
+BAO 6c_job.sql 16.66934370994568
+BAO 31b_job.sql 1.3627362251281738
+BAO 32a_job.sql 3.1317505836486816
+BAO 31a_job.sql 9.914623975753784
+BAO 21a_job.sql 0.47996020317077637
+BAO 11c_job.sql 2.963526487350464
+BAO 30b_job.sql 9.013490915298462
+BAO 24a_job.sql 10.405914545059204
+BAO 2a_job.sql 2.7242043018341064
+BAO 19d_job.sql 16.981353044509888
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.604213535785675
+Epoch 15 training loss: 0.01659509725868702
+Stopped training from convergence condition at epoch 17
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 3
+BAO 3b_job.sql 8.899747848510742
+BAO 10a_job.sql 9.463191509246826
+BAO 23c_job.sql 1.160196304321289
+BAO 28c_job.sql 6.607746124267578
+BAO 22d_job.sql 1.3276252746582031
+BAO 14a_job.sql 0.45356321334838867
+BAO 13b_job.sql 1.0496180057525635
+BAO 9c_job.sql 1.4855048656463623
+BAO 30c_job.sql 3.97967791557312
+BAO 29c_job.sql 32.0
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.27862510085105896
+Epoch 15 training loss: 0.01183970645070076
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 4
+BAO 27b_job.sql 2.190990924835205
+BAO 11d_job.sql 2.6594371795654297
+BAO 7a_job.sql 1.0588405132293701
+BAO 33b_job.sql 7.207231044769287
+BAO 4c_job.sql 1.7945024967193604
+BAO 6f_job.sql 9.373738288879395
+BAO 27a_job.sql 2.1422438621520996
+BAO 16c_job.sql 10.835136651992798
+BAO 23a_job.sql 0.9525420665740967
+BAO 10a_ceb.sql 2.172992706298828
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.4352432191371918
+Epoch 15 training loss: 0.005302946083247662
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 2.7840590476989746
+BAO 28b_job.sql 10.605827808380127
+BAO 17e_job.sql 11.566240549087524
+BAO 25c_job.sql 6.928541421890259
+BAO 6d_job.sql 3.0909225940704346
+BAO 8b_ceb.sql 20.090744256973267
+BAO 16d_job.sql 10.03113055229187
+BAO 9b_job.sql 7.854598045349121
+BAO 1c_job.sql 1.6017355918884277
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 1.2846226692199707
+Epoch 15 training loss: 0.004336115438491106
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 6
+BAO 13d_job.sql 7.708920955657959
+BAO 27c_job.sql 5.88061785697937
+BAO 17c_job.sql 4.1818320751190186
+BAO 8d_job.sql 6.8584558963775635
+BAO 8a_job.sql 5.184400320053101
+BAO 9a_job.sql 1.3951499462127686
+BAO 16a_job.sql 0.40024828910827637
+BAO 1d_job.sql 1.5643222332000732
+BAO 30a_job.sql 8.848095417022705
+BAO 12b_job.sql 0.2473888397216797
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.42646947503089905
+Epoch 15 training loss: 0.03921288996934891
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 7
+BAO 5c_job.sql 0.3445770740509033
+BAO 25b_job.sql 0.5565252304077148
+BAO 24b_job.sql 1.8529179096221924
+BAO 6a_job.sql 0.21622419357299805
+BAO 21b_job.sql 0.42102622985839844
+BAO 26a_job.sql 2.236320972442627
+BAO 10b_job.sql 0.4689748287200928
+BAO 25a_job.sql 3.457249641418457
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 0.468019962310791
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.2672201097011566
+Epoch 15 training loss: 0.020474011078476906
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 8
+BAO 18a_job.sql 7.59486198425293
+BAO 7c_job.sql 14.098888397216797
+BAO 15a_job.sql 1.3488428592681885
+BAO 2d_job.sql 3.2937428951263428
+BAO 19b_job.sql 2.6821353435516357
+BAO 20c_job.sql 32.0
+BAO 18c_job.sql 6.462287664413452
+BAO 9d_job.sql 3.561662435531616
+BAO 26c_job.sql 19.261184215545654
+BAO 15b_job.sql 0.8720788955688477
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.44173184037208557
+Epoch 15 training loss: 0.016594821587204933
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 9
+BAO 12a_job.sql 32.0
+BAO 3a_job.sql 5.6971259117126465
+BAO 21c_job.sql 0.7146875858306885
+BAO 22c_job.sql 6.034780502319336
+BAO 5a_job.sql 0.707646369934082
+BAO 33a_job.sql 7.38819694519043
+BAO 20a_job.sql 9.570627450942993
+BAO 31c_job.sql 12.466685056686401
+BAO 1a_job.sql 1.8424546718597412
+BAO 19a_job.sql 11.484804391860962
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.19823168218135834
+Epoch 15 training loss: 0.03061436302959919
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 10
+BAO 32b_job.sql 2.106579303741455
+BAO 8c_job.sql 7.71218204498291
+BAO 4a_job.sql 1.8397269248962402
+BAO 13a_job.sql 3.4469504356384277
+BAO 17f_job.sql 15.999624013900757
+BAO 14b_job.sql 10.782636404037476
+BAO 3c_job.sql 0.3740880489349365
+BAO 28a_job.sql 10.507680416107178
+BAO 6e_job.sql 14.052045583724976
+BAO 2b_job.sql 0.5190563201904297
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.3216398060321808
+Epoch 15 training loss: 0.010998989455401897
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 11
+BAO 10c_job.sql 21.486910581588745
+BAO 8b_job.sql 5.843465805053711
+BAO 17a_job.sql 8.576184511184692
+BAO 5b_job.sql 1.421830415725708
+BAO 26b_job.sql 12.640864133834839
+BAO 14c_job.sql 5.613898754119873
+BAO 20b_job.sql 10.109145402908325
+BAO 4b_job.sql 1.6395883560180664
+BAO 13c_job.sql 3.763792037963867
+BAO 17d_job.sql 9.181063652038574
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.10696212202310562
+Epoch 15 training loss: 0.012560426257550716
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 2 queries using BAO optimizer
+Global Iteration 2, Episode 12
+BAO 11b_job.sql 0.30259037017822266
+BAO 11a_job.sql 0.3119547367095947
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.7413413524627686
+Epoch 15 training loss: 0.25
+Stopped training after max epochs
+Model updated without swap after each episode.
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Initial input channels: 10
+Epoch 0 training loss: 0.0670248526148498
+Epoch 15 training loss: 0.0082421547267586
+Epoch 30 training loss: 0.002454184228554368
+Stopped training from convergence condition at epoch 40
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+=== Executing queries using BAO optimizer, global iteration 3/200, partition 4, phase iteration 3 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 1
+BAO 22a_job.sql 4.781399488449097
+BAO 18b_job.sql 7.140660285949707
+BAO 17b_job.sql 8.576468706130981
+BAO 1b_job.sql 1.9046943187713623
+BAO 7b_job.sql 4.5073394775390625
+BAO 16b_job.sql 11.69015908241272
+BAO 12c_job.sql 3.7996480464935303
+BAO 23b_job.sql 4.00759220123291
+BAO 19c_job.sql 13.995005130767822
+BAO 22b_job.sql 4.783466100692749
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.07815675437450409
+Epoch 15 training loss: 0.06201860308647156
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 2
+BAO 6c_job.sql 2.92995023727417
+BAO 31b_job.sql 1.3270676136016846
+BAO 32a_job.sql 0.37429046630859375
+BAO 31a_job.sql 8.862018585205078
+BAO 21a_job.sql 0.6345353126525879
+BAO 11c_job.sql 0.8033485412597656
+BAO 30b_job.sql 8.105674266815186
+BAO 24a_job.sql 9.592198133468628
+BAO 2a_job.sql 1.8276138305664062
+BAO 19d_job.sql 18.176490545272827
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.5697326064109802
+Epoch 15 training loss: 0.06862594187259674
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 3
+BAO 3b_job.sql 4.378165245056152
+BAO 10a_job.sql 10.236377000808716
+BAO 23c_job.sql 1.0943636894226074
+BAO 28c_job.sql 10.503275632858276
+BAO 22d_job.sql 5.594015121459961
+BAO 14a_job.sql 0.397045373916626
+BAO 13b_job.sql 3.650231122970581
+BAO 9c_job.sql 10.036080837249756
+BAO 30c_job.sql 9.438529253005981
+BAO 29c_job.sql 32.0
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.24115249514579773
+Epoch 15 training loss: 0.0069114589132368565
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 4
+BAO 27b_job.sql 2.550572395324707
+BAO 11d_job.sql 0.4453737735748291
+BAO 7a_job.sql 1.0968749523162842
+BAO 33b_job.sql 7.629868745803833
+BAO 4c_job.sql 2.078357219696045
+BAO 6f_job.sql 9.424898147583008
+BAO 27a_job.sql 2.043426752090454
+BAO 16c_job.sql 1.4919440746307373
+BAO 23a_job.sql 10.678978204727173
+BAO 10a_ceb.sql 18.268404483795166
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.1504381000995636
+Epoch 15 training loss: 0.00995608139783144
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 3.5477733612060547
+BAO 28b_job.sql 11.267794847488403
+BAO 17e_job.sql 11.683178663253784
+BAO 25c_job.sql 7.232431173324585
+BAO 6d_job.sql 3.1819286346435547
+BAO 8b_ceb.sql 18.342520713806152
+BAO 16d_job.sql 19.462063312530518
+BAO 9b_job.sql 16.866379976272583
+BAO 1c_job.sql 1.8545973300933838
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.8590518832206726
+Epoch 15 training loss: 0.008399954997003078
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 6
+BAO 13d_job.sql 7.832038640975952
+BAO 27c_job.sql 2.157017946243286
+BAO 17c_job.sql 5.093820333480835
+BAO 8d_job.sql 32.0
+BAO 8a_job.sql 5.32269549369812
+BAO 9a_job.sql 1.364262342453003
+BAO 16a_job.sql 0.3866424560546875
+BAO 1d_job.sql 2.093564033508301
+BAO 30a_job.sql 4.010375499725342
+BAO 12b_job.sql 0.24715852737426758
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.7565092444419861
+Epoch 15 training loss: 0.0575280524790287
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 7
+BAO 5c_job.sql 0.34125566482543945
+BAO 25b_job.sql 32.0
+BAO 24b_job.sql 9.655231952667236
+BAO 6a_job.sql 0.23264050483703613
+BAO 21b_job.sql 3.2631189823150635
+BAO 26a_job.sql 19.119444131851196
+BAO 10b_job.sql 4.931373834609985
+BAO 25a_job.sql 3.7500500679016113
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 32.0
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.21051019430160522
+Epoch 15 training loss: 0.014543922618031502
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 8
+BAO 18a_job.sql 32.0
+BAO 7c_job.sql 32.0
+BAO 15a_job.sql 2.2864675521850586
+BAO 2d_job.sql 32.0
+BAO 19b_job.sql 32.0
+BAO 20c_job.sql 1.7618951797485352
+BAO 18c_job.sql 8.58578085899353
+BAO 9d_job.sql 4.295610666275024
+BAO 26c_job.sql 32.0
+BAO 15b_job.sql 0.4934995174407959
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.44467687606811523
+Epoch 15 training loss: 0.0009837355464696884
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 9
+BAO 12a_job.sql 7.919964551925659
+BAO 3a_job.sql 7.595277786254883
+BAO 21c_job.sql 0.4529235363006592
+BAO 22c_job.sql 2.061537742614746
+BAO 5a_job.sql 0.318572998046875
+BAO 33a_job.sql 12.081880807876587
+BAO 20a_job.sql 2.4679837226867676
+BAO 31c_job.sql 3.5712578296661377
+BAO 1a_job.sql 1.6784160137176514
+BAO 19a_job.sql 9.915171384811401
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.2618250250816345
+Epoch 15 training loss: 0.08620833605527878
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 10
+BAO 32b_job.sql 0.26958203315734863
+BAO 8c_job.sql 32.0
+BAO 4a_job.sql 2.261194944381714
+BAO 13a_job.sql 7.297989845275879
+BAO 17f_job.sql 5.888756036758423
+BAO 14b_job.sql 0.3123946189880371
+BAO 3c_job.sql 7.004072666168213
+BAO 28a_job.sql 10.548710346221924
+BAO 6e_job.sql 3.083705425262451
+BAO 2b_job.sql 0.5087473392486572
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.4906964898109436
+Epoch 15 training loss: 0.007946855388581753
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 3, Episode 11
+BAO 10c_job.sql 5.535572290420532
+BAO 8b_job.sql 6.781578540802002
+BAO 17a_job.sql 9.026456117630005
+BAO 5b_job.sql 0.6429598331451416
+BAO 26b_job.sql 13.886595726013184
+BAO 14c_job.sql 4.765732288360596
+BAO 20b_job.sql 9.661632776260376
+BAO 4b_job.sql 1.6327931880950928
+BAO 13c_job.sql 3.3605904579162598
+BAO 17d_job.sql 8.253303289413452
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.8693790435791016
+Epoch 15 training loss: 0.008650215342640877
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 2 queries using BAO optimizer
+Global Iteration 3, Episode 12
+BAO 11b_job.sql 0.2848832607269287
+BAO 11a_job.sql 0.292309045791626
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.25091660022735596
+Epoch 15 training loss: 0.25029313564300537
+Stopped training after max epochs
+Model updated without swap after each episode.
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Initial input channels: 10
+Epoch 0 training loss: 0.046545919962227345
+Epoch 15 training loss: 0.006792059902531596
+Epoch 30 training loss: 0.0011830316999783884
+Stopped training from convergence condition at epoch 43
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+=== Executing queries using BAO optimizer, global iteration 4/200, partition 4, phase iteration 4 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 1
+BAO 22a_job.sql 4.993597030639648
+BAO 18b_job.sql 10.140931844711304
+BAO 17b_job.sql 8.4241623878479
+BAO 1b_job.sql 1.9749267101287842
+BAO 7b_job.sql 4.524318695068359
+BAO 16b_job.sql 12.844577550888062
+BAO 12c_job.sql 3.9602210521698
+BAO 23b_job.sql 4.034227609634399
+BAO 19c_job.sql 10.745052099227905
+BAO 22b_job.sql 4.560941219329834
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 1.0196173191070557
+Epoch 15 training loss: 0.02724667824804783
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 2
+BAO 6c_job.sql 8.852688074111938
+BAO 31b_job.sql 1.2650361061096191
+BAO 32a_job.sql 1.6340274810791016
+BAO 31a_job.sql 8.713876247406006
+BAO 21a_job.sql 0.42388153076171875
+BAO 11c_job.sql 0.8076562881469727
+BAO 30b_job.sql 1.9926800727844238
+BAO 24a_job.sql 2.0053369998931885
+BAO 2a_job.sql 32.0
+BAO 19d_job.sql 8.312838792800903
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.6441763043403625
+Epoch 15 training loss: 0.0072808656841516495
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 3
+BAO 3b_job.sql 4.3740575313568115
+BAO 10a_job.sql 0.7651822566986084
+BAO 23c_job.sql 1.017868995666504
+BAO 28c_job.sql 6.193121671676636
+BAO 22d_job.sql 1.289574384689331
+BAO 14a_job.sql 4.392007827758789
+BAO 13b_job.sql 1.1654212474822998
+BAO 9c_job.sql 1.4130821228027344
+BAO 30c_job.sql 3.6502110958099365
+BAO 29c_job.sql 32.0
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.4825149178504944
+Epoch 15 training loss: 0.015163259580731392
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 4
+BAO 27b_job.sql 2.117968797683716
+BAO 11d_job.sql 0.3415553569793701
+BAO 7a_job.sql 0.9240612983703613
+BAO 33b_job.sql 9.586745500564575
+BAO 4c_job.sql 0.27486515045166016
+BAO 6f_job.sql 3.893336772918701
+BAO 27a_job.sql 2.4981369972229004
+BAO 16c_job.sql 1.4453346729278564
+BAO 23a_job.sql 4.207202196121216
+BAO 10a_ceb.sql 19.049680709838867
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.3731585443019867
+Epoch 15 training loss: 0.06671833992004395
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 3.316662549972534
+BAO 28b_job.sql 6.991451263427734
+BAO 17e_job.sql 17.194120168685913
+BAO 25c_job.sql 8.645192623138428
+BAO 6d_job.sql 3.346738576889038
+BAO 8b_ceb.sql 32.0
+BAO 16d_job.sql 11.531904697418213
+BAO 9b_job.sql 12.586073875427246
+BAO 1c_job.sql 1.6689870357513428
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.21567028760910034
+Epoch 15 training loss: 0.005114374682307243
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 6
+BAO 13d_job.sql 7.170904636383057
+BAO 27c_job.sql 2.2856810092926025
+BAO 17c_job.sql 8.19281816482544
+BAO 8d_job.sql 31.22949242591858
+BAO 8a_job.sql 4.271472930908203
+BAO 9a_job.sql 14.898546934127808
+BAO 16a_job.sql 11.845858097076416
+BAO 1d_job.sql 2.4560329914093018
+BAO 30a_job.sql 13.745137453079224
+BAO 12b_job.sql 3.7998249530792236
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.23208561539649963
+Epoch 15 training loss: 0.01969347894191742
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 7
+BAO 5c_job.sql 0.3781585693359375
+BAO 25b_job.sql 0.6204550266265869
+BAO 24b_job.sql 2.1336276531219482
+BAO 6a_job.sql 0.215165376663208
+BAO 21b_job.sql 0.4262392520904541
+BAO 26a_job.sql 14.12738561630249
+BAO 10b_job.sql 4.47149133682251
+BAO 25a_job.sql 32.0
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 0.517277717590332
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.20344777405261993
+Epoch 15 training loss: 0.010429189540445805
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 8
+BAO 18a_job.sql 32.0
+BAO 7c_job.sql 6.439516305923462
+BAO 15a_job.sql 1.9154372215270996
+BAO 2d_job.sql 0.9635035991668701
+BAO 19b_job.sql 0.8676984310150146
+BAO 20c_job.sql 1.9185361862182617
+BAO 18c_job.sql 11.853012084960938
+BAO 9d_job.sql 3.936673402786255
+BAO 26c_job.sql 5.301868438720703
+BAO 15b_job.sql 0.5177969932556152
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:68: UserWarning: An issue occurred while importing 'pyg-lib'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/libpyg.so: undefined symbol: _ZN3c109TupleTypeC1ESt6vectorINS_4Type24SingletonOrSharedTypePtrIS2_EESaIS4_EESt8optionalINS_13QualifiedNameEESt10shared_ptrINS_14FunctionSchemaEE
+  warnings.warn(f"An issue occurred while importing 'pyg-lib'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:86: UserWarning: An issue occurred while importing 'torch-scatter'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_scatter/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-scatter'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:97: UserWarning: An issue occurred while importing 'torch-cluster'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_cluster/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-cluster'. "
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:113: UserWarning: An issue occurred while importing 'torch-spline-conv'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_spline_conv/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(
+/home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_geometric/typing.py:124: UserWarning: An issue occurred while importing 'torch-sparse'. Disabling its usage. Stacktrace: /home/AiChaosN/miniconda3/envs/limao/lib/python3.8/site-packages/torch_sparse/_version_cuda.so: undefined symbol: _ZN5torch3jit17parseSchemaOrNameERKSsb
+  warnings.warn(f"An issue occurred while importing 'torch-sparse'. "
+Copied existing model to bao_default_model.tmp for fine-tuning.
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.21740752458572388
+Epoch 15 training loss: 0.058088261634111404
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 4, Episode 9
+BAO 12a_job.sql 3.992647886276245
+BAO 3a_job.sql 7.098825216293335
+BAO 21c_job.sql 0.704866886138916
+BAO 22c_job.sql 6.887842655181885
+BAO 5a_job.sql 3.1314730644226074
+BAO 33a_job.sql 10.6605863571167
+BAO 20a_job.sql 16.816955089569092

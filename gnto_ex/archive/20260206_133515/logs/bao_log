@@ -1,0 +1,1551 @@
+Failed to send email: can only concatenate str (not "bytes") to str
+Partition: [4, 3, 7, 3, 3, 4, 6, 6, 3, 10, 4, 3, 10, 3, 10, 5, 10, 3, 10, 9, 3, 3, 5, 3, 3, 3, 3, 6, 3, 10, 3, 3, 4, 3, 3, 3, 5, 3, 5, 10]
+Read 112 queries.
+Executing init queries using PG optimizer
+x x 22a_job.sql 5.891608476638794 PG
+x x 18b_job.sql 6.315793752670288 PG
+x x 17b_job.sql 32.0 PG
+x x 1b_job.sql 0.1437070369720459 PG
+x x 7b_job.sql 0.7891132831573486 PG
+x x 16b_job.sql 20.40421438217163 PG
+x x 12c_job.sql 6.421222686767578 PG
+x x 23b_job.sql 0.22401189804077148 PG
+x x 19c_job.sql 2.5303726196289062 PG
+x x 22b_job.sql 0.19231677055358887 PG
+x x 6c_job.sql 0.07018637657165527 PG
+x x 31b_job.sql 0.3740372657775879 PG
+x x 32a_job.sql 0.06721186637878418 PG
+x x 31a_job.sql 2.057866096496582 PG
+x x 21a_job.sql 0.14957356452941895 PG
+x x 11c_job.sql 0.19884300231933594 PG
+x x 30b_job.sql 0.33582353591918945 PG
+x x 24a_job.sql 0.8664755821228027 PG
+x x 2a_job.sql 0.38582301139831543 PG
+x x 19d_job.sql 13.688925504684448 PG
+x x 3b_job.sql 0.18975114822387695 PG
+x x 10a_job.sql 1.1473197937011719 PG
+x x 23c_job.sql 0.9103829860687256 PG
+x x 28c_job.sql 0.9460735321044922 PG
+x x 22d_job.sql 0.9130425453186035 PG
+x x 14a_job.sql 0.2211761474609375 PG
+x x 13b_job.sql 0.8490102291107178 PG
+x x 9c_job.sql 1.2368483543395996 PG
+x x 30c_job.sql 3.2412302494049072 PG
+x x 29c_job.sql 4.696897268295288 PG
+x x 27b_job.sql 0.12740802764892578 PG
+x x 11d_job.sql 0.1613917350769043 PG
+x x 7a_job.sql 1.7087557315826416 PG
+x x 33b_job.sql 0.35699892044067383 PG
+x x 4c_job.sql 0.1465740203857422 PG
+x x 6f_job.sql 4.503183603286743 PG
+x x 27a_job.sql 0.14278197288513184 PG
+x x 16c_job.sql 0.9589307308197021 PG
+x x 23a_job.sql 0.22988629341125488 PG
+x x 10a_ceb.sql 2.78184175491333 PG
+x x 29b_job.sql 2.1850476264953613 PG
+x x 2c_job.sql 0.371227502822876 PG
+x x 28b_job.sql 0.4302542209625244 PG
+x x 17e_job.sql 6.4676947593688965 PG
+x x 25c_job.sql 6.650784969329834 PG
+x x 6d_job.sql 2.861252546310425 PG
+x x 8b_ceb.sql 27.3605375289917 PG
+x x 16d_job.sql 0.8280084133148193 PG
+x x 9b_job.sql 1.2023789882659912 PG
+x x 1c_job.sql 0.16320013999938965 PG
+x x 13d_job.sql 2.7790780067443848 PG
+x x 27c_job.sql 0.16508722305297852 PG
+x x 17c_job.sql 3.601724863052368 PG
+x x 8d_job.sql 2.8075103759765625 PG
+x x 8a_job.sql 1.6617112159729004 PG
+x x 9a_job.sql 1.1661243438720703 PG
+x x 16a_job.sql 0.19466376304626465 PG
+x x 1d_job.sql 0.16466522216796875 PG
+x x 30a_job.sql 1.8682854175567627 PG
+x x 12b_job.sql 0.16251611709594727 PG
+x x 5c_job.sql 0.3165011405944824 PG
+x x 25b_job.sql 0.24555253982543945 PG
+x x 24b_job.sql 0.3421468734741211 PG
+x x 6a_job.sql 0.09714293479919434 PG
+x x 21b_job.sql 0.1273951530456543 PG
+x x 26a_job.sql 2.5839545726776123 PG
+x x 10b_job.sql 0.40586280822753906 PG
+x x 25a_job.sql 1.6726601123809814 PG
+x x 29a_job.sql 2.1858808994293213 PG
+x x 6b_job.sql 0.19939661026000977 PG
+x x 18a_job.sql 1.6792640686035156 PG
+x x 7c_job.sql 3.51838755607605 PG
+x x 15a_job.sql 0.7078626155853271 PG
+x x 2d_job.sql 0.4641611576080322 PG
+x x 19b_job.sql 0.3244304656982422 PG
+x x 20c_job.sql 1.4936482906341553 PG
+x x 18c_job.sql 6.067596197128296 PG
+x x 9d_job.sql 2.457303047180176 PG
+x x 26c_job.sql 3.7535815238952637 PG
+x x 15b_job.sql 0.1449136734008789 PG
+x x 12a_job.sql 0.31234216690063477 PG
+x x 3a_job.sql 0.2034313678741455 PG
+x x 21c_job.sql 0.13592243194580078 PG
+x x 22c_job.sql 1.2055151462554932 PG
+x x 5a_job.sql 0.21719717979431152 PG
+x x 33a_job.sql 0.3071620464324951 PG
+x x 20a_job.sql 1.5713927745819092 PG
+x x 31c_job.sql 1.5245442390441895 PG
+x x 1a_job.sql 0.17711853981018066 PG
+x x 19a_job.sql 1.4788916110992432 PG
+x x 32b_job.sql 0.17422795295715332 PG
+x x 8c_job.sql 4.172191619873047 PG
+x x 4a_job.sql 0.15465426445007324 PG
+x x 13a_job.sql 1.9078824520111084 PG
+x x 17f_job.sql 5.177108526229858 PG
+x x 14b_job.sql 0.14675188064575195 PG
+x x 3c_job.sql 0.2856628894805908 PG
+x x 28a_job.sql 0.6573007106781006 PG
+x x 6e_job.sql 0.10436463356018066 PG
+x x 2b_job.sql 0.3874945640563965 PG
+x x 10c_job.sql 5.292677879333496 PG
+x x 8b_job.sql 0.3563215732574463 PG
+x x 17a_job.sql 6.143604040145874 PG
+x x 5b_job.sql 0.21876287460327148 PG
+x x 26b_job.sql 0.21748638153076172 PG
+x x 14c_job.sql 0.3996868133544922 PG
+x x 20b_job.sql 1.2140686511993408 PG
+x x 4b_job.sql 0.1393437385559082 PG
+x x 13c_job.sql 0.7967090606689453 PG
+x x 17d_job.sql 3.6615421772003174 PG
+x x 11b_job.sql 0.11851620674133301 PG
+x x 11a_job.sql 0.12984752655029297 PG
+=== Executing queries using BAO optimizer, global iteration 1/200, partition 4, phase iteration 1 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+Initial input channels: 10
+Epoch 0 training loss: 0.06607494372292422
+Epoch 15 training loss: 0.005851474386872724
+Epoch 30 training loss: 0.002855652604921488
+Epoch 45 training loss: 0.0020089812514925143
+Stopped training from convergence condition at epoch 52
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 1
+BAO 22a_job.sql 5.536894798278809
+BAO 18b_job.sql 4.901365041732788
+BAO 17b_job.sql 15.468839883804321
+BAO 1b_job.sql 1.6834716796875
+BAO 7b_job.sql 0.44031596183776855
+BAO 16b_job.sql 6.991501808166504
+BAO 12c_job.sql 3.724606990814209
+BAO 23b_job.sql 4.042424201965332
+BAO 19c_job.sql 13.052935361862183
+BAO 22b_job.sql 4.652844190597534
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.4268306791782379
+Epoch 15 training loss: 0.02483106590807438
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 2
+BAO 6c_job.sql 2.833191156387329
+BAO 31b_job.sql 32.0
+BAO 32a_job.sql 0.42151522636413574
+BAO 31a_job.sql 3.575087547302246
+BAO 21a_job.sql 0.39699339866638184
+BAO 11c_job.sql 0.7709164619445801
+BAO 30b_job.sql 31.454739809036255
+BAO 24a_job.sql 7.5413994789123535
+BAO 2a_job.sql 2.5006933212280273
+BAO 19d_job.sql 9.977143287658691
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.3164535462856293
+Epoch 15 training loss: 0.043946273624897
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 3
+BAO 3b_job.sql 7.553415298461914
+BAO 10a_job.sql 0.6414000988006592
+BAO 23c_job.sql 0.9674482345581055
+BAO 28c_job.sql 6.694880485534668
+BAO 22d_job.sql 1.322847843170166
+BAO 14a_job.sql 32.0
+BAO 13b_job.sql 1.298410177230835
+BAO 9c_job.sql 32.0
+BAO 30c_job.sql 3.772179126739502
+BAO 29c_job.sql 32.0
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.48208972811698914
+Epoch 15 training loss: 0.03687969967722893
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 4
+BAO 27b_job.sql 2.0112643241882324
+BAO 11d_job.sql 0.3533186912536621
+BAO 7a_job.sql 0.8273603916168213
+BAO 33b_job.sql 6.519799470901489
+BAO 4c_job.sql 1.8907890319824219
+BAO 6f_job.sql 3.008810520172119
+BAO 27a_job.sql 1.8860387802124023
+BAO 16c_job.sql 1.157938003540039
+BAO 23a_job.sql 9.643696069717407
+BAO 10a_ceb.sql 16.902260065078735
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.3346785604953766
+Epoch 15 training loss: 0.06330278515815735
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 2.466334104537964
+BAO 28b_job.sql 9.621812105178833
+BAO 17e_job.sql 17.021791458129883
+BAO 25c_job.sql 9.088347911834717
+BAO 6d_job.sql 2.8617591857910156
+BAO 8b_ceb.sql 17.048916339874268
+BAO 16d_job.sql 15.26986837387085
+BAO 9b_job.sql 7.105552434921265
+BAO 1c_job.sql 1.51112699508667
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.14929841458797455
+Epoch 15 training loss: 0.06014947220683098
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 6
+BAO 13d_job.sql 7.015315532684326
+BAO 27c_job.sql 5.715777158737183
+BAO 17c_job.sql 7.318651914596558
+BAO 8d_job.sql 9.26506519317627
+BAO 8a_job.sql 3.9292025566101074
+BAO 9a_job.sql 5.531147480010986
+BAO 16a_job.sql 14.778554677963257
+BAO 1d_job.sql 1.4913995265960693
+BAO 30a_job.sql 8.34426498413086
+BAO 12b_job.sql 5.615137577056885
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.2524320185184479
+Epoch 15 training loss: 0.04983893036842346
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 7
+BAO 5c_job.sql 4.308016061782837
+BAO 25b_job.sql 32.0
+BAO 24b_job.sql 1.7967760562896729
+BAO 6a_job.sql 16.8232262134552
+BAO 21b_job.sql 0.596116304397583
+BAO 26a_job.sql 2.1588754653930664
+BAO 10b_job.sql 9.079923629760742
+BAO 25a_job.sql 32.0
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 32.0
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.5832793712615967
+Epoch 15 training loss: 0.04874679073691368
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 8
+BAO 18a_job.sql 5.4072487354278564
+BAO 7c_job.sql 8.430476188659668
+BAO 15a_job.sql 1.799795389175415
+BAO 2d_job.sql 2.6772656440734863
+BAO 19b_job.sql 32.0
+BAO 20c_job.sql 16.550537586212158
+BAO 18c_job.sql 6.8204240798950195
+BAO 9d_job.sql 3.341111898422241
+BAO 26c_job.sql 17.544408082962036
+BAO 15b_job.sql 0.44765543937683105
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.7236077785491943
+Epoch 15 training loss: 0.0072628105990588665
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 9
+BAO 12a_job.sql 6.62160062789917
+BAO 3a_job.sql 32.0
+BAO 21c_job.sql 0.4166882038116455
+BAO 22c_job.sql 1.9214630126953125
+BAO 5a_job.sql 0.29737377166748047
+BAO 33a_job.sql 6.549206733703613
+BAO 20a_job.sql 8.711259126663208
+BAO 31c_job.sql 3.996323585510254
+BAO 1a_job.sql 2.29229998588562
+BAO 19a_job.sql 32.0
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.7689630389213562
+Epoch 15 training loss: 0.010278602130711079
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 10
+BAO 32b_job.sql 32.0
+BAO 8c_job.sql 32.0
+BAO 4a_job.sql 32.0
+BAO 13a_job.sql 1.9475724697113037
+BAO 17f_job.sql 32.0
+BAO 14b_job.sql 2.3903894424438477
+BAO 3c_job.sql 32.0
+BAO 28a_job.sql 5.849391937255859
+BAO 6e_job.sql 21.821089267730713
+BAO 2b_job.sql 32.0
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 1.2214014530181885
+Epoch 15 training loss: 0.018391255289316177
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 1, Episode 11
+BAO 10c_job.sql 16.975630044937134
+BAO 8b_job.sql 1.9188964366912842
+BAO 17a_job.sql 32.0
+BAO 5b_job.sql 3.048717737197876
+BAO 26b_job.sql 1.3565292358398438
+BAO 14c_job.sql 32.0
+BAO 20b_job.sql 1.4586646556854248
+BAO 4b_job.sql 0.7218871116638184
+BAO 13c_job.sql 1.0441648960113525
+BAO 17d_job.sql 5.499809980392456
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.925598680973053
+Epoch 15 training loss: 0.021300913766026497
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 2 queries using BAO optimizer
+Global Iteration 1, Episode 12
+BAO 11b_job.sql 1.6841645240783691
+BAO 11a_job.sql 1.4675393104553223
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.34269821643829346
+Epoch 15 training loss: 0.0005774207529611886
+Stopped training from convergence condition at epoch 16
+Model updated without swap after each episode.
+=== Executing queries using BAO optimizer, global iteration 2/200, partition 4, phase iteration 2 for database imdbload, query directory /home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/imdb_assorted_3 ===
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Initial input channels: 10
+Epoch 0 training loss: 0.0780759192421101
+Epoch 15 training loss: 0.007667355683224741
+Epoch 30 training loss: 0.0028202753001096426
+Epoch 45 training loss: 0.0019264484035375062
+Stopped training from convergence condition at epoch 51
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 1
+BAO 22a_job.sql 3.1938633918762207
+BAO 18b_job.sql 4.732060670852661
+BAO 17b_job.sql 3.6368906497955322
+BAO 1b_job.sql 0.6982545852661133
+BAO 7b_job.sql 3.7547833919525146
+BAO 16b_job.sql 6.44206976890564
+BAO 12c_job.sql 2.3915534019470215
+BAO 23b_job.sql 2.3201184272766113
+BAO 19c_job.sql 7.120787620544434
+BAO 22b_job.sql 3.145442247390747
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 1.022400140762329
+Epoch 15 training loss: 0.06614941358566284
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 2
+BAO 6c_job.sql 15.220098972320557
+BAO 31b_job.sql 32.0
+BAO 32a_job.sql 0.17742657661437988
+BAO 31a_job.sql 3.470193862915039
+BAO 21a_job.sql 0.40592527389526367
+BAO 11c_job.sql 0.34233784675598145
+BAO 30b_job.sql 30.985252141952515
+BAO 24a_job.sql 7.181674242019653
+BAO 2a_job.sql 1.6983311176300049
+BAO 19d_job.sql 7.837060451507568
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.4213712215423584
+Epoch 15 training loss: 0.012568279169499874
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 3
+BAO 3b_job.sql 8.60896372795105
+BAO 10a_job.sql 4.736732006072998
+BAO 23c_job.sql 3.8591763973236084
+BAO 28c_job.sql 9.83021855354309
+BAO 22d_job.sql 5.570614337921143
+BAO 14a_job.sql 4.195780277252197
+BAO 13b_job.sql 4.8374412059783936
+BAO 9c_job.sql 32.0
+BAO 30c_job.sql 9.346449851989746
+BAO 29c_job.sql 32.0
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.5619691014289856
+Epoch 15 training loss: 0.002620501909404993
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 4
+BAO 27b_job.sql 2.0461525917053223
+BAO 11d_job.sql 32.0
+BAO 7a_job.sql 32.0
+BAO 33b_job.sql 6.610848426818848
+BAO 4c_job.sql 32.0
+BAO 6f_job.sql 32.0
+BAO 27a_job.sql 6.869505405426025
+BAO 16c_job.sql 32.0
+BAO 23a_job.sql 9.511577606201172
+BAO 10a_ceb.sql 32.0
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 1.233345627784729
+Epoch 15 training loss: 0.00407139677554369
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 5
+BAO 29b_job.sql 32.0
+BAO 2c_job.sql 2.2850587368011475
+BAO 28b_job.sql 9.95815896987915
+BAO 17e_job.sql 10.232747316360474
+BAO 25c_job.sql 6.561708450317383
+BAO 6d_job.sql 3.0110204219818115
+BAO 8b_ceb.sql 12.76154375076294
+BAO 16d_job.sql 16.994333505630493
+BAO 9b_job.sql 4.970555543899536
+BAO 1c_job.sql 1.517035961151123
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 1.7848320007324219
+Epoch 15 training loss: 0.09213824570178986
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 6
+BAO 13d_job.sql 32.0
+BAO 27c_job.sql 1.9543960094451904
+BAO 17c_job.sql 7.889155149459839
+BAO 8d_job.sql 32.0
+BAO 8a_job.sql 1.7730011940002441
+BAO 9a_job.sql 1.3111684322357178
+BAO 16a_job.sql 9.189271926879883
+BAO 1d_job.sql 0.949012041091919
+BAO 30a_job.sql 3.680551767349243
+BAO 12b_job.sql 2.7974469661712646
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.46924257278442383
+Epoch 15 training loss: 0.05774250254034996
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 7
+BAO 5c_job.sql 0.48087215423583984
+BAO 25b_job.sql 6.22307014465332
+BAO 24b_job.sql 8.955334901809692
+BAO 6a_job.sql 16.778753519058228
+BAO 21b_job.sql 3.0136585235595703
+BAO 26a_job.sql 17.114559412002563
+BAO 10b_job.sql 9.0658278465271
+BAO 25a_job.sql 32.0
+BAO 29a_job.sql 32.0
+BAO 6b_job.sql 32.0
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.6521556973457336
+Epoch 15 training loss: 0.006771537940949202
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 8
+BAO 18a_job.sql 32.0
+BAO 7c_job.sql 2.125393867492676
+BAO 15a_job.sql 3.862581491470337
+BAO 2d_job.sql 0.5623738765716553
+BAO 19b_job.sql 32.0
+BAO 20c_job.sql 1.1141414642333984
+BAO 18c_job.sql 6.036304712295532
+BAO 9d_job.sql 2.5647289752960205
+BAO 26c_job.sql 12.903334140777588
+BAO 15b_job.sql 0.44647765159606934
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.25642991065979004
+Epoch 15 training loss: 0.01689794287085533
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 9
+BAO 12a_job.sql 3.5320699214935303
+BAO 3a_job.sql 5.408939838409424
+BAO 21c_job.sql 0.43549251556396484
+BAO 22c_job.sql 9.01593565940857
+BAO 5a_job.sql 0.503974437713623
+BAO 33a_job.sql 9.164880275726318
+BAO 20a_job.sql 1.845292329788208
+BAO 31c_job.sql 3.3972628116607666
+BAO 1a_job.sql 1.6114757061004639
+BAO 19a_job.sql 1.572525978088379
+Copied existing model to bao_default_model.tmp for fine-tuning.
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Loaded model from bao_default_model.tmp for fine-tuning.
+Initial input channels: 10
+Epoch 0 training loss: 0.31820106506347656
+Epoch 15 training loss: 0.06745511293411255
+Stopped training after max epochs
+Model updated without swap after each episode.
+Executing 10 queries using BAO optimizer
+Global Iteration 2, Episode 10
+BAO 32b_job.sql 32.0
+BAO 8c_job.sql 32.0
+BAO 4a_job.sql 0.23725318908691406
+BAO 13a_job.sql 7.14054012298584
+BAO 17f_job.sql 32.0
+BAO 14b_job.sql 4.4145472049713135
+BAO 3c_job.sql 32.0
+BAO 28a_job.sql 10.66038703918457
+BAO 6e_job.sql 13.96171498298645
+
+
+
+================CHAOS
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 9 after 42ms Predicted reward / PG: 1645.9244 / 1808.9703
+Logged reward of 63.033802
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 20 after 27ms Predicted reward / PG: 5827.9673 / 5895.5244
+Logged reward of 127.565205
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 3 after 31ms Predicted reward / PG: 5814.791 / 5976.039
+Logged reward of 593.56837
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 28 after 46ms Predicted reward / PG: 4938.2026 / 5657.467
+Logged reward of 31.587606
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 2 after 20ms Predicted reward / PG: 6358.9897 / 7248.6196
+Logged reward of 1733.660209
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 3 after 20ms Predicted reward / PG: 6240.962 / 6269.757
+Logged reward of 2849.796668
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 9 after 40ms Predicted reward / PG: 1645.9244 / 1806.3201
+Logged reward of 58.757495
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 17 after 28ms Predicted reward / PG: 5811.6357 / 5935.24
+Logged reward of 929.168267
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 12 after 36ms Predicted reward / PG: 4829.0156 / 5840.26
+Logged reward of 8931.591045
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 35ms Predicted reward / PG: 4303.357 / 4942.8296
+Logged reward of 16122.522522
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 22ms Predicted reward / PG: 2412.5469 / 3015.4043
+Logged reward of 2144.040968
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 45ms Predicted reward / PG: 1960.8788 / 3392.3306
+Logged reward of 3505.359316
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 24ms Predicted reward / PG: 2200.7686 / 2742.3838
+Logged reward of 16605.821293
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 33 after 29ms Predicted reward / PG: 1922.3713 / 3595.8674
+Logged reward of 8734.992635
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 20ms Predicted reward / PG: 2582.6548 / 3020.3445
+Logged reward of 2709.983982
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 43ms Predicted reward / PG: 2500.8357 / 3061.2874
+Logged reward of 13596.13758
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 26ms Predicted reward / PG: 2127.029 / 2646.0103
+Logged reward of 14811.389667
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 28ms Predicted reward / PG: 2197.721 / 2648.6343
+Logged reward of 6866.694663
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 22ms Predicted reward / PG: 2323.9446 / 4534.437
+Logged reward of 1350.953075
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 30ms Predicted reward / PG: 3441.8125 / 4350.6743
+Logged reward of 6576.894848
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 40ms Predicted reward / PG: 5650.769 / 9599.634
+Logged reward of 3815.257546
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 25ms Predicted reward / PG: 3169.787 / 3761.815
+Logged reward of 7121.380498
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 34 after 24ms Predicted reward / PG: 4741.041 / 6289.283
+Logged reward of 9071.866572
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 23ms Predicted reward / PG: 3292.6526 / 3773.8083
+Logged reward of 3715.780541
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 28ms Predicted reward / PG: 3295.9272 / 3746.8945
+Logged reward of 5253.357937
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 29ms Predicted reward / PG: 3267.8 / 3723.7905
+Logged reward of 14329.304299
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 22ms Predicted reward / PG: 3447.2014 / 4681.099
+Logged reward of 1309.941896
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 39ms Predicted reward / PG: 5556.639 / 8278.721
+Logged reward of 6554.200338
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 26ms Predicted reward / PG: 3420.0994 / 4378.8403
+Logged reward of 5241.275625
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 8 after 20ms Predicted reward / PG: 1162.4938 / 1737.3329
+Logged reward of 4151.293925
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 35 after 31ms Predicted reward / PG: 2438.6482 / 2537.832
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 17 after 38ms Predicted reward / PG: 2245.033 / 2368.7773
+Logged reward of 90.043473
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 20ms Predicted reward / PG: 2204.9028 / 2684.9968
+Logged reward of 16667.387923
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 30ms Predicted reward / PG: 2247.3357 / 2618.0583
+Logged reward of 246.578527
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 28 after 38ms Predicted reward / PG: 2477.124 / 2738.265
+Logged reward of 913.094133
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 9 after 25ms Predicted reward / PG: 1273.6117 / 1689.6123
+Logged reward of 8897.234051
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 12 after 31ms Predicted reward / PG: 2267.7375 / 2621.0938
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 37 after 23ms Predicted reward / PG: 2451.9312 / 2680.197
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 3 after 25ms Predicted reward / PG: 2908.9094 / 3643.6633
+Logged reward of 5211.094217
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 8 after 29ms Predicted reward / PG: 2340.5977 / 3048.834
+Logged reward of 8079.468631
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 2
+Selected index 43 after 29ms Predicted reward / PG: 3576.7773 / 5845.103
+Logged reward of 1439.542054
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 48 after 21ms Predicted reward / PG: 2966.8176 / 3009.2576
+Logged reward of 2517.676414
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 35 after 35ms Predicted reward / PG: 3690.7283 / 3923.6333
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 32ms Predicted reward / PG: 4289.41 / 5021.7905
+Logged reward of 15945.297242
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 36 after 25ms Predicted reward / PG: 3002.493 / 3858.4458
+Logged reward of 6556.565029
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 29 after 35ms Predicted reward / PG: 2826.7458 / 3958.5776
+Logged reward of 3083.25576
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 36 after 44ms Predicted reward / PG: 5677.972 / 8881.03
+Logged reward of 16074.404483
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 17 after 29ms Predicted reward / PG: 3796.6724 / 3955.9126
+Logged reward of 87.851535
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 34 after 27ms Predicted reward / PG: 1672.3407 / 2106.6653
+Logged reward of 6390.966209
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 19ms Predicted reward / PG: 1999.6354 / 2165.878
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 3 after 33ms Predicted reward / PG: 1655.2488 / 1962.9586
+Logged reward of 61.641419
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 17 after 40ms Predicted reward / PG: 1611.8151 / 1847.1074
+Logged reward of 1197.84085
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 17 after 20ms Predicted reward / PG: 1888.8069 / 1931.4475
+Logged reward of 135.929125
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 3 after 43ms Predicted reward / PG: 99.850746 / 159.331
+Logged reward of 20.272406
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 8 after 33ms Predicted reward / PG: 1826.5511 / 1970.3362
+Logged reward of 8325.420237
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 38ms Predicted reward / PG: 1648.5762 / 1811.1085
+Logged reward of 3008.464305
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 8 after 31ms Predicted reward / PG: 2005.733 / 2456.0352
+Logged reward of 2078.895626
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 12 after 47ms Predicted reward / PG: 145.11752 / 211.57379
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 23ms Predicted reward / PG: 349.05756 / 1203.9093
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 37 after 25ms Predicted reward / PG: 383.26376 / 630.284
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 12 after 19ms Predicted reward / PG: 447.5968 / 458.84213
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 29 after 33ms Predicted reward / PG: 1010.796 / 1215.3693
+Logged reward of 1665.905614
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 24ms Predicted reward / PG: 235.97974 / 1187.6688
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 28ms Predicted reward / PG: 366.99966 / 1146.5663
+Logged reward of 2167.020515
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 37 after 18ms Predicted reward / PG: 231.57095 / 1357.0153
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 0 after 44ms Predicted reward / PG: 1196.0693 / 1196.0693
+Logged reward of 468.084009
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 37 after 21ms Predicted reward / PG: 350.5899 / 1274.9324
+Logged reward of 21665.307291
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 20ms Predicted reward / PG: 244.45561 / 1267.699
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 20 after 25ms Predicted reward / PG: 1342.7179 / 17216.74
+Logged reward of 16786.742375
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 24ms Predicted reward / PG: 664.9233 / 1225.803
+Logged reward of 1723.168488
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 37 after 25ms Predicted reward / PG: 611.63214 / 1210.7664
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 20ms Predicted reward / PG: 547.27057 / 1755.6932
+Logged reward of 2872.717374
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 17 after 39ms Predicted reward / PG: 684.0462 / 960.3115
+Logged reward of 133.478284
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 27ms Predicted reward / PG: 560.4038 / 1441.7115
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 3 after 32ms Predicted reward / PG: 724.5349 / 935.49615
+Logged reward of 1065.264039
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 21ms Predicted reward / PG: 671.8438 / 1504.4927
+Logged reward of 568.767595
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 3 after 31ms Predicted reward / PG: 654.52655 / 921.31964
+Logged reward of 756.22605
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 24ms Predicted reward / PG: 542.1825 / 1232.2577
+Logged reward of 5301.608576
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 12 after 27ms Predicted reward / PG: 812.57526 / 1397.1112
+Logged reward of 1449.235775
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 12 after 29ms Predicted reward / PG: 963.4801 / 1397.1112
+Logged reward of 1234.807804
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 36ms Predicted reward / PG: 165.38544 / 1258.0347
+Logged reward of 2433.363038
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 25ms Predicted reward / PG: 75.66261 / 308.68854
+Logged reward of 4538.517854
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 28ms Predicted reward / PG: 93.4249 / 296.65588
+Logged reward of 3433.837861
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 20ms Predicted reward / PG: 41.069283 / 213.69498
+Logged reward of 543.370592
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 27ms Predicted reward / PG: 103.98982 / 285.90826
+Logged reward of 3518.673733
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 4 after 29ms Predicted reward / PG: 53.996803 / 334.00076
+Logged reward of 6140.743648
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 10 after 29ms Predicted reward / PG: 63.238884 / 346.88785
+Logged reward of 2125.992519
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 42ms Predicted reward / PG: 172.1531 / 1335.3683
+Logged reward of 1565.521258
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 38ms Predicted reward / PG: 191.81528 / 1257.644
+Logged reward of 6588.984843
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 4 after 35ms Predicted reward / PG: 165.27652 / 1258.2701
+Logged reward of 2420.443895
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 35 after 19ms Predicted reward / PG: 974.75977 / 981.46686
+Logged reward of 15063.401124
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 35 after 36ms Predicted reward / PG: 1126.6012 / 1136.9053
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 0 after 25ms Predicted reward / PG: 950.3499 / 950.3499
+Logged reward of 10.683107
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 100ms Predicted reward / PG: 1129.8696 / 1238.0377
+Logged reward of 2416.111654
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 34ms Predicted reward / PG: 1143.5305 / 1257.0211
+Logged reward of 50.233281
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 0 after 27ms Predicted reward / PG: 922.0667 / 922.0667
+Logged reward of 101.088985
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 35 after 40ms Predicted reward / PG: 1119.7003 / 1124.95
+Logged reward of 29197.813134
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 39ms Predicted reward / PG: 1123.4462 / 1233.1172
+Logged reward of 5475.867368
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 20ms Predicted reward / PG: 969.82635 / 982.17975
+Logged reward of 1538.769208
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 17 after 36ms Predicted reward / PG: 1059.433 / 1392.3274
+Logged reward of 7345.23735
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 18ms Predicted reward / PG: 433.9421 / 435.90125
+Logged reward of 8464.859516
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 35 after 25ms Predicted reward / PG: 2069.019 / 3302.4043
+Logged reward of 4508.039267
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 36 after 36ms Predicted reward / PG: 1521.5862 / 2879.2063
+Logged reward of 3083.826583
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 45ms Predicted reward / PG: 1185.3856 / 1905.9916
+Logged reward of 4430.645718
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 36ms Predicted reward / PG: 1208.7839 / 1802.5691
+Logged reward of 4786.037797
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 27 after 27ms Predicted reward / PG: 1260.9528 / 1993.8693
+Logged reward of 3972.303152
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 30ms Predicted reward / PG: 1242.092 / 2656.331
+Logged reward of 4458.038099
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 27ms Predicted reward / PG: 395.29678 / 422.29422
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 41ms Predicted reward / PG: 1201.0894 / 1986.0437
+Logged reward of 7538.484886
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 28 after 40ms Predicted reward / PG: 1803.0421 / 2325.2808
+Logged reward of 11.433411
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 37 after 28ms Predicted reward / PG: 1491.0071 / 3181.478
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 10 after 29ms Predicted reward / PG: 1855.0414 / 3272.183
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 5 after 43ms Predicted reward / PG: 1816.5674 / 2343.0757
+Logged reward of 11.336328
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 37 after 20ms Predicted reward / PG: 1413.2343 / 2294.8396
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 20ms Predicted reward / PG: 721.90564 / 3401.8516
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 48 after 41ms Predicted reward / PG: 1784.084 / 2324.8562
+Logged reward of 4960.319947
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 27ms Predicted reward / PG: 732.03827 / 3254.032
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 12 after 39ms Predicted reward / PG: 1890.3035 / 1957.8015
+Logged reward of 8768.260281
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 38 after 35ms Predicted reward / PG: 1948.3749 / 2333.9927
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 8 after 35ms Predicted reward / PG: 27.234413 / 267.46884
+Logged reward of 1948.019986
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 8 after 46ms Predicted reward / PG: 42.85474 / 452.0507
+Logged reward of 3762.613003
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 16 after 26ms Predicted reward / PG: 39.278393 / 227.97774
+Logged reward of 10024.596722
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 2 after 31ms Predicted reward / PG: 54.857708 / 541.7348
+Logged reward of 6221.917119
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 8 after 19ms Predicted reward / PG: 26.171188 / 266.5658
+Logged reward of 2858.749089
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 16 after 43ms Predicted reward / PG: 39.099308 / 190.85522
+Logged reward of 9328.323398
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 28ms Predicted reward / PG: 36.12694 / 218.56993
+Logged reward of 16759.584481
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 13 after 29ms Predicted reward / PG: 50.332603 / 218.51234
+Logged reward of 4724.28963
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 8 after 20ms Predicted reward / PG: 30.64237 / 95.78112
+Logged reward of 1338.776764
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 37 after 32ms Predicted reward / PG: 974.583 / 1376.639
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 41ms Predicted reward / PG: 979.81555 / 1266.7543
+Logged reward of 58.283299
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 48 after 25ms Predicted reward / PG: 877.43964 / 930.4508
+Logged reward of 7694.312072
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 37 after 24ms Predicted reward / PG: 828.5377 / 1357.4426
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 3 after 23ms Predicted reward / PG: 778.7335 / 952.34625
+Logged reward of 1578.171129
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 3 after 26ms Predicted reward / PG: 916.7309 / 918.9466
+Logged reward of 1067.937095
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 48 after 30ms Predicted reward / PG: 867.3123 / 902.8897
+Logged reward of 8951.610977
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 20ms Predicted reward / PG: 871.3187 / 1175.2554
+Logged reward of 793.659755
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 42ms Predicted reward / PG: 975.36993 / 1249.8212
+Logged reward of 1931.315155
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 35 after 27ms Predicted reward / PG: 912.99426 / 1091.4292
+Logged reward of 2570.201915
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 44 after 179ms Predicted reward / PG: 2032.8121 / 2616.5415
+Logged reward of 170.272499
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 29ms Predicted reward / PG: 1027.3152 / 1065.4454
+Logged reward of 5829.615501
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 41ms Predicted reward / PG: 1012.7021 / 1049.2719
+Logged reward of 7178.442051
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 20ms Predicted reward / PG: 1003.38043 / 1055.2343
+Logged reward of 16618.731363
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 31ms Predicted reward / PG: 1027.8911 / 1189.3932
+Logged reward of 2625.771935
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 38ms Predicted reward / PG: 1014.78314 / 1201.2539
+Logged reward of 15699.685625
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 34 after 26ms Predicted reward / PG: 1893.4354 / 2267.8772
+Logged reward of 8880.808591
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 12 after 31ms Predicted reward / PG: 1056.1614 / 1198.2096
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 35 after 22ms Predicted reward / PG: 1017.56525 / 1051.8436
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 9 after 26ms Predicted reward / PG: 543.72943 / 955.31305
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 29 after 29ms Predicted reward / PG: 531.6347 / 631.49884
+Logged reward of 1895.596651
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 2
+Selected index 48 after 29ms Predicted reward / PG: 240.7124 / 406.3369
+Logged reward of 3497.207658
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 3 after 21ms Predicted reward / PG: 581.5524 / 581.8845
+Logged reward of 404.181948
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 35 after 38ms Predicted reward / PG: 759.3487 / 810.7787
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 0 after 36ms Predicted reward / PG: 1126.4624 / 1126.4624
+Logged reward of 716.446676
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 3 after 24ms Predicted reward / PG: 940.81946 / 1055.7759
+Logged reward of 5847.441875
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 0 after 27ms Predicted reward / PG: 222.63496 / 222.63496
+Logged reward of 2330.243465
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 48 after 39ms Predicted reward / PG: 415.61423 / 830.4405
+Logged reward of 11666.94457
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 17 after 31ms Predicted reward / PG: 770.85486 / 814.28046
+Logged reward of 89.238168
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 33 after 29ms Predicted reward / PG: 582.43115 / 927.92474
+Logged reward of 3296.72064
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 34 after 19ms Predicted reward / PG: 606.1763 / 918.3878
+Logged reward of 5257.715665
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 3 after 32ms Predicted reward / PG: 1004.22455 / 1118.0416
+Logged reward of 54.257672
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 33 after 38ms Predicted reward / PG: 889.5974 / 1110.331
+Logged reward of 8221.028682
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 21ms Predicted reward / PG: 565.5802 / 829.27014
+Logged reward of 347.96927
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 36 after 45ms Predicted reward / PG: 643.5802 / 919.1936
+Logged reward of 2580.224291
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 3 after 33ms Predicted reward / PG: 1105.3035 / 1126.9163
+Logged reward of 1455.113556
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 9 after 37ms Predicted reward / PG: 981.6992 / 1111.1741
+Logged reward of 2416.51818
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 33 after 23ms Predicted reward / PG: 577.2972 / 816.81635
+Logged reward of 1446.112276
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 2
+Selected index 3 after 34ms Predicted reward / PG: 645.14813 / 1778.3883
+Logged reward of 1069.76478
+/home/AiChaosN/Project/Phd/project/LIMAOLifeLongRLDB/bao_server/model.py:121: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.__net.load_state_dict(torch.load(_nn_path(path)))
+Old model # regressions: 0 regression amount: 0
+New model # regressions: 0 regression amount: 0
+New model had no regressions.
+Accepted new model.
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 23ms Predicted reward / PG: 423.65485 / 427.36603
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 0
+Selected index 32 after 26ms Predicted reward / PG: 579.5661 / 793.72534
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 0 after 21ms Predicted reward / PG: 465.3145 / 465.3145
+Logged reward of 80.628622
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 32ms Predicted reward / PG: 689.8702 / 898.93274
+Logged reward of 6675.341405
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 24ms Predicted reward / PG: 375.29956 / 421.2812
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 12 after 29ms Predicted reward / PG: 410.01788 / 410.11237
+Logged reward of 4185.857855
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 37 after 19ms Predicted reward / PG: 426.55502 / 472.92853
+predict otheridx: 0
+predict hashjoinidx: 0
+predict nestedloopidx: 1
+Selected index 36 after 45ms Predicted reward / PG: 665.2094 / 837.99994
+Logged reward of 4755.171558
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 35 after 24ms Predicted reward / PG: 409.73065 / 450.15057
+Logged reward of 13614.505154
+predict otheridx: 0
+predict hashjoinidx: 1
+predict nestedloopidx: 1
+Selected index 38 after 21ms Predicted reward / PG: 404.23883 / 448.72803
