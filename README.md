@@ -1,10 +1,15 @@
-# Qucik Comparison: LIMAO vs. GNTO
+# Quick Comparison: LIMAO vs. GNTO
+
+> **Note**: GNTO model code is now maintained in the [GNTO repository](https://github.com/AiChaosN/GNTO).
+> `bao_server/model_gnto.py` and `bao_server/gnto_adapter.py` import from GNTO's `adapters/limao_adapter.py`.
+> Make sure the GNTO repo is cloned as a sibling directory (`../GNTO`).
+
 ```shell
 # run the experiment
 cd gnto_ex
 ./run_experiment_safe.sh
 
-# ploy the results
+# plot the results
 python plot_end2end_comparison.py
 ```
 # LIMAO: A Framework for Lifelong Modular Learned Query Optimization
