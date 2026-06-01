@@ -12,4 +12,4 @@ current_progress.cfg
 data
 wandb
 
-gnto_ex/resultLog/bao_serve_msg
+gnto_ex/resultLog/bao_serve_msg*.orig

@@ -40,11 +40,11 @@ TIME_OUT_STACK = 60000
 EPISODE_LEN = 10
 PROGRESS_CFG = os.path.join(PROJECT_ROOT, "bao_server", "current_progress.cfg")
 
-TOTOAL_ITER = 200
-NUM_PHASE = 40
+TOTOAL_ITER = 20
+NUM_PHASE = 4
 query_directory_imdb_list = [
     os.path.join(PROJECT_ROOT, "imdb_assorted_3"),
-    os.path.join(PROJECT_ROOT, "imdb_assorted_4")
+    # imdb_assorted_4 excluded for apples-to-apples vs PureBAO (which used only _3)
 ]
 query_directory_stack_list = [
     os.path.join(PROJECT_ROOT, "so_assorted"),
